@@ -1,0 +1,54 @@
+{
+    "name": "contrattravail",
+    "version": "1.0",
+    "values": [
+        {
+            "id": "Z",
+            "description": "Contrat avec indépendant"
+        },
+        {
+            "id": "T",
+            "description": "Durée Déterminée"
+        },
+        {
+            "id": "G",
+            "description": "Durée Indéterminée"
+        },
+        {
+            "id": "V",
+            "description": "Etudiant"
+        },
+        {
+            "id": "FL",
+            "description": "Flexi-Jobs"
+        },
+        {
+            "id": "I",
+            "description": "Intérimaire"
+        },
+        {
+            "id": "IN",
+            "description": "Intérimaire avec option sur Durée indéterminée"
+        },
+        {
+            "id": "OW",
+            "description": "Journalier (occasionnel ou saisonnier)"
+        },
+        {
+            "id": "D0",
+            "description": "Nettement défini"
+        },
+        {
+            "id": "VC",
+            "description": "Remplacement"
+        },
+        {
+            "id": "ST",
+            "description": "Salarié statutaire"
+        },
+        {
+            "id": "S",
+            "description": "Stage rémunéré"
+        }
+    ]
+}

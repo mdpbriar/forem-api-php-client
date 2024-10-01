@@ -1,0 +1,42 @@
+{
+    "name": "tempstravail",
+    "version": "1.0",
+    "values": [
+        {
+            "id": "Full Time",
+            "description": "Position avec un horaire Temps plein"
+        },
+        {
+            "id": "Part Time",
+            "description": "Position avec un horaire à Temps partiel"
+        },
+        {
+            "id": "x:Night Work",
+            "description": "Position avec un horaire de nuit"
+        },
+        {
+            "id": "x:Day Work",
+            "description": "Position avec un horaire de jour"
+        },
+        {
+            "id": "x:Weekend",
+            "description": "Position avec un horaire de week-end"
+        },
+        {
+            "id": "x:Day And Night",
+            "description": "Position avec un horaire en posté continu"
+        },
+        {
+            "id": "x:2 Shift System",
+            "description": "Position avec un horaire en posté 2 pauses"
+        },
+        {
+            "id": "x:3 Shift System",
+            "description": "Position avec un horaire en posté 3 pauses"
+        },
+        {
+            "id": "x:Interrupted Service",
+            "description": "Position avec un horaire à service coupé"
+        }
+    ]
+}

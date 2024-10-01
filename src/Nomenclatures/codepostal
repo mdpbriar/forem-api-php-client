@@ -1,0 +1,4594 @@
+{
+    "name": "codepostal",
+    "version": "1.0",
+    "values": [
+        {
+            "id": "2630",
+            "description": "AARTSELAAR"
+        },
+        {
+            "id": "2660",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2600",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2610",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2100",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2000",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2018",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2020",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2030",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2040",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2050",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2060",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2140",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2170",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2180",
+            "description": "ANTWERPEN"
+        },
+        {
+            "id": "2530",
+            "description": "BOECHOUT"
+        },
+        {
+            "id": "2531",
+            "description": "BOECHOUT"
+        },
+        {
+            "id": "2850",
+            "description": "BOOM"
+        },
+        {
+            "id": "2150",
+            "description": "BORSBEEK"
+        },
+        {
+            "id": "2930",
+            "description": "BRASSCHAAT"
+        },
+        {
+            "id": "2960",
+            "description": "BRECHT"
+        },
+        {
+            "id": "2650",
+            "description": "EDEGEM"
+        },
+        {
+            "id": "2910",
+            "description": "ESSEN"
+        },
+        {
+            "id": "2620",
+            "description": "HEMIKSEM"
+        },
+        {
+            "id": "2540",
+            "description": "HOVE"
+        },
+        {
+            "id": "2920",
+            "description": "KALMTHOUT"
+        },
+        {
+            "id": "2950",
+            "description": "KAPELLEN"
+        },
+        {
+            "id": "2550",
+            "description": "KONTICH"
+        },
+        {
+            "id": "2547",
+            "description": "LINT"
+        },
+        {
+            "id": "2640",
+            "description": "MORTSEL"
+        },
+        {
+            "id": "2845",
+            "description": "NIEL"
+        },
+        {
+            "id": "2520",
+            "description": "RANST"
+        },
+        {
+            "id": "2840",
+            "description": "RUMST"
+        },
+        {
+            "id": "2627",
+            "description": "SCHELLE"
+        },
+        {
+            "id": "2970",
+            "description": "SCHILDE"
+        },
+        {
+            "id": "2900",
+            "description": "SCHOTEN"
+        },
+        {
+            "id": "2940",
+            "description": "STABROEK"
+        },
+        {
+            "id": "2110",
+            "description": "WIJNEGEM"
+        },
+        {
+            "id": "2160",
+            "description": "WOMMELGEM"
+        },
+        {
+            "id": "2990",
+            "description": "WUUSTWEZEL"
+        },
+        {
+            "id": "2240",
+            "description": "ZANDHOVEN"
+        },
+        {
+            "id": "2242",
+            "description": "ZANDHOVEN"
+        },
+        {
+            "id": "2243",
+            "description": "ZANDHOVEN"
+        },
+        {
+            "id": "2980",
+            "description": "ZOERSEL"
+        },
+        {
+            "id": "2070",
+            "description": "ZWIJNDRECHT"
+        },
+        {
+            "id": "2390",
+            "description": "MALLE"
+        },
+        {
+            "id": "2590",
+            "description": "BERLAAR"
+        },
+        {
+            "id": "2820",
+            "description": "BONHEIDEN"
+        },
+        {
+            "id": "2880",
+            "description": "BORNEM"
+        },
+        {
+            "id": "2570",
+            "description": "DUFFEL"
+        },
+        {
+            "id": "2220",
+            "description": "HEIST-OP-DEN-BERG"
+        },
+        {
+            "id": "2221",
+            "description": "HEIST-OP-DEN-BERG"
+        },
+        {
+            "id": "2222",
+            "description": "HEIST-OP-DEN-BERG"
+        },
+        {
+            "id": "2223",
+            "description": "HEIST-OP-DEN-BERG"
+        },
+        {
+            "id": "2500",
+            "description": "LIER"
+        },
+        {
+            "id": "2800",
+            "description": "MECHELEN"
+        },
+        {
+            "id": "2801",
+            "description": "MECHELEN"
+        },
+        {
+            "id": "2811",
+            "description": "MECHELEN"
+        },
+        {
+            "id": "2812",
+            "description": "MECHELEN"
+        },
+        {
+            "id": "2560",
+            "description": "NIJLEN"
+        },
+        {
+            "id": "2580",
+            "description": "PUTTE"
+        },
+        {
+            "id": "2860",
+            "description": "SINT-KATELIJNE-WAVER"
+        },
+        {
+            "id": "2861",
+            "description": "SINT-KATELIJNE-WAVER"
+        },
+        {
+            "id": "2830",
+            "description": "WILLEBROEK"
+        },
+        {
+            "id": "2870",
+            "description": "PUURS"
+        },
+        {
+            "id": "2890",
+            "description": "SINT-AMANDS"
+        },
+        {
+            "id": "2370",
+            "description": "ARENDONK"
+        },
+        {
+            "id": "2387",
+            "description": "BAARLE-HERTOG"
+        },
+        {
+            "id": "2490",
+            "description": "BALEN"
+        },
+        {
+            "id": "2491",
+            "description": "BALEN"
+        },
+        {
+            "id": "2340",
+            "description": "BEERSE"
+        },
+        {
+            "id": "2480",
+            "description": "DESSEL"
+        },
+        {
+            "id": "2440",
+            "description": "GEEL"
+        },
+        {
+            "id": "2280",
+            "description": "GROBBENDONK"
+        },
+        {
+            "id": "2288",
+            "description": "GROBBENDONK"
+        },
+        {
+            "id": "2200",
+            "description": "HERENTALS"
+        },
+        {
+            "id": "2270",
+            "description": "HERENTHOUT"
+        },
+        {
+            "id": "2230",
+            "description": "HERSELT"
+        },
+        {
+            "id": "2320",
+            "description": "HOOGSTRATEN"
+        },
+        {
+            "id": "2321",
+            "description": "HOOGSTRATEN"
+        },
+        {
+            "id": "2322",
+            "description": "HOOGSTRATEN"
+        },
+        {
+            "id": "2323",
+            "description": "HOOGSTRATEN"
+        },
+        {
+            "id": "2328",
+            "description": "HOOGSTRATEN"
+        },
+        {
+            "id": "2235",
+            "description": "HULSHOUT"
+        },
+        {
+            "id": "2460",
+            "description": "KASTERLEE"
+        },
+        {
+            "id": "2275",
+            "description": "LILLE"
+        },
+        {
+            "id": "2450",
+            "description": "MEERHOUT"
+        },
+        {
+            "id": "2330",
+            "description": "MERKSPLAS"
+        },
+        {
+            "id": "2400",
+            "description": "MOL"
+        },
+        {
+            "id": "2250",
+            "description": "OLEN"
+        },
+        {
+            "id": "2360",
+            "description": "OUD-TURNHOUT"
+        },
+        {
+            "id": "2380",
+            "description": "RAVELS"
+        },
+        {
+            "id": "2381",
+            "description": "RAVELS"
+        },
+        {
+            "id": "2382",
+            "description": "RAVELS"
+        },
+        {
+            "id": "2470",
+            "description": "RETIE"
+        },
+        {
+            "id": "2310",
+            "description": "RIJKEVORSEL"
+        },
+        {
+            "id": "2300",
+            "description": "TURNHOUT"
+        },
+        {
+            "id": "2290",
+            "description": "VORSELAAR"
+        },
+        {
+            "id": "2350",
+            "description": "VOSSELAAR"
+        },
+        {
+            "id": "2260",
+            "description": "WESTERLO"
+        },
+        {
+            "id": "2430",
+            "description": "LAAKDAL"
+        },
+        {
+            "id": "2431",
+            "description": "LAAKDAL"
+        },
+        {
+            "id": "1070",
+            "description": "ANDERLECHT"
+        },
+        {
+            "id": "1160",
+            "description": "AUDERGHEM"
+        },
+        {
+            "id": "1082",
+            "description": "BERCHEM-SAINTE-AGATHE"
+        },
+        {
+            "id": "1000",
+            "description": "BRUXELLES"
+        },
+        {
+            "id": "1120",
+            "description": "BRUXELLES"
+        },
+        {
+            "id": "1130",
+            "description": "BRUXELLES"
+        },
+        {
+            "id": "1020",
+            "description": "BRUXELLES"
+        },
+        {
+            "id": "1040",
+            "description": "ETTERBEEK"
+        },
+        {
+            "id": "1140",
+            "description": "EVERE"
+        },
+        {
+            "id": "1190",
+            "description": "FOREST"
+        },
+        {
+            "id": "1083",
+            "description": "GANSHOREN"
+        },
+        {
+            "id": "1050",
+            "description": "IXELLES"
+        },
+        {
+            "id": "1090",
+            "description": "JETTE"
+        },
+        {
+            "id": "1081",
+            "description": "KOEKELBERG"
+        },
+        {
+            "id": "1080",
+            "description": "MOLENBEEK-SAINT-JEAN"
+        },
+        {
+            "id": "1060",
+            "description": "SAINT-GILLES"
+        },
+        {
+            "id": "1210",
+            "description": "SAINT-JOSSE-TEN-NOODE"
+        },
+        {
+            "id": "1030",
+            "description": "SCHAERBEEK"
+        },
+        {
+            "id": "1180",
+            "description": "UCCLE"
+        },
+        {
+            "id": "1170",
+            "description": "WATERMAEL-BOITSFORT"
+        },
+        {
+            "id": "1200",
+            "description": "WOLUWE-SAINT-LAMBERT"
+        },
+        {
+            "id": "1150",
+            "description": "WOLUWE-SAINT-PIERRE"
+        },
+        {
+            "id": "1730",
+            "description": "ASSE"
+        },
+        {
+            "id": "1731",
+            "description": "ASSE"
+        },
+        {
+            "id": "1650",
+            "description": "BEERSEL"
+        },
+        {
+            "id": "1651",
+            "description": "BEERSEL"
+        },
+        {
+            "id": "1652",
+            "description": "BEERSEL"
+        },
+        {
+            "id": "1653",
+            "description": "BEERSEL"
+        },
+        {
+            "id": "1654",
+            "description": "BEERSEL"
+        },
+        {
+            "id": "1547",
+            "description": "BIÉVÈNE"
+        },
+        {
+            "id": "1700",
+            "description": "DILBEEK"
+        },
+        {
+            "id": "1701",
+            "description": "DILBEEK"
+        },
+        {
+            "id": "1702",
+            "description": "DILBEEK"
+        },
+        {
+            "id": "1703",
+            "description": "DILBEEK"
+        },
+        {
+            "id": "1570",
+            "description": "GALMAARDEN"
+        },
+        {
+            "id": "1755",
+            "description": "GOOIK"
+        },
+        {
+            "id": "1850",
+            "description": "GRIMBERGEN"
+        },
+        {
+            "id": "1851",
+            "description": "GRIMBERGEN"
+        },
+        {
+            "id": "1852",
+            "description": "GRIMBERGEN"
+        },
+        {
+            "id": "1853",
+            "description": "GRIMBERGEN"
+        },
+        {
+            "id": "1500",
+            "description": "HALLE"
+        },
+        {
+            "id": "1501",
+            "description": "HALLE"
+        },
+        {
+            "id": "1502",
+            "description": "HALLE"
+        },
+        {
+            "id": "1540",
+            "description": "HERNE"
+        },
+        {
+            "id": "1541",
+            "description": "HERNE"
+        },
+        {
+            "id": "1560",
+            "description": "HOEILAART"
+        },
+        {
+            "id": "1910",
+            "description": "KAMPENHOUT"
+        },
+        {
+            "id": "1880",
+            "description": "KAPELLE-OP-DEN-BOS"
+        },
+        {
+            "id": "1770",
+            "description": "LIEDEKERKE"
+        },
+        {
+            "id": "1840",
+            "description": "LONDERZEEL"
+        },
+        {
+            "id": "1830",
+            "description": "MACHELEN"
+        },
+        {
+            "id": "1831",
+            "description": "MACHELEN"
+        },
+        {
+            "id": "1860",
+            "description": "MEISE"
+        },
+        {
+            "id": "1861",
+            "description": "MEISE"
+        },
+        {
+            "id": "1785",
+            "description": "MERCHTEM"
+        },
+        {
+            "id": "1745",
+            "description": "OPWIJK"
+        },
+        {
+            "id": "3090",
+            "description": "OVERIJSE"
+        },
+        {
+            "id": "1670",
+            "description": "PEPINGEN"
+        },
+        {
+            "id": "1671",
+            "description": "PEPINGEN"
+        },
+        {
+            "id": "1673",
+            "description": "PEPINGEN"
+        },
+        {
+            "id": "1674",
+            "description": "PEPINGEN"
+        },
+        {
+            "id": "1600",
+            "description": "SINT-PIETERS-LEEUW"
+        },
+        {
+            "id": "1601",
+            "description": "SINT-PIETERS-LEEUW"
+        },
+        {
+            "id": "1602",
+            "description": "SINT-PIETERS-LEEUW"
+        },
+        {
+            "id": "1820",
+            "description": "STEENOKKERZEEL"
+        },
+        {
+            "id": "1740",
+            "description": "TERNAT"
+        },
+        {
+            "id": "1741",
+            "description": "TERNAT"
+        },
+        {
+            "id": "1742",
+            "description": "TERNAT"
+        },
+        {
+            "id": "1800",
+            "description": "VILVOORDE"
+        },
+        {
+            "id": "1930",
+            "description": "ZAVENTEM"
+        },
+        {
+            "id": "1932",
+            "description": "ZAVENTEM"
+        },
+        {
+            "id": "1933",
+            "description": "ZAVENTEM"
+        },
+        {
+            "id": "1980",
+            "description": "ZEMST"
+        },
+        {
+            "id": "1981",
+            "description": "ZEMST"
+        },
+        {
+            "id": "1982",
+            "description": "ZEMST"
+        },
+        {
+            "id": "1760",
+            "description": "ROOSDAAL"
+        },
+        {
+            "id": "1761",
+            "description": "ROOSDAAL"
+        },
+        {
+            "id": "1620",
+            "description": "DROGENBOS"
+        },
+        {
+            "id": "1950",
+            "description": "KRAAINEM"
+        },
+        {
+            "id": "1630",
+            "description": "LINKEBEEK"
+        },
+        {
+            "id": "1640",
+            "description": "RHODE-SAINT-GENÈSE"
+        },
+        {
+            "id": "1780",
+            "description": "WEMMEL"
+        },
+        {
+            "id": "1970",
+            "description": "WEZEMBEEK-OPPEM"
+        },
+        {
+            "id": "1750",
+            "description": "LENNIK"
+        },
+        {
+            "id": "1790",
+            "description": "AFFLIGEM"
+        },
+        {
+            "id": "3200",
+            "description": "AARSCHOT"
+        },
+        {
+            "id": "3201",
+            "description": "AARSCHOT"
+        },
+        {
+            "id": "3202",
+            "description": "AARSCHOT"
+        },
+        {
+            "id": "3130",
+            "description": "BEGIJNENDIJK"
+        },
+        {
+            "id": "3460",
+            "description": "BEKKEVOORT"
+        },
+        {
+            "id": "3461",
+            "description": "BEKKEVOORT"
+        },
+        {
+            "id": "3060",
+            "description": "BERTEM"
+        },
+        {
+            "id": "3061",
+            "description": "BERTEM"
+        },
+        {
+            "id": "3360",
+            "description": "BIERBEEK"
+        },
+        {
+            "id": "3190",
+            "description": "BOORTMEERBEEK"
+        },
+        {
+            "id": "3191",
+            "description": "BOORTMEERBEEK"
+        },
+        {
+            "id": "3370",
+            "description": "BOUTERSEM"
+        },
+        {
+            "id": "3290",
+            "description": "DIEST"
+        },
+        {
+            "id": "3293",
+            "description": "DIEST"
+        },
+        {
+            "id": "3294",
+            "description": "DIEST"
+        },
+        {
+            "id": "3450",
+            "description": "GEETBETS"
+        },
+        {
+            "id": "3454",
+            "description": "GEETBETS"
+        },
+        {
+            "id": "3150",
+            "description": "HAACHT"
+        },
+        {
+            "id": "3020",
+            "description": "HERENT"
+        },
+        {
+            "id": "3320",
+            "description": "HOEGAARDEN"
+        },
+        {
+            "id": "3321",
+            "description": "HOEGAARDEN"
+        },
+        {
+            "id": "3220",
+            "description": "HOLSBEEK"
+        },
+        {
+            "id": "3221",
+            "description": "HOLSBEEK"
+        },
+        {
+            "id": "3040",
+            "description": "HULDENBERG"
+        },
+        {
+            "id": "3140",
+            "description": "KEERBERGEN"
+        },
+        {
+            "id": "3470",
+            "description": "KORTENAKEN"
+        },
+        {
+            "id": "3471",
+            "description": "KORTENAKEN"
+        },
+        {
+            "id": "3472",
+            "description": "KORTENAKEN"
+        },
+        {
+            "id": "3473",
+            "description": "KORTENAKEN"
+        },
+        {
+            "id": "3070",
+            "description": "KORTENBERG"
+        },
+        {
+            "id": "3071",
+            "description": "KORTENBERG"
+        },
+        {
+            "id": "3078",
+            "description": "KORTENBERG"
+        },
+        {
+            "id": "3400",
+            "description": "LANDEN"
+        },
+        {
+            "id": "3401",
+            "description": "LANDEN"
+        },
+        {
+            "id": "3404",
+            "description": "LANDEN"
+        },
+        {
+            "id": "3000",
+            "description": "LEUVEN"
+        },
+        {
+            "id": "3001",
+            "description": "LEUVEN"
+        },
+        {
+            "id": "3010",
+            "description": "LEUVEN"
+        },
+        {
+            "id": "3012",
+            "description": "LEUVEN"
+        },
+        {
+            "id": "3018",
+            "description": "LEUVEN"
+        },
+        {
+            "id": "3210",
+            "description": "LUBBEEK"
+        },
+        {
+            "id": "3211",
+            "description": "LUBBEEK"
+        },
+        {
+            "id": "3212",
+            "description": "LUBBEEK"
+        },
+        {
+            "id": "3050",
+            "description": "OUD-HEVERLEE"
+        },
+        {
+            "id": "3051",
+            "description": "OUD-HEVERLEE"
+        },
+        {
+            "id": "3052",
+            "description": "OUD-HEVERLEE"
+        },
+        {
+            "id": "3053",
+            "description": "OUD-HEVERLEE"
+        },
+        {
+            "id": "3054",
+            "description": "OUD-HEVERLEE"
+        },
+        {
+            "id": "3110",
+            "description": "ROTSELAAR"
+        },
+        {
+            "id": "3111",
+            "description": "ROTSELAAR"
+        },
+        {
+            "id": "3118",
+            "description": "ROTSELAAR"
+        },
+        {
+            "id": "3080",
+            "description": "TERVUREN"
+        },
+        {
+            "id": "3300",
+            "description": "TIENEN"
+        },
+        {
+            "id": "3120",
+            "description": "TREMELO"
+        },
+        {
+            "id": "3128",
+            "description": "TREMELO"
+        },
+        {
+            "id": "3440",
+            "description": "ZOUTLEEUW"
+        },
+        {
+            "id": "3350",
+            "description": "LINTER"
+        },
+        {
+            "id": "3270",
+            "description": "SCHERPENHEUVEL-ZICHEM"
+        },
+        {
+            "id": "3271",
+            "description": "SCHERPENHEUVEL-ZICHEM"
+        },
+        {
+            "id": "3272",
+            "description": "SCHERPENHEUVEL-ZICHEM"
+        },
+        {
+            "id": "3390",
+            "description": "TIELT-WINGE"
+        },
+        {
+            "id": "3391",
+            "description": "TIELT-WINGE"
+        },
+        {
+            "id": "3380",
+            "description": "GLABBEEK"
+        },
+        {
+            "id": "3381",
+            "description": "GLABBEEK"
+        },
+        {
+            "id": "3384",
+            "description": "GLABBEEK"
+        },
+        {
+            "id": "1320",
+            "description": "BEAUVECHAIN"
+        },
+        {
+            "id": "1420",
+            "description": "BRAINE-L'ALLEUD"
+        },
+        {
+            "id": "1421",
+            "description": "BRAINE-L'ALLEUD"
+        },
+        {
+            "id": "1428",
+            "description": "BRAINE-L'ALLEUD"
+        },
+        {
+            "id": "1440",
+            "description": "BRAINE-LE-CHÂTEAU"
+        },
+        {
+            "id": "1325",
+            "description": "CHAUMONT-GISTOUX"
+        },
+        {
+            "id": "1490",
+            "description": "COURT-SAINT-ETIENNE"
+        },
+        {
+            "id": "1470",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1471",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1472",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1473",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1474",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1476",
+            "description": "GENAPPE"
+        },
+        {
+            "id": "1390",
+            "description": "GREZ-DOICEAU"
+        },
+        {
+            "id": "1315",
+            "description": "INCOURT"
+        },
+        {
+            "id": "1460",
+            "description": "ITTRE"
+        },
+        {
+            "id": "1461",
+            "description": "ITTRE"
+        },
+        {
+            "id": "1370",
+            "description": "JODOIGNE"
+        },
+        {
+            "id": "1310",
+            "description": "LA HULPE"
+        },
+        {
+            "id": "1435",
+            "description": "MONT-SAINT-GUIBERT"
+        },
+        {
+            "id": "1400",
+            "description": "NIVELLES"
+        },
+        {
+            "id": "1401",
+            "description": "NIVELLES"
+        },
+        {
+            "id": "1402",
+            "description": "NIVELLES"
+        },
+        {
+            "id": "1404",
+            "description": "NIVELLES"
+        },
+        {
+            "id": "1360",
+            "description": "PERWEZ"
+        },
+        {
+            "id": "1330",
+            "description": "RIXENSART"
+        },
+        {
+            "id": "1331",
+            "description": "RIXENSART"
+        },
+        {
+            "id": "1332",
+            "description": "RIXENSART"
+        },
+        {
+            "id": "1480",
+            "description": "TUBIZE"
+        },
+        {
+            "id": "1495",
+            "description": "VILLERS-LA-VILLE"
+        },
+        {
+            "id": "1410",
+            "description": "WATERLOO"
+        },
+        {
+            "id": "1300",
+            "description": "WAVRE"
+        },
+        {
+            "id": "1301",
+            "description": "WAVRE"
+        },
+        {
+            "id": "1450",
+            "description": "CHASTRE"
+        },
+        {
+            "id": "1357",
+            "description": "HÉLÉCINE"
+        },
+        {
+            "id": "1380",
+            "description": "LASNE"
+        },
+        {
+            "id": "1350",
+            "description": "ORP-JAUCHE"
+        },
+        {
+            "id": "1340",
+            "description": "OTTIGNIES-LOUVAIN-LA-NEUVE"
+        },
+        {
+            "id": "1341",
+            "description": "OTTIGNIES-LOUVAIN-LA-NEUVE"
+        },
+        {
+            "id": "1342",
+            "description": "OTTIGNIES-LOUVAIN-LA-NEUVE"
+        },
+        {
+            "id": "1348",
+            "description": "OTTIGNIES-LOUVAIN-LA-NEUVE"
+        },
+        {
+            "id": "1367",
+            "description": "RAMILLIES"
+        },
+        {
+            "id": "1430",
+            "description": "REBECQ"
+        },
+        {
+            "id": "1457",
+            "description": "WALHAIN"
+        },
+        {
+            "id": "8730",
+            "description": "BEERNEM"
+        },
+        {
+            "id": "8370",
+            "description": "BLANKENBERGE"
+        },
+        {
+            "id": "8000",
+            "description": "BRUGGE"
+        },
+        {
+            "id": "8310",
+            "description": "BRUGGE"
+        },
+        {
+            "id": "8380",
+            "description": "BRUGGE"
+        },
+        {
+            "id": "8200",
+            "description": "BRUGGE"
+        },
+        {
+            "id": "8340",
+            "description": "DAMME"
+        },
+        {
+            "id": "8490",
+            "description": "JABBEKE"
+        },
+        {
+            "id": "8020",
+            "description": "OOSTKAMP"
+        },
+        {
+            "id": "8820",
+            "description": "TORHOUT"
+        },
+        {
+            "id": "8210",
+            "description": "ZEDELGEM"
+        },
+        {
+            "id": "8211",
+            "description": "ZEDELGEM"
+        },
+        {
+            "id": "8377",
+            "description": "ZUIENKERKE"
+        },
+        {
+            "id": "8300",
+            "description": "KNOKKE-HEIST"
+        },
+        {
+            "id": "8301",
+            "description": "KNOKKE-HEIST"
+        },
+        {
+            "id": "8600",
+            "description": "DIKSMUIDE"
+        },
+        {
+            "id": "8650",
+            "description": "HOUTHULST"
+        },
+        {
+            "id": "8680",
+            "description": "KOEKELARE"
+        },
+        {
+            "id": "8610",
+            "description": "KORTEMARK"
+        },
+        {
+            "id": "8647",
+            "description": "LO-RENINGE"
+        },
+        {
+            "id": "8900",
+            "description": "IEPER"
+        },
+        {
+            "id": "8902",
+            "description": "IEPER"
+        },
+        {
+            "id": "8904",
+            "description": "IEPER"
+        },
+        {
+            "id": "8906",
+            "description": "IEPER"
+        },
+        {
+            "id": "8908",
+            "description": "IEPER"
+        },
+        {
+            "id": "8957",
+            "description": "MESSINES"
+        },
+        {
+            "id": "8970",
+            "description": "POPERINGE"
+        },
+        {
+            "id": "8972",
+            "description": "POPERINGE"
+        },
+        {
+            "id": "8978",
+            "description": "POPERINGE"
+        },
+        {
+            "id": "8940",
+            "description": "WERVIK"
+        },
+        {
+            "id": "8980",
+            "description": "ZONNEBEKE"
+        },
+        {
+            "id": "8950",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8951",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8952",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8953",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8954",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8956",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8958",
+            "description": "HEUVELLAND"
+        },
+        {
+            "id": "8920",
+            "description": "LANGEMARK-POELKAPELLE"
+        },
+        {
+            "id": "8640",
+            "description": "VLETEREN"
+        },
+        {
+            "id": "8570",
+            "description": "ANZEGEM"
+        },
+        {
+            "id": "8572",
+            "description": "ANZEGEM"
+        },
+        {
+            "id": "8573",
+            "description": "ANZEGEM"
+        },
+        {
+            "id": "8580",
+            "description": "AVELGEM"
+        },
+        {
+            "id": "8581",
+            "description": "AVELGEM"
+        },
+        {
+            "id": "8582",
+            "description": "AVELGEM"
+        },
+        {
+            "id": "8583",
+            "description": "AVELGEM"
+        },
+        {
+            "id": "8540",
+            "description": "DEERLIJK"
+        },
+        {
+            "id": "8530",
+            "description": "HARELBEKE"
+        },
+        {
+            "id": "8531",
+            "description": "HARELBEKE"
+        },
+        {
+            "id": "8500",
+            "description": "KORTRIJK"
+        },
+        {
+            "id": "8501",
+            "description": "KORTRIJK"
+        },
+        {
+            "id": "8510",
+            "description": "KORTRIJK"
+        },
+        {
+            "id": "8511",
+            "description": "KORTRIJK"
+        },
+        {
+            "id": "8520",
+            "description": "KUURNE"
+        },
+        {
+            "id": "8860",
+            "description": "LENDELEDE"
+        },
+        {
+            "id": "8930",
+            "description": "MENEN"
+        },
+        {
+            "id": "8790",
+            "description": "WAREGEM"
+        },
+        {
+            "id": "8791",
+            "description": "WAREGEM"
+        },
+        {
+            "id": "8792",
+            "description": "WAREGEM"
+        },
+        {
+            "id": "8793",
+            "description": "WAREGEM"
+        },
+        {
+            "id": "8560",
+            "description": "WEVELGEM"
+        },
+        {
+            "id": "8550",
+            "description": "ZWEVEGEM"
+        },
+        {
+            "id": "8551",
+            "description": "ZWEVEGEM"
+        },
+        {
+            "id": "8552",
+            "description": "ZWEVEGEM"
+        },
+        {
+            "id": "8553",
+            "description": "ZWEVEGEM"
+        },
+        {
+            "id": "8554",
+            "description": "ZWEVEGEM"
+        },
+        {
+            "id": "8587",
+            "description": "ESPIERRES-HELCHIN"
+        },
+        {
+            "id": "8450",
+            "description": "BREDENE"
+        },
+        {
+            "id": "8470",
+            "description": "GISTEL"
+        },
+        {
+            "id": "8480",
+            "description": "ICHTEGEM"
+        },
+        {
+            "id": "8430",
+            "description": "MIDDELKERKE"
+        },
+        {
+            "id": "8431",
+            "description": "MIDDELKERKE"
+        },
+        {
+            "id": "8432",
+            "description": "MIDDELKERKE"
+        },
+        {
+            "id": "8433",
+            "description": "MIDDELKERKE"
+        },
+        {
+            "id": "8434",
+            "description": "MIDDELKERKE"
+        },
+        {
+            "id": "8400",
+            "description": "OOSTENDE"
+        },
+        {
+            "id": "8460",
+            "description": "OUDENBURG"
+        },
+        {
+            "id": "8420",
+            "description": "DE HAAN"
+        },
+        {
+            "id": "8421",
+            "description": "DE HAAN"
+        },
+        {
+            "id": "8830",
+            "description": "HOOGLEDE"
+        },
+        {
+            "id": "8770",
+            "description": "INGELMUNSTER"
+        },
+        {
+            "id": "8870",
+            "description": "IZEGEM"
+        },
+        {
+            "id": "8880",
+            "description": "LEDEGEM"
+        },
+        {
+            "id": "8810",
+            "description": "LICHTERVELDE"
+        },
+        {
+            "id": "8890",
+            "description": "MOORSLEDE"
+        },
+        {
+            "id": "8800",
+            "description": "ROESELARE"
+        },
+        {
+            "id": "8840",
+            "description": "STADEN"
+        },
+        {
+            "id": "8720",
+            "description": "DENTERGEM"
+        },
+        {
+            "id": "8760",
+            "description": "MEULEBEKE"
+        },
+        {
+            "id": "8780",
+            "description": "OOSTROZEBEKE"
+        },
+        {
+            "id": "8740",
+            "description": "PITTEM"
+        },
+        {
+            "id": "8755",
+            "description": "RUISELEDE"
+        },
+        {
+            "id": "8700",
+            "description": "TIELT"
+        },
+        {
+            "id": "8710",
+            "description": "WIELSBEKE"
+        },
+        {
+            "id": "8750",
+            "description": "WINGENE"
+        },
+        {
+            "id": "8850",
+            "description": "ARDOOIE"
+        },
+        {
+            "id": "8851",
+            "description": "ARDOOIE"
+        },
+        {
+            "id": "8690",
+            "description": "ALVERINGEM"
+        },
+        {
+            "id": "8691",
+            "description": "ALVERINGEM"
+        },
+        {
+            "id": "8660",
+            "description": "DE PANNE"
+        },
+        {
+            "id": "8670",
+            "description": "KOKSIJDE"
+        },
+        {
+            "id": "8620",
+            "description": "NIEUWPOORT"
+        },
+        {
+            "id": "8630",
+            "description": "VEURNE"
+        },
+        {
+            "id": "9300",
+            "description": "AALST"
+        },
+        {
+            "id": "9308",
+            "description": "AALST"
+        },
+        {
+            "id": "9310",
+            "description": "AALST"
+        },
+        {
+            "id": "9320",
+            "description": "AALST"
+        },
+        {
+            "id": "9470",
+            "description": "DENDERLEEUW"
+        },
+        {
+            "id": "9472",
+            "description": "DENDERLEEUW"
+        },
+        {
+            "id": "9473",
+            "description": "DENDERLEEUW"
+        },
+        {
+            "id": "9500",
+            "description": "GERAARDSBERGEN"
+        },
+        {
+            "id": "9506",
+            "description": "GERAARDSBERGEN"
+        },
+        {
+            "id": "9450",
+            "description": "HAALTERT"
+        },
+        {
+            "id": "9451",
+            "description": "HAALTERT"
+        },
+        {
+            "id": "9550",
+            "description": "HERZELE"
+        },
+        {
+            "id": "9551",
+            "description": "HERZELE"
+        },
+        {
+            "id": "9552",
+            "description": "HERZELE"
+        },
+        {
+            "id": "9340",
+            "description": "LEDE"
+        },
+        {
+            "id": "9400",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9401",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9402",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9403",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9404",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9406",
+            "description": "NINOVE"
+        },
+        {
+            "id": "9520",
+            "description": "SINT-LIEVENS-HOUTEM"
+        },
+        {
+            "id": "9521",
+            "description": "SINT-LIEVENS-HOUTEM"
+        },
+        {
+            "id": "9620",
+            "description": "ZOTTEGEM"
+        },
+        {
+            "id": "9420",
+            "description": "ERPE-MERE"
+        },
+        {
+            "id": "9290",
+            "description": "BERLARE"
+        },
+        {
+            "id": "9255",
+            "description": "BUGGENHOUT"
+        },
+        {
+            "id": "9200",
+            "description": "DENDERMONDE"
+        },
+        {
+            "id": "9220",
+            "description": "HAMME"
+        },
+        {
+            "id": "9270",
+            "description": "LAARNE"
+        },
+        {
+            "id": "9280",
+            "description": "LEBBEKE"
+        },
+        {
+            "id": "9250",
+            "description": "WAASMUNSTER"
+        },
+        {
+            "id": "9230",
+            "description": "WETTEREN"
+        },
+        {
+            "id": "9260",
+            "description": "WICHELEN"
+        },
+        {
+            "id": "9240",
+            "description": "ZELE"
+        },
+        {
+            "id": "9960",
+            "description": "ASSENEDE"
+        },
+        {
+            "id": "9961",
+            "description": "ASSENEDE"
+        },
+        {
+            "id": "9968",
+            "description": "ASSENEDE"
+        },
+        {
+            "id": "9900",
+            "description": "EEKLO"
+        },
+        {
+            "id": "9970",
+            "description": "KAPRIJKE"
+        },
+        {
+            "id": "9971",
+            "description": "KAPRIJKE"
+        },
+        {
+            "id": "9990",
+            "description": "MALDEGEM"
+        },
+        {
+            "id": "9991",
+            "description": "MALDEGEM"
+        },
+        {
+            "id": "9992",
+            "description": "MALDEGEM"
+        },
+        {
+            "id": "9980",
+            "description": "SINT-LAUREINS"
+        },
+        {
+            "id": "9981",
+            "description": "SINT-LAUREINS"
+        },
+        {
+            "id": "9982",
+            "description": "SINT-LAUREINS"
+        },
+        {
+            "id": "9988",
+            "description": "SINT-LAUREINS"
+        },
+        {
+            "id": "9060",
+            "description": "ZELZATE"
+        },
+        {
+            "id": "9840",
+            "description": "DE PINTE"
+        },
+        {
+            "id": "9070",
+            "description": "DESTELBERGEN"
+        },
+        {
+            "id": "9940",
+            "description": "EVERGEM"
+        },
+        {
+            "id": "9890",
+            "description": "GAVERE"
+        },
+        {
+            "id": "9000",
+            "description": "GENT"
+        },
+        {
+            "id": "9030",
+            "description": "GENT"
+        },
+        {
+            "id": "9031",
+            "description": "GENT"
+        },
+        {
+            "id": "9032",
+            "description": "GENT"
+        },
+        {
+            "id": "9040",
+            "description": "GENT"
+        },
+        {
+            "id": "9041",
+            "description": "GENT"
+        },
+        {
+            "id": "9042",
+            "description": "GENT"
+        },
+        {
+            "id": "9050",
+            "description": "GENT"
+        },
+        {
+            "id": "9051",
+            "description": "GENT"
+        },
+        {
+            "id": "9052",
+            "description": "GENT"
+        },
+        {
+            "id": "9080",
+            "description": "LOCHRISTI"
+        },
+        {
+            "id": "9090",
+            "description": "MELLE"
+        },
+        {
+            "id": "9820",
+            "description": "MERELBEKE"
+        },
+        {
+            "id": "9180",
+            "description": "MOERBEKE-WAAS"
+        },
+        {
+            "id": "9810",
+            "description": "NAZARETH"
+        },
+        {
+            "id": "9860",
+            "description": "OOSTERZELE"
+        },
+        {
+            "id": "9830",
+            "description": "SINT-MARTENS-LATEM"
+        },
+        {
+            "id": "9831",
+            "description": "SINT-MARTENS-LATEM"
+        },
+        {
+            "id": "9185",
+            "description": "WACHTEBEKE"
+        },
+        {
+            "id": "9870",
+            "description": "ZULTE"
+        },
+        {
+            "id": "9850",
+            "description": "NEVELE"
+        },
+        {
+            "id": "9800",
+            "description": "DEINZE"
+        },
+        {
+            "id": "9880",
+            "description": "AALTER"
+        },
+        {
+            "id": "9881",
+            "description": "AALTER"
+        },
+        {
+            "id": "9910",
+            "description": "KNESSELARE"
+        },
+        {
+            "id": "9920",
+            "description": "LOVENDEGEM"
+        },
+        {
+            "id": "9921",
+            "description": "LOVENDEGEM"
+        },
+        {
+            "id": "9930",
+            "description": "ZOMERGEM"
+        },
+        {
+            "id": "9931",
+            "description": "ZOMERGEM"
+        },
+        {
+            "id": "9932",
+            "description": "ZOMERGEM"
+        },
+        {
+            "id": "9950",
+            "description": "WAARSCHOOT"
+        },
+        {
+            "id": "9700",
+            "description": "OUDENAARDE"
+        },
+        {
+            "id": "9600",
+            "description": "RENAIX"
+        },
+        {
+            "id": "9660",
+            "description": "BRAKEL"
+        },
+        {
+            "id": "9661",
+            "description": "BRAKEL"
+        },
+        {
+            "id": "9690",
+            "description": "KLUISBERGEN"
+        },
+        {
+            "id": "9790",
+            "description": "WORTEGEM-PETEGEM"
+        },
+        {
+            "id": "9667",
+            "description": "HOREBEKE"
+        },
+        {
+            "id": "9570",
+            "description": "LIERDE"
+        },
+        {
+            "id": "9571",
+            "description": "LIERDE"
+        },
+        {
+            "id": "9572",
+            "description": "LIERDE"
+        },
+        {
+            "id": "9680",
+            "description": "MAARKEDAL"
+        },
+        {
+            "id": "9681",
+            "description": "MAARKEDAL"
+        },
+        {
+            "id": "9688",
+            "description": "MAARKEDAL"
+        },
+        {
+            "id": "9630",
+            "description": "ZWALM"
+        },
+        {
+            "id": "9636",
+            "description": "ZWALM"
+        },
+        {
+            "id": "9750",
+            "description": "ZINGEM"
+        },
+        {
+            "id": "9770",
+            "description": "KRUISHOUTEM"
+        },
+        {
+            "id": "9771",
+            "description": "KRUISHOUTEM"
+        },
+        {
+            "id": "9772",
+            "description": "KRUISHOUTEM"
+        },
+        {
+            "id": "9120",
+            "description": "BEVEREN-WAAS"
+        },
+        {
+            "id": "9130",
+            "description": "BEVEREN-WAAS"
+        },
+        {
+            "id": "9150",
+            "description": "KRUIBEKE"
+        },
+        {
+            "id": "9160",
+            "description": "LOKEREN"
+        },
+        {
+            "id": "9170",
+            "description": "SINT-GILLIS-WAAS"
+        },
+        {
+            "id": "9100",
+            "description": "SINT-NIKLAAS"
+        },
+        {
+            "id": "9111",
+            "description": "SINT-NIKLAAS"
+        },
+        {
+            "id": "9112",
+            "description": "SINT-NIKLAAS"
+        },
+        {
+            "id": "9190",
+            "description": "STEKENE"
+        },
+        {
+            "id": "9140",
+            "description": "TEMSE"
+        },
+        {
+            "id": "7800",
+            "description": "ATH"
+        },
+        {
+            "id": "7801",
+            "description": "ATH"
+        },
+        {
+            "id": "7802",
+            "description": "ATH"
+        },
+        {
+            "id": "7803",
+            "description": "ATH"
+        },
+        {
+            "id": "7804",
+            "description": "ATH"
+        },
+        {
+            "id": "7810",
+            "description": "ATH"
+        },
+        {
+            "id": "7811",
+            "description": "ATH"
+        },
+        {
+            "id": "7812",
+            "description": "ATH"
+        },
+        {
+            "id": "7822",
+            "description": "ATH"
+        },
+        {
+            "id": "7823",
+            "description": "ATH"
+        },
+        {
+            "id": "7970",
+            "description": "BELOEIL"
+        },
+        {
+            "id": "7971",
+            "description": "BELOEIL"
+        },
+        {
+            "id": "7972",
+            "description": "BELOEIL"
+        },
+        {
+            "id": "7973",
+            "description": "BELOEIL"
+        },
+        {
+            "id": "7320",
+            "description": "BERNISSART"
+        },
+        {
+            "id": "7321",
+            "description": "BERNISSART"
+        },
+        {
+            "id": "7322",
+            "description": "BERNISSART"
+        },
+        {
+            "id": "7940",
+            "description": "BRUGELETTE"
+        },
+        {
+            "id": "7941",
+            "description": "BRUGELETTE"
+        },
+        {
+            "id": "7942",
+            "description": "BRUGELETTE"
+        },
+        {
+            "id": "7943",
+            "description": "BRUGELETTE"
+        },
+        {
+            "id": "7950",
+            "description": "CHIÈVRES"
+        },
+        {
+            "id": "7951",
+            "description": "CHIÈVRES"
+        },
+        {
+            "id": "7890",
+            "description": "ELLEZELLES"
+        },
+        {
+            "id": "7880",
+            "description": "FLOBECQ"
+        },
+        {
+            "id": "7910",
+            "description": "FRASNES-LEZ-ANVAING"
+        },
+        {
+            "id": "7911",
+            "description": "FRASNES-LEZ-ANVAING"
+        },
+        {
+            "id": "7912",
+            "description": "FRASNES-LEZ-ANVAING"
+        },
+        {
+            "id": "7850",
+            "description": "ENGHIEN"
+        },
+        {
+            "id": "7830",
+            "description": "SILLY"
+        },
+        {
+            "id": "7860",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7861",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7862",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7863",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7864",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7866",
+            "description": "LESSINES"
+        },
+        {
+            "id": "7160",
+            "description": "CHAPELLE-LEZ-HERLAIMONT"
+        },
+        {
+            "id": "6000",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6001",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6010",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6020",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6030",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6031",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6032",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6040",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6041",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6042",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6043",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6044",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6060",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6061",
+            "description": "CHARLEROI"
+        },
+        {
+            "id": "6200",
+            "description": "CHÂTELET"
+        },
+        {
+            "id": "6180",
+            "description": "COURCELLES"
+        },
+        {
+            "id": "6181",
+            "description": "COURCELLES"
+        },
+        {
+            "id": "6182",
+            "description": "COURCELLES"
+        },
+        {
+            "id": "6183",
+            "description": "COURCELLES"
+        },
+        {
+            "id": "6240",
+            "description": "FARCIENNES"
+        },
+        {
+            "id": "6220",
+            "description": "FLEURUS"
+        },
+        {
+            "id": "6221",
+            "description": "FLEURUS"
+        },
+        {
+            "id": "6222",
+            "description": "FLEURUS"
+        },
+        {
+            "id": "6223",
+            "description": "FLEURUS"
+        },
+        {
+            "id": "6224",
+            "description": "FLEURUS"
+        },
+        {
+            "id": "6140",
+            "description": "FONTAINE-L'EVÊQUE"
+        },
+        {
+            "id": "6141",
+            "description": "FONTAINE-L'EVÊQUE"
+        },
+        {
+            "id": "6142",
+            "description": "FONTAINE-L'EVÊQUE"
+        },
+        {
+            "id": "6280",
+            "description": "GERPINNES"
+        },
+        {
+            "id": "6110",
+            "description": "MONTIGNY-LE-TILLEUL"
+        },
+        {
+            "id": "6111",
+            "description": "MONTIGNY-LE-TILLEUL"
+        },
+        {
+            "id": "6230",
+            "description": "PONT-À-CELLES"
+        },
+        {
+            "id": "6238",
+            "description": "PONT-À-CELLES"
+        },
+        {
+            "id": "6250",
+            "description": "AISEAU-PRESLES"
+        },
+        {
+            "id": "6210",
+            "description": "LES BONS VILLERS"
+        },
+        {
+            "id": "6211",
+            "description": "LES BONS VILLERS"
+        },
+        {
+            "id": "7300",
+            "description": "BOUSSU"
+        },
+        {
+            "id": "7301",
+            "description": "BOUSSU"
+        },
+        {
+            "id": "7370",
+            "description": "DOUR"
+        },
+        {
+            "id": "7080",
+            "description": "FRAMERIES"
+        },
+        {
+            "id": "7350",
+            "description": "HENSIES"
+        },
+        {
+            "id": "7050",
+            "description": "JURBISE"
+        },
+        {
+            "id": "7870",
+            "description": "LENS"
+        },
+        {
+            "id": "7000",
+            "description": "MONS"
+        },
+        {
+            "id": "7011",
+            "description": "MONS"
+        },
+        {
+            "id": "7012",
+            "description": "MONS"
+        },
+        {
+            "id": "7020",
+            "description": "MONS"
+        },
+        {
+            "id": "7021",
+            "description": "MONS"
+        },
+        {
+            "id": "7022",
+            "description": "MONS"
+        },
+        {
+            "id": "7024",
+            "description": "MONS"
+        },
+        {
+            "id": "7030",
+            "description": "MONS"
+        },
+        {
+            "id": "7031",
+            "description": "MONS"
+        },
+        {
+            "id": "7032",
+            "description": "MONS"
+        },
+        {
+            "id": "7033",
+            "description": "MONS"
+        },
+        {
+            "id": "7034",
+            "description": "MONS"
+        },
+        {
+            "id": "7390",
+            "description": "QUAREGNON"
+        },
+        {
+            "id": "7380",
+            "description": "QUIÉVRAIN"
+        },
+        {
+            "id": "7382",
+            "description": "QUIÉVRAIN"
+        },
+        {
+            "id": "7330",
+            "description": "SAINT-GHISLAIN"
+        },
+        {
+            "id": "7331",
+            "description": "SAINT-GHISLAIN"
+        },
+        {
+            "id": "7332",
+            "description": "SAINT-GHISLAIN"
+        },
+        {
+            "id": "7333",
+            "description": "SAINT-GHISLAIN"
+        },
+        {
+            "id": "7334",
+            "description": "SAINT-GHISLAIN"
+        },
+        {
+            "id": "7340",
+            "description": "COLFONTAINE"
+        },
+        {
+            "id": "7387",
+            "description": "HONNELLES"
+        },
+        {
+            "id": "7040",
+            "description": "QUÉVY"
+        },
+        {
+            "id": "7041",
+            "description": "QUÉVY"
+        },
+        {
+            "id": "7090",
+            "description": "BRAINE-LE-COMTE"
+        },
+        {
+            "id": "7070",
+            "description": "LE ROEULX"
+        },
+        {
+            "id": "7060",
+            "description": "SOIGNIES"
+        },
+        {
+            "id": "7061",
+            "description": "SOIGNIES"
+        },
+        {
+            "id": "7062",
+            "description": "SOIGNIES"
+        },
+        {
+            "id": "7063",
+            "description": "SOIGNIES"
+        },
+        {
+            "id": "7190",
+            "description": "ECAUSSINNES"
+        },
+        {
+            "id": "7191",
+            "description": "ECAUSSINNES"
+        },
+        {
+            "id": "7180",
+            "description": "SENEFFE"
+        },
+        {
+            "id": "7181",
+            "description": "SENEFFE"
+        },
+        {
+            "id": "7170",
+            "description": "MANAGE"
+        },
+        {
+            "id": "6150",
+            "description": "ANDERLUES"
+        },
+        {
+            "id": "6500",
+            "description": "BEAUMONT"
+        },
+        {
+            "id": "6511",
+            "description": "BEAUMONT"
+        },
+        {
+            "id": "6460",
+            "description": "CHIMAY"
+        },
+        {
+            "id": "6461",
+            "description": "CHIMAY"
+        },
+        {
+            "id": "6462",
+            "description": "CHIMAY"
+        },
+        {
+            "id": "6463",
+            "description": "CHIMAY"
+        },
+        {
+            "id": "6464",
+            "description": "CHIMAY"
+        },
+        {
+            "id": "6560",
+            "description": "ERQUELINNES"
+        },
+        {
+            "id": "6440",
+            "description": "FROIDCHAPELLE"
+        },
+        {
+            "id": "6441",
+            "description": "FROIDCHAPELLE"
+        },
+        {
+            "id": "6540",
+            "description": "LOBBES"
+        },
+        {
+            "id": "6542",
+            "description": "LOBBES"
+        },
+        {
+            "id": "6543",
+            "description": "LOBBES"
+        },
+        {
+            "id": "6567",
+            "description": "MERBES-LE-CHÂTEAU"
+        },
+        {
+            "id": "6590",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6591",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6592",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6593",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6594",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6596",
+            "description": "MOMIGNIES"
+        },
+        {
+            "id": "6530",
+            "description": "THUIN"
+        },
+        {
+            "id": "6531",
+            "description": "THUIN"
+        },
+        {
+            "id": "6532",
+            "description": "THUIN"
+        },
+        {
+            "id": "6533",
+            "description": "THUIN"
+        },
+        {
+            "id": "6534",
+            "description": "THUIN"
+        },
+        {
+            "id": "6536",
+            "description": "THUIN"
+        },
+        {
+            "id": "6120",
+            "description": "HAM-SUR-HEURE"
+        },
+        {
+            "id": "6470",
+            "description": "SIVRY-RANCE"
+        },
+        {
+            "id": "7640",
+            "description": "ANTOING"
+        },
+        {
+            "id": "7641",
+            "description": "ANTOING"
+        },
+        {
+            "id": "7642",
+            "description": "ANTOING"
+        },
+        {
+            "id": "7643",
+            "description": "ANTOING"
+        },
+        {
+            "id": "7760",
+            "description": "CELLES"
+        },
+        {
+            "id": "7730",
+            "description": "ESTAIMPUIS"
+        },
+        {
+            "id": "7740",
+            "description": "PECQ"
+        },
+        {
+            "id": "7742",
+            "description": "PECQ"
+        },
+        {
+            "id": "7743",
+            "description": "PECQ"
+        },
+        {
+            "id": "7600",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7601",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7602",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7603",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7604",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7608",
+            "description": "PÉRUWELZ"
+        },
+        {
+            "id": "7610",
+            "description": "RUMES"
+        },
+        {
+            "id": "7611",
+            "description": "RUMES"
+        },
+        {
+            "id": "7618",
+            "description": "RUMES"
+        },
+        {
+            "id": "7500",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7501",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7502",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7503",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7504",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7506",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7520",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7521",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7522",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7530",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7531",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7532",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7533",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7534",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7536",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7538",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7540",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7542",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7543",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7548",
+            "description": "TOURNAI"
+        },
+        {
+            "id": "7620",
+            "description": "BRUNEHAUT"
+        },
+        {
+            "id": "7621",
+            "description": "BRUNEHAUT"
+        },
+        {
+            "id": "7622",
+            "description": "BRUNEHAUT"
+        },
+        {
+            "id": "7623",
+            "description": "BRUNEHAUT"
+        },
+        {
+            "id": "7624",
+            "description": "BRUNEHAUT"
+        },
+        {
+            "id": "7900",
+            "description": "LEUZE-EN-HAINAUT"
+        },
+        {
+            "id": "7901",
+            "description": "LEUZE-EN-HAINAUT"
+        },
+        {
+            "id": "7903",
+            "description": "LEUZE-EN-HAINAUT"
+        },
+        {
+            "id": "7904",
+            "description": "LEUZE-EN-HAINAUT"
+        },
+        {
+            "id": "7906",
+            "description": "LEUZE-EN-HAINAUT"
+        },
+        {
+            "id": "7750",
+            "description": "MONT-DE-L'ENCLUS"
+        },
+        {
+            "id": "7700",
+            "description": "MOUSCRON"
+        },
+        {
+            "id": "7711",
+            "description": "MOUSCRON"
+        },
+        {
+            "id": "7712",
+            "description": "MOUSCRON"
+        },
+        {
+            "id": "7780",
+            "description": "COMINES-WARNETON"
+        },
+        {
+            "id": "7781",
+            "description": "COMINES-WARNETON"
+        },
+        {
+            "id": "7782",
+            "description": "COMINES-WARNETON"
+        },
+        {
+            "id": "7783",
+            "description": "COMINES-WARNETON"
+        },
+        {
+            "id": "7784",
+            "description": "COMINES-WARNETON"
+        },
+        {
+            "id": "7100",
+            "description": "LA LOUVIÈRE"
+        },
+        {
+            "id": "7110",
+            "description": "LA LOUVIÈRE"
+        },
+        {
+            "id": "7130",
+            "description": "BINCHE"
+        },
+        {
+            "id": "7131",
+            "description": "BINCHE"
+        },
+        {
+            "id": "7133",
+            "description": "BINCHE"
+        },
+        {
+            "id": "7134",
+            "description": "BINCHE"
+        },
+        {
+            "id": "7120",
+            "description": "ESTINNES"
+        },
+        {
+            "id": "7140",
+            "description": "MORLANWELZ"
+        },
+        {
+            "id": "7141",
+            "description": "MORLANWELZ"
+        },
+        {
+            "id": "4540",
+            "description": "AMAY"
+        },
+        {
+            "id": "4210",
+            "description": "BURDINNE"
+        },
+        {
+            "id": "4560",
+            "description": "CLAVIER"
+        },
+        {
+            "id": "4190",
+            "description": "FERRIÈRES"
+        },
+        {
+            "id": "4180",
+            "description": "HAMOIR"
+        },
+        {
+            "id": "4181",
+            "description": "HAMOIR"
+        },
+        {
+            "id": "4217",
+            "description": "HÉRON"
+        },
+        {
+            "id": "4218",
+            "description": "HÉRON"
+        },
+        {
+            "id": "4500",
+            "description": "HUY"
+        },
+        {
+            "id": "4570",
+            "description": "MARCHIN"
+        },
+        {
+            "id": "4577",
+            "description": "MODAVE"
+        },
+        {
+            "id": "4550",
+            "description": "NANDRIN"
+        },
+        {
+            "id": "4590",
+            "description": "OUFFET"
+        },
+        {
+            "id": "4537",
+            "description": "VERLAINE"
+        },
+        {
+            "id": "4530",
+            "description": "VILLERS-LE-BOUILLET"
+        },
+        {
+            "id": "4520",
+            "description": "WANZE"
+        },
+        {
+            "id": "4160",
+            "description": "ANTHISNES"
+        },
+        {
+            "id": "4161",
+            "description": "ANTHISNES"
+        },
+        {
+            "id": "4162",
+            "description": "ANTHISNES"
+        },
+        {
+            "id": "4163",
+            "description": "ANTHISNES"
+        },
+        {
+            "id": "4480",
+            "description": "ENGIS"
+        },
+        {
+            "id": "4557",
+            "description": "TINLOT"
+        },
+        {
+            "id": "4430",
+            "description": "ANS"
+        },
+        {
+            "id": "4431",
+            "description": "ANS"
+        },
+        {
+            "id": "4432",
+            "description": "ANS"
+        },
+        {
+            "id": "4340",
+            "description": "AWANS"
+        },
+        {
+            "id": "4342",
+            "description": "AWANS"
+        },
+        {
+            "id": "4920",
+            "description": "AYWAILLE"
+        },
+        {
+            "id": "4690",
+            "description": "BASSENGE"
+        },
+        {
+            "id": "4610",
+            "description": "BEYNE-HEUSAY"
+        },
+        {
+            "id": "4050",
+            "description": "CHAUDFONTAINE"
+        },
+        {
+            "id": "4051",
+            "description": "CHAUDFONTAINE"
+        },
+        {
+            "id": "4052",
+            "description": "CHAUDFONTAINE"
+        },
+        {
+            "id": "4053",
+            "description": "CHAUDFONTAINE"
+        },
+        {
+            "id": "4170",
+            "description": "COMBLAIN-AU-PONT"
+        },
+        {
+            "id": "4171",
+            "description": "COMBLAIN-AU-PONT"
+        },
+        {
+            "id": "4606",
+            "description": "DALHEM"
+        },
+        {
+            "id": "4607",
+            "description": "DALHEM"
+        },
+        {
+            "id": "4608",
+            "description": "DALHEM"
+        },
+        {
+            "id": "4130",
+            "description": "ESNEUX"
+        },
+        {
+            "id": "4620",
+            "description": "FLÉRON"
+        },
+        {
+            "id": "4621",
+            "description": "FLÉRON"
+        },
+        {
+            "id": "4623",
+            "description": "FLÉRON"
+        },
+        {
+            "id": "4624",
+            "description": "FLÉRON"
+        },
+        {
+            "id": "4040",
+            "description": "HERSTAL"
+        },
+        {
+            "id": "4041",
+            "description": "HERSTAL"
+        },
+        {
+            "id": "4042",
+            "description": "HERSTAL"
+        },
+        {
+            "id": "4450",
+            "description": "JUPRELLE"
+        },
+        {
+            "id": "4451",
+            "description": "JUPRELLE"
+        },
+        {
+            "id": "4452",
+            "description": "JUPRELLE"
+        },
+        {
+            "id": "4453",
+            "description": "JUPRELLE"
+        },
+        {
+            "id": "4458",
+            "description": "JUPRELLE"
+        },
+        {
+            "id": "4000",
+            "description": "LIÈGE"
+        },
+        {
+            "id": "4020",
+            "description": "LIÈGE"
+        },
+        {
+            "id": "4030",
+            "description": "LIÈGE"
+        },
+        {
+            "id": "4031",
+            "description": "LIÈGE"
+        },
+        {
+            "id": "4032",
+            "description": "LIÈGE"
+        },
+        {
+            "id": "4680",
+            "description": "OUPEYE"
+        },
+        {
+            "id": "4681",
+            "description": "OUPEYE"
+        },
+        {
+            "id": "4682",
+            "description": "OUPEYE"
+        },
+        {
+            "id": "4683",
+            "description": "OUPEYE"
+        },
+        {
+            "id": "4684",
+            "description": "OUPEYE"
+        },
+        {
+            "id": "4420",
+            "description": "SAINT-NICOLAS"
+        },
+        {
+            "id": "4100",
+            "description": "SERAING"
+        },
+        {
+            "id": "4101",
+            "description": "SERAING"
+        },
+        {
+            "id": "4102",
+            "description": "SERAING"
+        },
+        {
+            "id": "4630",
+            "description": "SOUMAGNE"
+        },
+        {
+            "id": "4631",
+            "description": "SOUMAGNE"
+        },
+        {
+            "id": "4632",
+            "description": "SOUMAGNE"
+        },
+        {
+            "id": "4633",
+            "description": "SOUMAGNE"
+        },
+        {
+            "id": "4140",
+            "description": "SPRIMONT"
+        },
+        {
+            "id": "4141",
+            "description": "SPRIMONT"
+        },
+        {
+            "id": "4600",
+            "description": "VISÉ"
+        },
+        {
+            "id": "4601",
+            "description": "VISÉ"
+        },
+        {
+            "id": "4602",
+            "description": "VISÉ"
+        },
+        {
+            "id": "4460",
+            "description": "GRÂCE-HOLLOGNE"
+        },
+        {
+            "id": "4670",
+            "description": "BLÉGNY"
+        },
+        {
+            "id": "4671",
+            "description": "BLÉGNY"
+        },
+        {
+            "id": "4672",
+            "description": "BLÉGNY"
+        },
+        {
+            "id": "4400",
+            "description": "FLÉMALLE"
+        },
+        {
+            "id": "4120",
+            "description": "NEUPRÉ"
+        },
+        {
+            "id": "4121",
+            "description": "NEUPRÉ"
+        },
+        {
+            "id": "4122",
+            "description": "NEUPRÉ"
+        },
+        {
+            "id": "4870",
+            "description": "TROOZ"
+        },
+        {
+            "id": "4770",
+            "description": "AMBLÈVE"
+        },
+        {
+            "id": "4771",
+            "description": "AMBLÈVE"
+        },
+        {
+            "id": "4880",
+            "description": "AUBEL"
+        },
+        {
+            "id": "4837",
+            "description": "BAELEN"
+        },
+        {
+            "id": "4760",
+            "description": "BULLANGE"
+        },
+        {
+            "id": "4761",
+            "description": "BULLANGE"
+        },
+        {
+            "id": "4750",
+            "description": "BUTGENBACH"
+        },
+        {
+            "id": "4820",
+            "description": "DISON"
+        },
+        {
+            "id": "4821",
+            "description": "DISON"
+        },
+        {
+            "id": "4700",
+            "description": "EUPEN"
+        },
+        {
+            "id": "4701",
+            "description": "EUPEN"
+        },
+        {
+            "id": "4650",
+            "description": "HERVE"
+        },
+        {
+            "id": "4651",
+            "description": "HERVE"
+        },
+        {
+            "id": "4652",
+            "description": "HERVE"
+        },
+        {
+            "id": "4653",
+            "description": "HERVE"
+        },
+        {
+            "id": "4654",
+            "description": "HERVE"
+        },
+        {
+            "id": "4845",
+            "description": "JALHAY"
+        },
+        {
+            "id": "4720",
+            "description": "LA CALAMINE"
+        },
+        {
+            "id": "4721",
+            "description": "LA CALAMINE"
+        },
+        {
+            "id": "4728",
+            "description": "LA CALAMINE"
+        },
+        {
+            "id": "4990",
+            "description": "LIERNEUX"
+        },
+        {
+            "id": "4830",
+            "description": "LIMBOURG"
+        },
+        {
+            "id": "4831",
+            "description": "LIMBOURG"
+        },
+        {
+            "id": "4834",
+            "description": "LIMBOURG"
+        },
+        {
+            "id": "4710",
+            "description": "LONTZEN"
+        },
+        {
+            "id": "4711",
+            "description": "LONTZEN"
+        },
+        {
+            "id": "4960",
+            "description": "MALMEDY"
+        },
+        {
+            "id": "4877",
+            "description": "OLNE"
+        },
+        {
+            "id": "4860",
+            "description": "PEPINSTER"
+        },
+        {
+            "id": "4861",
+            "description": "PEPINSTER"
+        },
+        {
+            "id": "4730",
+            "description": "RAEREN"
+        },
+        {
+            "id": "4731",
+            "description": "RAEREN"
+        },
+        {
+            "id": "4780",
+            "description": "SAINT-VITH"
+        },
+        {
+            "id": "4782",
+            "description": "SAINT-VITH"
+        },
+        {
+            "id": "4783",
+            "description": "SAINT-VITH"
+        },
+        {
+            "id": "4784",
+            "description": "SAINT-VITH"
+        },
+        {
+            "id": "4900",
+            "description": "SPA"
+        },
+        {
+            "id": "4970",
+            "description": "STAVELOT"
+        },
+        {
+            "id": "4987",
+            "description": "STOUMONT"
+        },
+        {
+            "id": "4910",
+            "description": "THEUX"
+        },
+        {
+            "id": "4800",
+            "description": "VERVIERS"
+        },
+        {
+            "id": "4801",
+            "description": "VERVIERS"
+        },
+        {
+            "id": "4802",
+            "description": "VERVIERS"
+        },
+        {
+            "id": "4950",
+            "description": "WAIMES"
+        },
+        {
+            "id": "4840",
+            "description": "WELKENRAEDT"
+        },
+        {
+            "id": "4841",
+            "description": "WELKENRAEDT"
+        },
+        {
+            "id": "4980",
+            "description": "TROIS-PONTS"
+        },
+        {
+            "id": "4983",
+            "description": "TROIS-PONTS"
+        },
+        {
+            "id": "4790",
+            "description": "BURG-REULAND"
+        },
+        {
+            "id": "4791",
+            "description": "BURG-REULAND"
+        },
+        {
+            "id": "4850",
+            "description": "PLOMBIÈRES"
+        },
+        {
+            "id": "4851",
+            "description": "PLOMBIÈRES"
+        },
+        {
+            "id": "4852",
+            "description": "PLOMBIÈRES"
+        },
+        {
+            "id": "4890",
+            "description": "THIMISTER-CLERMONT"
+        },
+        {
+            "id": "4257",
+            "description": "BERLOZ"
+        },
+        {
+            "id": "4260",
+            "description": "BRAIVES"
+        },
+        {
+            "id": "4261",
+            "description": "BRAIVES"
+        },
+        {
+            "id": "4263",
+            "description": "BRAIVES"
+        },
+        {
+            "id": "4367",
+            "description": "CRISNÉE"
+        },
+        {
+            "id": "4357",
+            "description": "DONCEEL"
+        },
+        {
+            "id": "4347",
+            "description": "FEXHE-LE-HAUT-CLOCHER"
+        },
+        {
+            "id": "4250",
+            "description": "GEER"
+        },
+        {
+            "id": "4252",
+            "description": "GEER"
+        },
+        {
+            "id": "4253",
+            "description": "GEER"
+        },
+        {
+            "id": "4254",
+            "description": "GEER"
+        },
+        {
+            "id": "4280",
+            "description": "HANNUT"
+        },
+        {
+            "id": "4287",
+            "description": "LINCENT"
+        },
+        {
+            "id": "4360",
+            "description": "OREYE"
+        },
+        {
+            "id": "4350",
+            "description": "REMICOURT"
+        },
+        {
+            "id": "4351",
+            "description": "REMICOURT"
+        },
+        {
+            "id": "4470",
+            "description": "SAINT-GEORGES-SUR-MEUSE"
+        },
+        {
+            "id": "4300",
+            "description": "WAREMME"
+        },
+        {
+            "id": "4219",
+            "description": "WASSEIGES"
+        },
+        {
+            "id": "4317",
+            "description": "FAIMES"
+        },
+        {
+            "id": "3665",
+            "description": "AS"
+        },
+        {
+            "id": "3668",
+            "description": "AS"
+        },
+        {
+            "id": "3580",
+            "description": "BERINGEN"
+        },
+        {
+            "id": "3581",
+            "description": "BERINGEN"
+        },
+        {
+            "id": "3582",
+            "description": "BERINGEN"
+        },
+        {
+            "id": "3583",
+            "description": "BERINGEN"
+        },
+        {
+            "id": "3590",
+            "description": "DIEPENBEEK"
+        },
+        {
+            "id": "3600",
+            "description": "GENK"
+        },
+        {
+            "id": "3890",
+            "description": "GINGELOM"
+        },
+        {
+            "id": "3891",
+            "description": "GINGELOM"
+        },
+        {
+            "id": "3545",
+            "description": "HALEN"
+        },
+        {
+            "id": "3500",
+            "description": "HASSELT"
+        },
+        {
+            "id": "3501",
+            "description": "HASSELT"
+        },
+        {
+            "id": "3510",
+            "description": "HASSELT"
+        },
+        {
+            "id": "3511",
+            "description": "HASSELT"
+        },
+        {
+            "id": "3512",
+            "description": "HASSELT"
+        },
+        {
+            "id": "3540",
+            "description": "HERK-DE-STAD"
+        },
+        {
+            "id": "3970",
+            "description": "LEOPOLDSBURG"
+        },
+        {
+            "id": "3971",
+            "description": "LEOPOLDSBURG"
+        },
+        {
+            "id": "3560",
+            "description": "LUMMEN"
+        },
+        {
+            "id": "3850",
+            "description": "NIEUWERKERKEN"
+        },
+        {
+            "id": "3800",
+            "description": "SINT-TRUIDEN"
+        },
+        {
+            "id": "3803",
+            "description": "SINT-TRUIDEN"
+        },
+        {
+            "id": "3806",
+            "description": "SINT-TRUIDEN"
+        },
+        {
+            "id": "3980",
+            "description": "TESSENDERLO"
+        },
+        {
+            "id": "3520",
+            "description": "ZONHOVEN"
+        },
+        {
+            "id": "3690",
+            "description": "ZUTENDAAL"
+        },
+        {
+            "id": "3945",
+            "description": "HAM"
+        },
+        {
+            "id": "3550",
+            "description": "HEUSDEN-ZOLDER"
+        },
+        {
+            "id": "3950",
+            "description": "BOCHOLT"
+        },
+        {
+            "id": "3960",
+            "description": "BREE"
+        },
+        {
+            "id": "3640",
+            "description": "KINROOI"
+        },
+        {
+            "id": "3920",
+            "description": "LOMMEL"
+        },
+        {
+            "id": "3680",
+            "description": "MAASEIK"
+        },
+        {
+            "id": "3990",
+            "description": "PEER"
+        },
+        {
+            "id": "3930",
+            "description": "HAMONT-ACHEL"
+        },
+        {
+            "id": "3940",
+            "description": "HECHTEL-EKSEL"
+        },
+        {
+            "id": "3941",
+            "description": "HECHTEL-EKSEL"
+        },
+        {
+            "id": "3530",
+            "description": "HOUTHALEN-HELCHTEREN"
+        },
+        {
+            "id": "3650",
+            "description": "DILSEN-STOKKEM"
+        },
+        {
+            "id": "3660",
+            "description": "OPGLABBEEK"
+        },
+        {
+            "id": "3670",
+            "description": "MEEUWEN-GRUITRODE"
+        },
+        {
+            "id": "3900",
+            "description": "OVERPELT"
+        },
+        {
+            "id": "3910",
+            "description": "NEERPELT"
+        },
+        {
+            "id": "3570",
+            "description": "ALKEN"
+        },
+        {
+            "id": "3740",
+            "description": "BILZEN"
+        },
+        {
+            "id": "3742",
+            "description": "BILZEN"
+        },
+        {
+            "id": "3746",
+            "description": "BILZEN"
+        },
+        {
+            "id": "3840",
+            "description": "BORGLOON"
+        },
+        {
+            "id": "3870",
+            "description": "HEERS"
+        },
+        {
+            "id": "3717",
+            "description": "HERSTAPPE"
+        },
+        {
+            "id": "3730",
+            "description": "HOESELT"
+        },
+        {
+            "id": "3732",
+            "description": "HOESELT"
+        },
+        {
+            "id": "3720",
+            "description": "KORTESSEM"
+        },
+        {
+            "id": "3721",
+            "description": "KORTESSEM"
+        },
+        {
+            "id": "3722",
+            "description": "KORTESSEM"
+        },
+        {
+            "id": "3723",
+            "description": "KORTESSEM"
+        },
+        {
+            "id": "3724",
+            "description": "KORTESSEM"
+        },
+        {
+            "id": "3620",
+            "description": "LANAKEN"
+        },
+        {
+            "id": "3621",
+            "description": "LANAKEN"
+        },
+        {
+            "id": "3770",
+            "description": "RIEMST"
+        },
+        {
+            "id": "3700",
+            "description": "TONGEREN"
+        },
+        {
+            "id": "3830",
+            "description": "WELLEN"
+        },
+        {
+            "id": "3831",
+            "description": "WELLEN"
+        },
+        {
+            "id": "3832",
+            "description": "WELLEN"
+        },
+        {
+            "id": "3630",
+            "description": "MAASMECHELEN"
+        },
+        {
+            "id": "3631",
+            "description": "MAASMECHELEN"
+        },
+        {
+            "id": "3790",
+            "description": "FOURONS"
+        },
+        {
+            "id": "3791",
+            "description": "FOURONS"
+        },
+        {
+            "id": "3792",
+            "description": "FOURONS"
+        },
+        {
+            "id": "3793",
+            "description": "FOURONS"
+        },
+        {
+            "id": "3798",
+            "description": "FOURONS"
+        },
+        {
+            "id": "6700",
+            "description": "ARLON"
+        },
+        {
+            "id": "6704",
+            "description": "ARLON"
+        },
+        {
+            "id": "6706",
+            "description": "ARLON"
+        },
+        {
+            "id": "6717",
+            "description": "ATTERT"
+        },
+        {
+            "id": "6790",
+            "description": "AUBANGE"
+        },
+        {
+            "id": "6791",
+            "description": "AUBANGE"
+        },
+        {
+            "id": "6792",
+            "description": "AUBANGE"
+        },
+        {
+            "id": "6630",
+            "description": "MARTELANGE"
+        },
+        {
+            "id": "6780",
+            "description": "MESSANCY"
+        },
+        {
+            "id": "6781",
+            "description": "MESSANCY"
+        },
+        {
+            "id": "6782",
+            "description": "MESSANCY"
+        },
+        {
+            "id": "6600",
+            "description": "BASTOGNE"
+        },
+        {
+            "id": "6686",
+            "description": "BERTOGNE"
+        },
+        {
+            "id": "6687",
+            "description": "BERTOGNE"
+        },
+        {
+            "id": "6688",
+            "description": "BERTOGNE"
+        },
+        {
+            "id": "6637",
+            "description": "FAUVILLERS"
+        },
+        {
+            "id": "6660",
+            "description": "HOUFFALIZE"
+        },
+        {
+            "id": "6661",
+            "description": "HOUFFALIZE"
+        },
+        {
+            "id": "6662",
+            "description": "HOUFFALIZE"
+        },
+        {
+            "id": "6663",
+            "description": "HOUFFALIZE"
+        },
+        {
+            "id": "6666",
+            "description": "HOUFFALIZE"
+        },
+        {
+            "id": "6690",
+            "description": "VIELSALM"
+        },
+        {
+            "id": "6692",
+            "description": "VIELSALM"
+        },
+        {
+            "id": "6698",
+            "description": "VIELSALM"
+        },
+        {
+            "id": "6640",
+            "description": "VAUX-SUR-SÛRE"
+        },
+        {
+            "id": "6642",
+            "description": "VAUX-SUR-SÛRE"
+        },
+        {
+            "id": "6670",
+            "description": "GOUVY"
+        },
+        {
+            "id": "6671",
+            "description": "GOUVY"
+        },
+        {
+            "id": "6672",
+            "description": "GOUVY"
+        },
+        {
+            "id": "6673",
+            "description": "GOUVY"
+        },
+        {
+            "id": "6674",
+            "description": "GOUVY"
+        },
+        {
+            "id": "6680",
+            "description": "SAINTE-ODE"
+        },
+        {
+            "id": "6681",
+            "description": "SAINTE-ODE"
+        },
+        {
+            "id": "6940",
+            "description": "DURBUY"
+        },
+        {
+            "id": "6941",
+            "description": "DURBUY"
+        },
+        {
+            "id": "6997",
+            "description": "EREZÉE"
+        },
+        {
+            "id": "6990",
+            "description": "HOTTON"
+        },
+        {
+            "id": "6980",
+            "description": "LA ROCHE-EN-ARDENNE"
+        },
+        {
+            "id": "6982",
+            "description": "LA ROCHE-EN-ARDENNE"
+        },
+        {
+            "id": "6983",
+            "description": "LA ROCHE-EN-ARDENNE"
+        },
+        {
+            "id": "6984",
+            "description": "LA ROCHE-EN-ARDENNE"
+        },
+        {
+            "id": "6986",
+            "description": "LA ROCHE-EN-ARDENNE"
+        },
+        {
+            "id": "6900",
+            "description": "MARCHE-EN-FAMENNE"
+        },
+        {
+            "id": "6950",
+            "description": "NASSOGNE"
+        },
+        {
+            "id": "6951",
+            "description": "NASSOGNE"
+        },
+        {
+            "id": "6952",
+            "description": "NASSOGNE"
+        },
+        {
+            "id": "6953",
+            "description": "NASSOGNE"
+        },
+        {
+            "id": "6987",
+            "description": "RENDEUX"
+        },
+        {
+            "id": "6970",
+            "description": "TENNEVILLE"
+        },
+        {
+            "id": "6971",
+            "description": "TENNEVILLE"
+        },
+        {
+            "id": "6972",
+            "description": "TENNEVILLE"
+        },
+        {
+            "id": "6960",
+            "description": "MANHAY"
+        },
+        {
+            "id": "6880",
+            "description": "BERTRIX"
+        },
+        {
+            "id": "6830",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6831",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6832",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6833",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6834",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6836",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6838",
+            "description": "BOUILLON"
+        },
+        {
+            "id": "6929",
+            "description": "DAVERDISSE"
+        },
+        {
+            "id": "6887",
+            "description": "HERBEUMONT"
+        },
+        {
+            "id": "6860",
+            "description": "LÉGLISE"
+        },
+        {
+            "id": "6890",
+            "description": "LIBIN"
+        },
+        {
+            "id": "6840",
+            "description": "NEUFCHÂTEAU"
+        },
+        {
+            "id": "6850",
+            "description": "PALISEUL"
+        },
+        {
+            "id": "6851",
+            "description": "PALISEUL"
+        },
+        {
+            "id": "6852",
+            "description": "PALISEUL"
+        },
+        {
+            "id": "6853",
+            "description": "PALISEUL"
+        },
+        {
+            "id": "6856",
+            "description": "PALISEUL"
+        },
+        {
+            "id": "6870",
+            "description": "SAINT-HUBERT"
+        },
+        {
+            "id": "6927",
+            "description": "TELLIN"
+        },
+        {
+            "id": "6920",
+            "description": "WELLIN"
+        },
+        {
+            "id": "6921",
+            "description": "WELLIN"
+        },
+        {
+            "id": "6922",
+            "description": "WELLIN"
+        },
+        {
+            "id": "6924",
+            "description": "WELLIN"
+        },
+        {
+            "id": "6800",
+            "description": "LIBRAMONT-CHEVIGNY"
+        },
+        {
+            "id": "6810",
+            "description": "CHINY"
+        },
+        {
+            "id": "6811",
+            "description": "CHINY"
+        },
+        {
+            "id": "6812",
+            "description": "CHINY"
+        },
+        {
+            "id": "6813",
+            "description": "CHINY"
+        },
+        {
+            "id": "6740",
+            "description": "ETALLE"
+        },
+        {
+            "id": "6741",
+            "description": "ETALLE"
+        },
+        {
+            "id": "6742",
+            "description": "ETALLE"
+        },
+        {
+            "id": "6743",
+            "description": "ETALLE"
+        },
+        {
+            "id": "6820",
+            "description": "FLORENVILLE"
+        },
+        {
+            "id": "6821",
+            "description": "FLORENVILLE"
+        },
+        {
+            "id": "6823",
+            "description": "FLORENVILLE"
+        },
+        {
+            "id": "6824",
+            "description": "FLORENVILLE"
+        },
+        {
+            "id": "6769",
+            "description": "MEIX-DEVANT-VIRTON"
+        },
+        {
+            "id": "6750",
+            "description": "MUSSON"
+        },
+        {
+            "id": "6747",
+            "description": "SAINT-LÉGER"
+        },
+        {
+            "id": "6730",
+            "description": "TINTIGNY"
+        },
+        {
+            "id": "6760",
+            "description": "VIRTON"
+        },
+        {
+            "id": "6761",
+            "description": "VIRTON"
+        },
+        {
+            "id": "6762",
+            "description": "VIRTON"
+        },
+        {
+            "id": "6720",
+            "description": "HABAY"
+        },
+        {
+            "id": "6721",
+            "description": "HABAY"
+        },
+        {
+            "id": "6723",
+            "description": "HABAY"
+        },
+        {
+            "id": "6724",
+            "description": "HABAY"
+        },
+        {
+            "id": "6767",
+            "description": "ROUVROY"
+        },
+        {
+            "id": "5537",
+            "description": "ANHÉE"
+        },
+        {
+            "id": "5570",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5571",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5572",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5573",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5574",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5576",
+            "description": "BEAURAING"
+        },
+        {
+            "id": "5555",
+            "description": "BIÈVRE"
+        },
+        {
+            "id": "5590",
+            "description": "CINEY"
+        },
+        {
+            "id": "5500",
+            "description": "DINANT"
+        },
+        {
+            "id": "5501",
+            "description": "DINANT"
+        },
+        {
+            "id": "5502",
+            "description": "DINANT"
+        },
+        {
+            "id": "5503",
+            "description": "DINANT"
+        },
+        {
+            "id": "5504",
+            "description": "DINANT"
+        },
+        {
+            "id": "5575",
+            "description": "GEDINNE"
+        },
+        {
+            "id": "5360",
+            "description": "HAMOIS"
+        },
+        {
+            "id": "5361",
+            "description": "HAMOIS"
+        },
+        {
+            "id": "5362",
+            "description": "HAMOIS"
+        },
+        {
+            "id": "5363",
+            "description": "HAMOIS"
+        },
+        {
+            "id": "5364",
+            "description": "HAMOIS"
+        },
+        {
+            "id": "5370",
+            "description": "HAVELANGE"
+        },
+        {
+            "id": "5372",
+            "description": "HAVELANGE"
+        },
+        {
+            "id": "5374",
+            "description": "HAVELANGE"
+        },
+        {
+            "id": "5376",
+            "description": "HAVELANGE"
+        },
+        {
+            "id": "5560",
+            "description": "HOUYET"
+        },
+        {
+            "id": "5561",
+            "description": "HOUYET"
+        },
+        {
+            "id": "5562",
+            "description": "HOUYET"
+        },
+        {
+            "id": "5563",
+            "description": "HOUYET"
+        },
+        {
+            "id": "5564",
+            "description": "HOUYET"
+        },
+        {
+            "id": "5520",
+            "description": "ONHAYE"
+        },
+        {
+            "id": "5521",
+            "description": "ONHAYE"
+        },
+        {
+            "id": "5522",
+            "description": "ONHAYE"
+        },
+        {
+            "id": "5523",
+            "description": "ONHAYE"
+        },
+        {
+            "id": "5524",
+            "description": "ONHAYE"
+        },
+        {
+            "id": "5580",
+            "description": "ROCHEFORT"
+        },
+        {
+            "id": "5589",
+            "description": "Jemelle"
+        },
+        {
+            "id": "5377",
+            "description": "SOMME-LEUZE"
+        },
+        {
+            "id": "5530",
+            "description": "YVOIR"
+        },
+        {
+            "id": "5540",
+            "description": "HASTIÈRE"
+        },
+        {
+            "id": "5541",
+            "description": "HASTIÈRE"
+        },
+        {
+            "id": "5542",
+            "description": "HASTIÈRE"
+        },
+        {
+            "id": "5543",
+            "description": "HASTIÈRE"
+        },
+        {
+            "id": "5544",
+            "description": "HASTIÈRE"
+        },
+        {
+            "id": "5550",
+            "description": "VRESSE-SUR-SEMOIS"
+        },
+        {
+            "id": "5300",
+            "description": "ANDENNE"
+        },
+        {
+            "id": "5330",
+            "description": "ASSESSE"
+        },
+        {
+            "id": "5332",
+            "description": "ASSESSE"
+        },
+        {
+            "id": "5333",
+            "description": "ASSESSE"
+        },
+        {
+            "id": "5334",
+            "description": "ASSESSE"
+        },
+        {
+            "id": "5336",
+            "description": "ASSESSE"
+        },
+        {
+            "id": "5310",
+            "description": "EGHEZÉE"
+        },
+        {
+            "id": "5150",
+            "description": "FLOREFFE"
+        },
+        {
+            "id": "5070",
+            "description": "FOSSES-LA-VILLE"
+        },
+        {
+            "id": "5340",
+            "description": "GESVES"
+        },
+        {
+            "id": "5640",
+            "description": "METTET"
+        },
+        {
+            "id": "5641",
+            "description": "METTET"
+        },
+        {
+            "id": "5644",
+            "description": "METTET"
+        },
+        {
+            "id": "5646",
+            "description": "METTET"
+        },
+        {
+            "id": "5100",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5101",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5000",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5001",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5002",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5003",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5004",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5020",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5021",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5022",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5024",
+            "description": "NAMUR"
+        },
+        {
+            "id": "5350",
+            "description": "OHEY"
+        },
+        {
+            "id": "5351",
+            "description": "OHEY"
+        },
+        {
+            "id": "5352",
+            "description": "OHEY"
+        },
+        {
+            "id": "5353",
+            "description": "OHEY"
+        },
+        {
+            "id": "5354",
+            "description": "OHEY"
+        },
+        {
+            "id": "5170",
+            "description": "PROFONDEVILLE"
+        },
+        {
+            "id": "5140",
+            "description": "SOMBREFFE"
+        },
+        {
+            "id": "5060",
+            "description": "SAMBREVILLE"
+        },
+        {
+            "id": "5380",
+            "description": "FERNELMONT"
+        },
+        {
+            "id": "5190",
+            "description": "JEMEPPE-SUR-SAMBRE"
+        },
+        {
+            "id": "5080",
+            "description": "LA BRUYÈRE"
+        },
+        {
+            "id": "5081",
+            "description": "LA BRUYÈRE"
+        },
+        {
+            "id": "5030",
+            "description": "GEMBLOUX"
+        },
+        {
+            "id": "5031",
+            "description": "GEMBLOUX"
+        },
+        {
+            "id": "5032",
+            "description": "GEMBLOUX"
+        },
+        {
+            "id": "5630",
+            "description": "CERFONTAINE"
+        },
+        {
+            "id": "5660",
+            "description": "COUVIN"
+        },
+        {
+            "id": "5680",
+            "description": "DOISCHE"
+        },
+        {
+            "id": "5620",
+            "description": "FLORENNES"
+        },
+        {
+            "id": "5621",
+            "description": "FLORENNES"
+        },
+        {
+            "id": "5600",
+            "description": "PHILIPPEVILLE"
+        },
+        {
+            "id": "5650",
+            "description": "WALCOURT"
+        },
+        {
+            "id": "5651",
+            "description": "WALCOURT"
+        },
+        {
+            "id": "5670",
+            "description": "VIROINVAL"
+        }
+    ]
+}

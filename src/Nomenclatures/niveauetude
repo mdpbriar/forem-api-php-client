@@ -1,0 +1,46 @@
+{
+    "name": "niveauetude",
+    "version": "1.0",
+    "taxonomy": {
+        "id": "ISCED Level 2011",
+        "description": "International Standard Classification of Education - Levels of education 2011"
+    },
+    "values": [
+        {
+            "id": "0",
+            "description": "Éducation de la petite enfance"
+        },
+        {
+            "id": "1",
+            "description": "Primaire"
+        },
+        {
+            "id": "2",
+            "description": "Enseignement secondaire (premier cycle)"
+        },
+        {
+            "id": "3",
+            "description": "Enseignement secondaire (deuxième cycle)"
+        },
+        {
+            "id": "4",
+            "description": "Enseignement post-secondaire non-supérieur"
+        },
+        {
+            "id": "5",
+            "description": "Enseignement supérieur de cycle court"
+        },
+        {
+            "id": "6",
+            "description": "Baccalauréat universitaire ou équivalent"
+        },
+        {
+            "id": "7",
+            "description": "Maîtrise universitaire ou équivalent"
+        },
+        {
+            "id": "8",
+            "description": "Doctorat ou équivalent"
+        }
+    ]
+}

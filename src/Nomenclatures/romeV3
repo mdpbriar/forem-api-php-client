@@ -1,0 +1,4790 @@
+{
+    "name": "romev3",
+    "version": "1.0",
+    "taxonomy": {
+        "id": "ROMEV3",
+        "description": "Répertoire Opérationnel des Métiers et des Emplois V3"
+    },
+    "values": [
+        {
+            "id": "A",
+            "description": "AGRICULTURE ET PÊCHE, ESPACES NATURELS ET ESPACES VERTS, SOINS AUX ANIMAUX et chats"
+        },
+        {
+            "id": "A11",
+            "description": "Engins agricoles et forestiers"
+        },
+        {
+            "id": "A1101",
+            "description": "Conduite d'engins d'exploitation agricole et forestière"
+        },
+        {
+            "id": "A110101",
+            "description": "Conduite d'engins agricoles et forestières"
+        },
+        {
+            "id": "A12",
+            "description": "Espaces naturels et espaces verts"
+        },
+        {
+            "id": "A1201",
+            "description": "Bûcheronnage et élagage"
+        },
+        {
+            "id": "A120101",
+            "description": "Bûcheronnage-élagage"
+        },
+        {
+            "id": "A1202",
+            "description": "Entretien des espaces naturels"
+        },
+        {
+            "id": "A120201",
+            "description": "Entretien des espaces naturels"
+        },
+        {
+            "id": "A1203",
+            "description": "Entretien des espaces verts"
+        },
+        {
+            "id": "A120301",
+            "description": "Entretien des espaces verts"
+        },
+        {
+            "id": "A1204",
+            "description": "Protection du patrimoine naturel"
+        },
+        {
+            "id": "A120401",
+            "description": "Protection du patrimoine naturel"
+        },
+        {
+            "id": "A1205",
+            "description": "Sylviculture"
+        },
+        {
+            "id": "A120501",
+            "description": "Sylviculture"
+        },
+        {
+            "id": "A13",
+            "description": "Etudes et assistance technique"
+        },
+        {
+            "id": "A1301",
+            "description": "Conseil et assistance technique en agriculture"
+        },
+        {
+            "id": "A130101",
+            "description": "Conseil et assistance technique en agriculture"
+        },
+        {
+            "id": "A1302",
+            "description": "Contrôle et diagnostic technique en agriculture"
+        },
+        {
+            "id": "A130201",
+            "description": "Contrôle et diagnostic technique en agriculture"
+        },
+        {
+            "id": "A1303",
+            "description": "Ingénierie en agriculture et environnement naturel"
+        },
+        {
+            "id": "A130301",
+            "description": "Ingénierie en agriculture et environnement naturel"
+        },
+        {
+            "id": "A14",
+            "description": "Production"
+        },
+        {
+            "id": "A1401",
+            "description": "Aide agricole de production fruitière ou viticole"
+        },
+        {
+            "id": "A140101",
+            "description": "Aide agricole de production fruitière ou viticole"
+        },
+        {
+            "id": "A1402",
+            "description": "Aide agricole de production légumière ou végétale"
+        },
+        {
+            "id": "A140201",
+            "description": "Aide agricole de production légumière ou végétale"
+        },
+        {
+            "id": "A1403",
+            "description": "Aide d'élevage agricole et aquacole"
+        },
+        {
+            "id": "A140301",
+            "description": "Aide d'élevage agricole et aquacole"
+        },
+        {
+            "id": "A1404",
+            "description": "Aquaculture"
+        },
+        {
+            "id": "A140401",
+            "description": "Aquaculture"
+        },
+        {
+            "id": "A1405",
+            "description": "Arboriculture et viticulture"
+        },
+        {
+            "id": "A140501",
+            "description": "Arboriculture et viticulture Info block"
+        },
+        {
+            "id": "A1406",
+            "description": "Encadrement équipage de la pêche"
+        },
+        {
+            "id": "A140601",
+            "description": "Encadrement équipage de la pêche"
+        },
+        {
+            "id": "A1407",
+            "description": "Élevage bovin ou équin"
+        },
+        {
+            "id": "A140701",
+            "description": "Élevage bovin ou équin"
+        },
+        {
+            "id": "A1408",
+            "description": "Élevage d'animaux sauvages ou de compagnie"
+        },
+        {
+            "id": "A140801",
+            "description": "Élevage d'animaux sauvages ou de compagnie"
+        },
+        {
+            "id": "A1409",
+            "description": "Élevage de lapins et volailles"
+        },
+        {
+            "id": "A140901",
+            "description": "Élevage de lapins et volailles"
+        },
+        {
+            "id": "A1410",
+            "description": "Élevage ovin ou caprin"
+        },
+        {
+            "id": "A141001",
+            "description": "Élevage ovin ou caprin"
+        },
+        {
+            "id": "A1411",
+            "description": "Élevage porcin"
+        },
+        {
+            "id": "A141101",
+            "description": "Élevage porcin"
+        },
+        {
+            "id": "A1412",
+            "description": "Fabrication et affinage de fromages"
+        },
+        {
+            "id": "A141201",
+            "description": "Fabrication et affinage de fromages"
+        },
+        {
+            "id": "A1413",
+            "description": "Fermentation de boissons alcoolisées"
+        },
+        {
+            "id": "A141301",
+            "description": "Fermentation de boissons alcoolisées"
+        },
+        {
+            "id": "A1414",
+            "description": "Horticulture et maraîchage"
+        },
+        {
+            "id": "A141401",
+            "description": "Horticulture et maraîchage"
+        },
+        {
+            "id": "A1415",
+            "description": "Equipage de la pêche"
+        },
+        {
+            "id": "A141501",
+            "description": "Equipage de la pêche"
+        },
+        {
+            "id": "A1416",
+            "description": "Polyculture, élevage"
+        },
+        {
+            "id": "A141601",
+            "description": "Polyculture, élevage"
+        },
+        {
+            "id": "A1417",
+            "description": "Saliculture"
+        },
+        {
+            "id": "A141701",
+            "description": "Saliculture"
+        },
+        {
+            "id": "A15",
+            "description": "Soins aux animaux"
+        },
+        {
+            "id": "A1501",
+            "description": "Aide aux soins animaux"
+        },
+        {
+            "id": "A150101",
+            "description": "Aide aux soins animaux"
+        },
+        {
+            "id": "A1502",
+            "description": "Podologie animale"
+        },
+        {
+            "id": "A150201",
+            "description": "Podologie animale"
+        },
+        {
+            "id": "A1503",
+            "description": "Toilettage des animaux"
+        },
+        {
+            "id": "A150301",
+            "description": "Toilettage des animaux"
+        },
+        {
+            "id": "A1504",
+            "description": "Santé animale"
+        },
+        {
+            "id": "A150401",
+            "description": "Santé animale"
+        },
+        {
+            "id": "B",
+            "description": "ARTS ET FACONNAGE D'OUVRAGES D'ART"
+        },
+        {
+            "id": "B11",
+            "description": "Arts plastiques"
+        },
+        {
+            "id": "B1101",
+            "description": "Création en arts plastiques"
+        },
+        {
+            "id": "B110101",
+            "description": "Création en arts plastiques"
+        },
+        {
+            "id": "B12",
+            "description": "Céramique"
+        },
+        {
+            "id": "B1201",
+            "description": "Réalisation d'objets décoratifs et utilitaires en céramique et matériaux de synthèse"
+        },
+        {
+            "id": "B120101",
+            "description": "Réalisation d'objets décoratifs et utilitaires en céramique et matériaux de synthèse"
+        },
+        {
+            "id": "B13",
+            "description": "Décoration"
+        },
+        {
+            "id": "B1301",
+            "description": "Décoration d'espaces de vente et d'exposition"
+        },
+        {
+            "id": "B130101",
+            "description": "Décoration d'espaces de vente et d'exposition"
+        },
+        {
+            "id": "B1302",
+            "description": "Décoration d'objets d'art et artisanaux"
+        },
+        {
+            "id": "B130201",
+            "description": "Décoration d'objets d'art et artisanaux"
+        },
+        {
+            "id": "B1303",
+            "description": "Gravure - ciselure"
+        },
+        {
+            "id": "B130301",
+            "description": "Gravure - ciselure"
+        },
+        {
+            "id": "B14",
+            "description": "Fibres et papier"
+        },
+        {
+            "id": "B1401",
+            "description": "Réalisation d'objets en lianes, fibres et brins végétaux"
+        },
+        {
+            "id": "B140101",
+            "description": "Réalisation d'objets en lianes, fibres et brins végétaux"
+        },
+        {
+            "id": "B1402",
+            "description": "Reliure et restauration de livres et archives"
+        },
+        {
+            "id": "B140201",
+            "description": "Reliure et restauration de livres et archives"
+        },
+        {
+            "id": "B15",
+            "description": "Instruments de musique"
+        },
+        {
+            "id": "B1501",
+            "description": "Fabrication et réparation d'instruments de musique"
+        },
+        {
+            "id": "B150101",
+            "description": "Fabrication et réparation d'instruments de musique"
+        },
+        {
+            "id": "B16",
+            "description": "Métal, verre, bijouterie et horlogerie"
+        },
+        {
+            "id": "B1601",
+            "description": "Métallerie d'art"
+        },
+        {
+            "id": "B160101",
+            "description": "Métallerie d'art"
+        },
+        {
+            "id": "B1602",
+            "description": "Réalisation d'objets artistiques et fonctionnels en verre"
+        },
+        {
+            "id": "B160201",
+            "description": "Réalisation d'objets artistiques et fonctionnels en verre"
+        },
+        {
+            "id": "B1603",
+            "description": "Réalisation d'ouvrages en bijouterie, joaillerie et orfèvrerie"
+        },
+        {
+            "id": "B160301",
+            "description": "Réalisation d'ouvrages en bijouterie, joaillerie et orfèvrerie"
+        },
+        {
+            "id": "B1604",
+            "description": "Réparation - montage en systèmes horlogers"
+        },
+        {
+            "id": "B160401",
+            "description": "Réparation - montage en systèmes horlogers"
+        },
+        {
+            "id": "B17",
+            "description": "Taxidermie"
+        },
+        {
+            "id": "B1701",
+            "description": "Conservation et reconstitution d'espèces animales"
+        },
+        {
+            "id": "B170101",
+            "description": "Conservation et reconstitution d'espèces animales"
+        },
+        {
+            "id": "B18",
+            "description": "Tissu et cuirs"
+        },
+        {
+            "id": "B1801",
+            "description": "Réalisation d'articles de chapellerie"
+        },
+        {
+            "id": "B180101",
+            "description": "Réalisation d'articles de chapellerie"
+        },
+        {
+            "id": "B1802",
+            "description": "Réalisation d'articles en cuir et matériaux souples (hors vêtement)"
+        },
+        {
+            "id": "B180201",
+            "description": "Réalisation d'articles en cuir et matériaux souples (hors vêtement)"
+        },
+        {
+            "id": "B1803",
+            "description": "Réalisation de vêtements sur mesure ou en petite série"
+        },
+        {
+            "id": "B180301",
+            "description": "Réalisation de vêtements sur mesure ou en petite série"
+        },
+        {
+            "id": "B1804",
+            "description": "Réalisation d'ouvrages d'art en fils"
+        },
+        {
+            "id": "B180401",
+            "description": "Réalisation d'ouvrages d'art en fils"
+        },
+        {
+            "id": "B1805",
+            "description": "Stylisme"
+        },
+        {
+            "id": "B180501",
+            "description": "Stylisme"
+        },
+        {
+            "id": "B1806",
+            "description": "Tapisserie - décoration en ameublement"
+        },
+        {
+            "id": "B180601",
+            "description": "Tapisserie - décoration en ameublement"
+        },
+        {
+            "id": "C",
+            "description": "BANQUE, ASSURANCE, IMMOBILIER"
+        },
+        {
+            "id": "C11",
+            "description": "Assurance"
+        },
+        {
+            "id": "C1101",
+            "description": "Conception - développement produits d'assurances"
+        },
+        {
+            "id": "C110101",
+            "description": "Conception - développement produits d'assurances"
+        },
+        {
+            "id": "C1102",
+            "description": "Conseil clientèle en assurances"
+        },
+        {
+            "id": "C110201",
+            "description": "Conseil clientèle en assurances"
+        },
+        {
+            "id": "C1103",
+            "description": "Courtage en assurances"
+        },
+        {
+            "id": "C110301",
+            "description": "Courtage en assurances"
+        },
+        {
+            "id": "C1104",
+            "description": "Direction d'exploitation en assurances"
+        },
+        {
+            "id": "C110401",
+            "description": "Direction d'exploitation en assurances"
+        },
+        {
+            "id": "C1105",
+            "description": "Études actuarielles en assurances"
+        },
+        {
+            "id": "C110501",
+            "description": "Études actuarielles en assurances"
+        },
+        {
+            "id": "C1106",
+            "description": "Expertise risques en assurances"
+        },
+        {
+            "id": "C110601",
+            "description": "Expertise risques en assurances"
+        },
+        {
+            "id": "C1107",
+            "description": "Indemnisations en assurances"
+        },
+        {
+            "id": "C110701",
+            "description": "Indemnisations en assurances"
+        },
+        {
+            "id": "C1108",
+            "description": "Management de groupe et de service en assurances"
+        },
+        {
+            "id": "C110801",
+            "description": "Management de groupe et de service en assurances"
+        },
+        {
+            "id": "C1109",
+            "description": "Rédaction et gestion en assurances"
+        },
+        {
+            "id": "C110901",
+            "description": "Rédaction et gestion en assurances"
+        },
+        {
+            "id": "C1110",
+            "description": "Souscription d'assurances"
+        },
+        {
+            "id": "C111001",
+            "description": "Souscription d'assurances"
+        },
+        {
+            "id": "C12",
+            "description": "Banque"
+        },
+        {
+            "id": "C1201",
+            "description": "Accueil et services bancaires"
+        },
+        {
+            "id": "C120101",
+            "description": "Accueil et services bancaires"
+        },
+        {
+            "id": "C1202",
+            "description": "Analyse de crédits et risques bancaires"
+        },
+        {
+            "id": "C120201",
+            "description": "Analyse de crédits et risques bancaires"
+        },
+        {
+            "id": "C1203",
+            "description": "Relation clients banque/finance"
+        },
+        {
+            "id": "C120301",
+            "description": "Relation clients banque/finance"
+        },
+        {
+            "id": "C1204",
+            "description": "Conception et expertise produits bancaires et financiers"
+        },
+        {
+            "id": "C120401",
+            "description": "Conception et expertise produits bancaires et financiers"
+        },
+        {
+            "id": "C1205",
+            "description": "Conseil en gestion de patrimoine financier"
+        },
+        {
+            "id": "C120501",
+            "description": "Conseil en gestion de patrimoine financier"
+        },
+        {
+            "id": "C1206",
+            "description": "Gestion de clientèle bancaire"
+        },
+        {
+            "id": "C120601",
+            "description": "Gestion de clientèle bancaire"
+        },
+        {
+            "id": "C1207",
+            "description": "Management en exploitation bancaire"
+        },
+        {
+            "id": "C120701",
+            "description": "Management en exploitation bancaire"
+        },
+        {
+            "id": "C13",
+            "description": "Finance"
+        },
+        {
+            "id": "C1301",
+            "description": "Front office marchés financiers"
+        },
+        {
+            "id": "C130101",
+            "description": "Front office marchés financiers"
+        },
+        {
+            "id": "C1302",
+            "description": "Gestion back et middle-office marchés financiers"
+        },
+        {
+            "id": "C130201",
+            "description": "Gestion back et middle-office marchés financiers"
+        },
+        {
+            "id": "C1303",
+            "description": "Gestion de portefeuilles sur les marchés financiers"
+        },
+        {
+            "id": "C130301",
+            "description": "Gestion de portefeuilles sur les marchés financiers"
+        },
+        {
+            "id": "C14",
+            "description": "Gestion administrative banque et assurances"
+        },
+        {
+            "id": "C1401",
+            "description": "Gestion en banque et assurance"
+        },
+        {
+            "id": "C140101",
+            "description": "Gestion en banque et assurance"
+        },
+        {
+            "id": "C15",
+            "description": "Immobilier"
+        },
+        {
+            "id": "C1501",
+            "description": "Gérance immobilière"
+        },
+        {
+            "id": "C150101",
+            "description": "Gérance immobilière"
+        },
+        {
+            "id": "C1502",
+            "description": "Gestion locative immobilière"
+        },
+        {
+            "id": "C150201",
+            "description": "Gestion locative immobilière"
+        },
+        {
+            "id": "C1503",
+            "description": "Management de projet immobilier"
+        },
+        {
+            "id": "C150301",
+            "description": "Management de projet immobilier"
+        },
+        {
+            "id": "C1504",
+            "description": "Transaction immobilière"
+        },
+        {
+            "id": "C150401",
+            "description": "Transaction immobilière"
+        },
+        {
+            "id": "D",
+            "description": "COMMERCE, VENTE ET GRANDE DISTRIBUTION"
+        },
+        {
+            "id": "D11",
+            "description": "Commerce alimentaire et métiers de bouche"
+        },
+        {
+            "id": "D1101",
+            "description": "Boucherie"
+        },
+        {
+            "id": "D110101",
+            "description": "Boucherie"
+        },
+        {
+            "id": "D1102",
+            "description": "Boulangerie - viennoiserie"
+        },
+        {
+            "id": "D110201",
+            "description": "Boulangerie - viennoiserie"
+        },
+        {
+            "id": "D1103",
+            "description": "Charcuterie - traiteur"
+        },
+        {
+            "id": "D110301",
+            "description": "Charcuterie - traiteur"
+        },
+        {
+            "id": "D1104",
+            "description": "Pâtisserie, confiserie, chocolaterie et glacerie"
+        },
+        {
+            "id": "D110401",
+            "description": "Pâtisserie, confiserie, chocolaterie et glacerie"
+        },
+        {
+            "id": "D1105",
+            "description": "Poissonnerie"
+        },
+        {
+            "id": "D110501",
+            "description": "Poissonnerie"
+        },
+        {
+            "id": "D1106",
+            "description": "Vente en alimentation"
+        },
+        {
+            "id": "D110601",
+            "description": "Vente en alimentation"
+        },
+        {
+            "id": "D1107",
+            "description": "Vente en gros de produits frais"
+        },
+        {
+            "id": "D110701",
+            "description": "Vente en gros de produits frais"
+        },
+        {
+            "id": "D12",
+            "description": "Commerce non alimentaire et de prestations de confort"
+        },
+        {
+            "id": "D1201",
+            "description": "Achat vente d'objets d'art, anciens ou d'occasion"
+        },
+        {
+            "id": "D120101",
+            "description": "Achat vente d'objets d'art, anciens ou d'occasion"
+        },
+        {
+            "id": "D1202",
+            "description": "Coiffure"
+        },
+        {
+            "id": "D120201",
+            "description": "Coiffure"
+        },
+        {
+            "id": "D1203",
+            "description": "Hydrothérapie"
+        },
+        {
+            "id": "D120301",
+            "description": "Hydrothérapie"
+        },
+        {
+            "id": "D1204",
+            "description": "Location de véhicules ou de matériel de loisirs"
+        },
+        {
+            "id": "D120401",
+            "description": "Location de véhicules ou de matériel de loisirs"
+        },
+        {
+            "id": "D1205",
+            "description": "Nettoyage d'articles textiles ou cuirs"
+        },
+        {
+            "id": "D120501",
+            "description": "Nettoyage d'articles textiles ou cuirs"
+        },
+        {
+            "id": "D1206",
+            "description": "Réparation d'articles en cuir et matériaux souples"
+        },
+        {
+            "id": "D120601",
+            "description": "Réparation d'articles en cuir et matériaux souples"
+        },
+        {
+            "id": "D1207",
+            "description": "Retouches en habillement"
+        },
+        {
+            "id": "D120701",
+            "description": "Retouches en habillement"
+        },
+        {
+            "id": "D1208",
+            "description": "Soins esthétiques et corporels"
+        },
+        {
+            "id": "D120801",
+            "description": "Soins esthétiques et corporels"
+        },
+        {
+            "id": "D1209",
+            "description": "Vente de végétaux"
+        },
+        {
+            "id": "D120901",
+            "description": "Vente de végétaux"
+        },
+        {
+            "id": "D1210",
+            "description": "Vente en animalerie"
+        },
+        {
+            "id": "D121001",
+            "description": "Vente en animalerie"
+        },
+        {
+            "id": "D1211",
+            "description": "Vente en articles de sport et loisirs"
+        },
+        {
+            "id": "D121101",
+            "description": "Vente en articles de sport et loisirs"
+        },
+        {
+            "id": "D1212",
+            "description": "Vente en décoration et équipement du foyer"
+        },
+        {
+            "id": "D121201",
+            "description": "Vente en décoration et équipement du foyer"
+        },
+        {
+            "id": "D1213",
+            "description": "Vente en gros de matériel et équipement"
+        },
+        {
+            "id": "D121301",
+            "description": "Vente en gros de matériel et équipement"
+        },
+        {
+            "id": "D1214",
+            "description": "Vente en habillement et accessoires de la personne"
+        },
+        {
+            "id": "D121401",
+            "description": "Vente en habillement et accessoires de la personne"
+        },
+        {
+            "id": "D13",
+            "description": "Direction de magasin de détail"
+        },
+        {
+            "id": "D1301",
+            "description": "Management de magasin de détail"
+        },
+        {
+            "id": "D130101",
+            "description": "Management de magasin de détail"
+        },
+        {
+            "id": "D14",
+            "description": "Force de vente"
+        },
+        {
+            "id": "D1401",
+            "description": "Assistanat commercial"
+        },
+        {
+            "id": "D140101",
+            "description": "Assistanat commercial"
+        },
+        {
+            "id": "D1402",
+            "description": "Relation commerciale grands comptes et entreprises"
+        },
+        {
+            "id": "D140201",
+            "description": "Relation commerciale grands comptes et entreprises"
+        },
+        {
+            "id": "D1403",
+            "description": "Relation commerciale auprès de particuliers"
+        },
+        {
+            "id": "D140301",
+            "description": "Relation commerciale auprès de particuliers"
+        },
+        {
+            "id": "D1404",
+            "description": "Relation commerciale en vente de véhicules"
+        },
+        {
+            "id": "D140401",
+            "description": "Relation commerciale en vente de véhicules"
+        },
+        {
+            "id": "D1405",
+            "description": "Conseil en information médicale"
+        },
+        {
+            "id": "D140501",
+            "description": "Conseil en information médicale"
+        },
+        {
+            "id": "D1406",
+            "description": "Management en force de vente"
+        },
+        {
+            "id": "D140601",
+            "description": "Management en force de vente"
+        },
+        {
+            "id": "D1407",
+            "description": "Relation technico-commerciale"
+        },
+        {
+            "id": "D140701",
+            "description": "Relation technico-commerciale"
+        },
+        {
+            "id": "D1408",
+            "description": "Téléconseil et télévente"
+        },
+        {
+            "id": "D140801",
+            "description": "Téléconseil et télévente"
+        },
+        {
+            "id": "D15",
+            "description": "Grande distribution"
+        },
+        {
+            "id": "D1501",
+            "description": "Animation de vente"
+        },
+        {
+            "id": "D150101",
+            "description": "Animation de vente"
+        },
+        {
+            "id": "D1502",
+            "description": "Management/gestion de rayon produits alimentaires"
+        },
+        {
+            "id": "D150201",
+            "description": "Management/gestion de rayon produits alimentaires"
+        },
+        {
+            "id": "D1503",
+            "description": "Management/gestion de rayon produits non alimentaires"
+        },
+        {
+            "id": "D150301",
+            "description": "Management/gestion de rayon produits non alimentaires"
+        },
+        {
+            "id": "D1504",
+            "description": "Direction de magasin de grande distribution"
+        },
+        {
+            "id": "D150401",
+            "description": "Direction de magasin de grande distribution"
+        },
+        {
+            "id": "D1505",
+            "description": "Personnel de caisse"
+        },
+        {
+            "id": "D150501",
+            "description": "Personnel de caisse"
+        },
+        {
+            "id": "D1506",
+            "description": "Marchandisage"
+        },
+        {
+            "id": "D150601",
+            "description": "Marchandisage"
+        },
+        {
+            "id": "D1507",
+            "description": "Mise en rayon libre-service"
+        },
+        {
+            "id": "D150701",
+            "description": "Mise en rayon libre-service"
+        },
+        {
+            "id": "D1508",
+            "description": "Encadrement du personnel de caisses"
+        },
+        {
+            "id": "D150801",
+            "description": "Encadrement du personnel de caisses"
+        },
+        {
+            "id": "D1509",
+            "description": "Management de département en grande distribution"
+        },
+        {
+            "id": "D150901",
+            "description": "Management de département en grande distribution"
+        },
+        {
+            "id": "E",
+            "description": "COMMUNICATION, MEDIA ET MULTIMEDIA"
+        },
+        {
+            "id": "E11",
+            "description": "Edition et communication"
+        },
+        {
+            "id": "E1101",
+            "description": "Animation de site multimédia"
+        },
+        {
+            "id": "E110101",
+            "description": "Animation de site multimédia"
+        },
+        {
+            "id": "E1102",
+            "description": "Ecriture d'ouvrages, de livres"
+        },
+        {
+            "id": "E110201",
+            "description": "Ecriture d'ouvrages, de livres"
+        },
+        {
+            "id": "E1103",
+            "description": "Communication"
+        },
+        {
+            "id": "E110301",
+            "description": "Communication"
+        },
+        {
+            "id": "E1104",
+            "description": "Conception de contenus multimédias"
+        },
+        {
+            "id": "E110401",
+            "description": "Conception de contenus multimédias"
+        },
+        {
+            "id": "E1105",
+            "description": "Coordination d'édition"
+        },
+        {
+            "id": "E110501",
+            "description": "Coordination d'édition"
+        },
+        {
+            "id": "E1106",
+            "description": "Journalisme et information média"
+        },
+        {
+            "id": "E110601",
+            "description": "Journalisme et information média"
+        },
+        {
+            "id": "E1107",
+            "description": "Organisation d'évènementiel"
+        },
+        {
+            "id": "E110701",
+            "description": "Organisation d'évènementiel"
+        },
+        {
+            "id": "E1108",
+            "description": "Traduction, interprétariat"
+        },
+        {
+            "id": "E110801",
+            "description": "Traduction, interprétariat"
+        },
+        {
+            "id": "E12",
+            "description": "Images et sons"
+        },
+        {
+            "id": "E1201",
+            "description": "Photographie"
+        },
+        {
+            "id": "E120101",
+            "description": "Photographie"
+        },
+        {
+            "id": "E1202",
+            "description": "Production en laboratoire cinématographique"
+        },
+        {
+            "id": "E120201",
+            "description": "Production en laboratoire cinématographique"
+        },
+        {
+            "id": "E1203",
+            "description": "Production en laboratoire photographique"
+        },
+        {
+            "id": "E120301",
+            "description": "Production en laboratoire photographique"
+        },
+        {
+            "id": "E1204",
+            "description": "Projection cinéma"
+        },
+        {
+            "id": "E120401",
+            "description": "Projection cinéma"
+        },
+        {
+            "id": "E1205",
+            "description": "Réalisation de contenus multimédias"
+        },
+        {
+            "id": "E120501",
+            "description": "Réalisation de contenus multimédias"
+        },
+        {
+            "id": "E13",
+            "description": "Industries graphiques"
+        },
+        {
+            "id": "E1301",
+            "description": "Conduite de machines d'impression"
+        },
+        {
+            "id": "E130101",
+            "description": "Conduite de machines d'impression"
+        },
+        {
+            "id": "E1302",
+            "description": "Conduite de machines de façonnage routage"
+        },
+        {
+            "id": "E130201",
+            "description": "Conduite de machines de façonnage routage"
+        },
+        {
+            "id": "E1303",
+            "description": "Encadrement des industries graphiques"
+        },
+        {
+            "id": "E130301",
+            "description": "Encadrement des industries graphiques"
+        },
+        {
+            "id": "E1304",
+            "description": "Façonnage et routage"
+        },
+        {
+            "id": "E130401",
+            "description": "Façonnage et routage"
+        },
+        {
+            "id": "E1305",
+            "description": "Préparation et correction en édition et presse"
+        },
+        {
+            "id": "E130501",
+            "description": "Préparation et correction en édition et presse"
+        },
+        {
+            "id": "E1306",
+            "description": "Prépresse"
+        },
+        {
+            "id": "E130601",
+            "description": "Prépresse"
+        },
+        {
+            "id": "E1307",
+            "description": "Reprographie"
+        },
+        {
+            "id": "E130701",
+            "description": "Reprographie"
+        },
+        {
+            "id": "E1308",
+            "description": "Intervention technique en industrie graphique"
+        },
+        {
+            "id": "E130801",
+            "description": "Intervention technique en industrie graphique"
+        },
+        {
+            "id": "E14",
+            "description": "Publicité"
+        },
+        {
+            "id": "E1401",
+            "description": "Développement et promotion publicitaire"
+        },
+        {
+            "id": "E140101",
+            "description": "Développement et promotion publicitaire"
+        },
+        {
+            "id": "E1402",
+            "description": "Élaboration de plan média"
+        },
+        {
+            "id": "E140201",
+            "description": "Élaboration de plan média"
+        },
+        {
+            "id": "F",
+            "description": "CONSTRUCTION, BÂTIMENT ET TRAVAUX PUBLICS"
+        },
+        {
+            "id": "F11",
+            "description": "Conception et études"
+        },
+        {
+            "id": "F1101",
+            "description": "Architecture du BTP"
+        },
+        {
+            "id": "F110101",
+            "description": "Architecture du BTP"
+        },
+        {
+            "id": "F1102",
+            "description": "Conception - aménagement d'espaces intérieurs"
+        },
+        {
+            "id": "F110201",
+            "description": "Conception - aménagement d'espaces intérieurs"
+        },
+        {
+            "id": "F1103",
+            "description": "Contrôle et diagnostic technique du bâtiment"
+        },
+        {
+            "id": "F110301",
+            "description": "Contrôle et diagnostic technique du bâtiment"
+        },
+        {
+            "id": "F1104",
+            "description": "Dessin BTP"
+        },
+        {
+            "id": "F110401",
+            "description": "Dessin BTP"
+        },
+        {
+            "id": "F1105",
+            "description": "Études géologiques"
+        },
+        {
+            "id": "F110501",
+            "description": "Études géologiques"
+        },
+        {
+            "id": "F1106",
+            "description": "Ingénierie et études du BTP"
+        },
+        {
+            "id": "F110601",
+            "description": "Ingénierie et études du BTP"
+        },
+        {
+            "id": "F1107",
+            "description": "Mesures topographiques"
+        },
+        {
+            "id": "F110701",
+            "description": "Mesures topographiques"
+        },
+        {
+            "id": "F1108",
+            "description": "Métré de la construction"
+        },
+        {
+            "id": "F110801",
+            "description": "Métré de la construction"
+        },
+        {
+            "id": "F12",
+            "description": "Conduite et encadrement de chantier - travaux"
+        },
+        {
+            "id": "F1201",
+            "description": "Conduite de travaux du BTP"
+        },
+        {
+            "id": "F120101",
+            "description": "Conduite de travaux du BTP"
+        },
+        {
+            "id": "F1202",
+            "description": "Direction de chantier du BTP"
+        },
+        {
+            "id": "F120201",
+            "description": "Direction de chantier du BTP"
+        },
+        {
+            "id": "F1203",
+            "description": "Direction et ingénierie d'exploitation de gisements et de carrières"
+        },
+        {
+            "id": "F120301",
+            "description": "Direction et ingénierie d'exploitation de gisements et de carrières"
+        },
+        {
+            "id": "F1204",
+            "description": "Sécurité et protection santé du BTP"
+        },
+        {
+            "id": "F120401",
+            "description": "Sécurité et protection santé du BTP"
+        },
+        {
+            "id": "F13",
+            "description": "Engins de chantier"
+        },
+        {
+            "id": "F1301",
+            "description": "Conduite de grue"
+        },
+        {
+            "id": "F130101",
+            "description": "Conduite de grue"
+        },
+        {
+            "id": "F1302",
+            "description": "Conduite d'engins de terrassement et de carrière"
+        },
+        {
+            "id": "F130201",
+            "description": "Conduite d'engins de terrassement et de carrière"
+        },
+        {
+            "id": "F130202",
+            "description": "Dragage"
+        },
+        {
+            "id": "F14",
+            "description": "Extraction"
+        },
+        {
+            "id": "F1401",
+            "description": "Extraction liquide et gazeuse"
+        },
+        {
+            "id": "F140101",
+            "description": "Extraction liquide et gazeuse"
+        },
+        {
+            "id": "F1402",
+            "description": "Extraction solide"
+        },
+        {
+            "id": "F140201",
+            "description": "Extraction solide"
+        },
+        {
+            "id": "F15",
+            "description": "Montage de structures"
+        },
+        {
+            "id": "F1501",
+            "description": "Montage de structures et de charpentes bois"
+        },
+        {
+            "id": "F150101",
+            "description": "Montage de structures et de charpentes bois"
+        },
+        {
+            "id": "F1502",
+            "description": "Montage de structures métalliques"
+        },
+        {
+            "id": "F150201",
+            "description": "Montage de structures métalliques"
+        },
+        {
+            "id": "F150202",
+            "description": "Levage et assemblage de structures métalliques lourdes"
+        },
+        {
+            "id": "F1503",
+            "description": "Réalisation - installation d'ossatures bois"
+        },
+        {
+            "id": "F150301",
+            "description": "Réalisation - installation d'ossatures bois"
+        },
+        {
+            "id": "F16",
+            "description": "Second oeuvre"
+        },
+        {
+            "id": "F1601",
+            "description": "Application et décoration en plâtre, stuc et staff"
+        },
+        {
+            "id": "F160101",
+            "description": "Application et décoration en plâtre, stuc et staff"
+        },
+        {
+            "id": "F1602",
+            "description": "Électricité bâtiment"
+        },
+        {
+            "id": "F160201",
+            "description": "Installation électrique résidentielle"
+        },
+        {
+            "id": "F160202",
+            "description": "Installation électrique industrielle"
+        },
+        {
+            "id": "F160203",
+            "description": "Installation de réseaux de communication de données"
+        },
+        {
+            "id": "F1603",
+            "description": "Installation d'équipements sanitaires et thermiques"
+        },
+        {
+            "id": "F160301",
+            "description": "Installation d'équipements sanitaires et thermiques"
+        },
+        {
+            "id": "F1604",
+            "description": "Montage d'agencements"
+        },
+        {
+            "id": "F160401",
+            "description": "Montage d'agencements"
+        },
+        {
+            "id": "F1605",
+            "description": "Montage de réseaux électriques et télécoms"
+        },
+        {
+            "id": "F160501",
+            "description": "Montage de réseaux électriques et télécoms"
+        },
+        {
+            "id": "F1606",
+            "description": "Peinture en bâtiment"
+        },
+        {
+            "id": "F160601",
+            "description": "Peinture en bâtiment"
+        },
+        {
+            "id": "F1607",
+            "description": "Pose de fermetures menuisées"
+        },
+        {
+            "id": "F160701",
+            "description": "Pose de fermetures menuisées"
+        },
+        {
+            "id": "F1608",
+            "description": "Pose de revêtements rigides"
+        },
+        {
+            "id": "F160801",
+            "description": "Pose de revêtements rigides"
+        },
+        {
+            "id": "F1609",
+            "description": "Pose de revêtements souples"
+        },
+        {
+            "id": "F160901",
+            "description": "Pose de revêtements souples"
+        },
+        {
+            "id": "F1610",
+            "description": "Pose et restauration de couvertures"
+        },
+        {
+            "id": "F161001",
+            "description": "Pose et restauration de couvertures"
+        },
+        {
+            "id": "F1611",
+            "description": "Réalisation et restauration de façades"
+        },
+        {
+            "id": "F161101",
+            "description": "Réalisation et restauration de façades"
+        },
+        {
+            "id": "F1612",
+            "description": "Taille et décoration de pierres"
+        },
+        {
+            "id": "F161201",
+            "description": "Taille et décoration de pierres"
+        },
+        {
+            "id": "F1613",
+            "description": "Travaux d'étanchéité et d'isolation"
+        },
+        {
+            "id": "F161301",
+            "description": "Travaux d'étanchéité et d'isolation"
+        },
+        {
+            "id": "F161302",
+            "description": "Isolateur industriel"
+        },
+        {
+            "id": "F17",
+            "description": "Travaux et gros oeuvre"
+        },
+        {
+            "id": "F1701",
+            "description": "Construction en béton"
+        },
+        {
+            "id": "F170101",
+            "description": "Construction en béton"
+        },
+        {
+            "id": "F1702",
+            "description": "Construction de routes et voies"
+        },
+        {
+            "id": "F170201",
+            "description": "Construction de routes et voies"
+        },
+        {
+            "id": "F1703",
+            "description": "Maçonnerie"
+        },
+        {
+            "id": "F170301",
+            "description": "Maçonnerie"
+        },
+        {
+            "id": "F1704",
+            "description": "Préparation du gros oeuvre et des travaux publics"
+        },
+        {
+            "id": "F170401",
+            "description": "Préparation du gros oeuvre et des travaux publics"
+        },
+        {
+            "id": "F1705",
+            "description": "Pose de canalisations"
+        },
+        {
+            "id": "F170501",
+            "description": "Pose de canalisations"
+        },
+        {
+            "id": "F1706",
+            "description": "Préfabrication en béton industriel"
+        },
+        {
+            "id": "F170601",
+            "description": "Préfabrication en béton industriel"
+        },
+        {
+            "id": "G",
+            "description": "HÔTELLERIE- RESTAURATION TOURISME LOISIRS ET ANIMATION"
+        },
+        {
+            "id": "G11",
+            "description": "Accueil et promotion touristique"
+        },
+        {
+            "id": "G1101",
+            "description": "Accueil touristique"
+        },
+        {
+            "id": "G110101",
+            "description": "Accueil touristique"
+        },
+        {
+            "id": "G1102",
+            "description": "Promotion du tourisme local"
+        },
+        {
+            "id": "G110201",
+            "description": "Promotion du tourisme local"
+        },
+        {
+            "id": "G12",
+            "description": "Animation d'activités de loisirs"
+        },
+        {
+            "id": "G1201",
+            "description": "Accompagnement de voyages, d'activités culturelles ou sportives"
+        },
+        {
+            "id": "G120101",
+            "description": "Accompagnement de voyages, d'activités culturelles ou sportives"
+        },
+        {
+            "id": "G1202",
+            "description": "Animation d'activités culturelles ou ludiques"
+        },
+        {
+            "id": "G120201",
+            "description": "Animation d'activités culturelles ou ludiques"
+        },
+        {
+            "id": "G1203",
+            "description": "Animation de loisirs auprès d'enfants ou d'adolescents"
+        },
+        {
+            "id": "G120301",
+            "description": "Animation de loisirs auprès d'enfants ou d'adolescents"
+        },
+        {
+            "id": "G1204",
+            "description": "Éducation en activités sportives"
+        },
+        {
+            "id": "G120401",
+            "description": "Éducation en activités sportives"
+        },
+        {
+            "id": "G1205",
+            "description": "Personnel d'attractions ou de structures de loisirs"
+        },
+        {
+            "id": "G120501",
+            "description": "Personnel d'attractions ou de structures de loisirs"
+        },
+        {
+            "id": "G1206",
+            "description": "Personnel technique des jeux"
+        },
+        {
+            "id": "G120601",
+            "description": "Personnel technique des jeux"
+        },
+        {
+            "id": "G13",
+            "description": "Conception, commercialisation et vente de produits touristiques"
+        },
+        {
+            "id": "G1301",
+            "description": "Conception de produits touristiques"
+        },
+        {
+            "id": "G130101",
+            "description": "Conception de produits touristiques"
+        },
+        {
+            "id": "G1302",
+            "description": "Optimisation de produits touristiques"
+        },
+        {
+            "id": "G130201",
+            "description": "Optimisation de produits touristiques"
+        },
+        {
+            "id": "G1303",
+            "description": "Vente de voyages"
+        },
+        {
+            "id": "G130301",
+            "description": "Vente de voyages"
+        },
+        {
+            "id": "G14",
+            "description": "Gestion et direction"
+        },
+        {
+            "id": "G1401",
+            "description": "Assistance de direction d'hôtel-restaurant"
+        },
+        {
+            "id": "G140101",
+            "description": "Assistance de direction d'hôtel-restaurant"
+        },
+        {
+            "id": "G1402",
+            "description": "Management d'hôtel-restaurant"
+        },
+        {
+            "id": "G140201",
+            "description": "Management d'hôtel-restaurant"
+        },
+        {
+            "id": "G1403",
+            "description": "Gestion de structure de loisirs ou d'hébergement touristique"
+        },
+        {
+            "id": "G140301",
+            "description": "Gestion de structure de loisirs ou d'hébergement touristique"
+        },
+        {
+            "id": "G1404",
+            "description": "Management d'établissement de restauration collective"
+        },
+        {
+            "id": "G140401",
+            "description": "Management d'établissement de restauration collective"
+        },
+        {
+            "id": "G15",
+            "description": "Personnel d'étage en hôtellerie"
+        },
+        {
+            "id": "G1501",
+            "description": "Personnel d'étage"
+        },
+        {
+            "id": "G150101",
+            "description": "Personnel d'étage"
+        },
+        {
+            "id": "G1502",
+            "description": "Personnel polyvalent d'hôtellerie"
+        },
+        {
+            "id": "G150201",
+            "description": "Personnel polyvalent d'hôtellerie"
+        },
+        {
+            "id": "G1503",
+            "description": "Management du personnel d'étage"
+        },
+        {
+            "id": "G150301",
+            "description": "Management du personnel d'étage"
+        },
+        {
+            "id": "G16",
+            "description": "Production culinaire"
+        },
+        {
+            "id": "G1601",
+            "description": "Management du personnel de cuisine"
+        },
+        {
+            "id": "G160101",
+            "description": "Management du personnel de cuisine"
+        },
+        {
+            "id": "G1602",
+            "description": "Personnel de cuisine"
+        },
+        {
+            "id": "G160201",
+            "description": "Personnel de cuisine"
+        },
+        {
+            "id": "G1603",
+            "description": "Personnel polyvalent en restauration"
+        },
+        {
+            "id": "G160301",
+            "description": "Personnel polyvalent en restauration"
+        },
+        {
+            "id": "G1604",
+            "description": "Fabrication de crêpes ou pizzas"
+        },
+        {
+            "id": "G160401",
+            "description": "Fabrication de crêpes ou pizzas"
+        },
+        {
+            "id": "G1605",
+            "description": "Plonge en restauration"
+        },
+        {
+            "id": "G160501",
+            "description": "Plonge en restauration"
+        },
+        {
+            "id": "G17",
+            "description": "Accueil en hôtellerie"
+        },
+        {
+            "id": "G1701",
+            "description": "Conciergerie en hôtellerie"
+        },
+        {
+            "id": "G170101",
+            "description": "Conciergerie en hôtellerie"
+        },
+        {
+            "id": "G1702",
+            "description": "Personnel du hall"
+        },
+        {
+            "id": "G170201",
+            "description": "Personnel du hall"
+        },
+        {
+            "id": "G1703",
+            "description": "Réception en hôtellerie"
+        },
+        {
+            "id": "G170301",
+            "description": "Réception en hôtellerie"
+        },
+        {
+            "id": "G18",
+            "description": "Service"
+        },
+        {
+            "id": "G1801",
+            "description": "Café, bar brasserie"
+        },
+        {
+            "id": "G180101",
+            "description": "Café, bar brasserie"
+        },
+        {
+            "id": "G1802",
+            "description": "Management du service en restauration"
+        },
+        {
+            "id": "G180201",
+            "description": "Management du service en restauration"
+        },
+        {
+            "id": "G1803",
+            "description": "Service en restauration"
+        },
+        {
+            "id": "G180301",
+            "description": "Service en restauration"
+        },
+        {
+            "id": "G1804",
+            "description": "Sommellerie"
+        },
+        {
+            "id": "G180401",
+            "description": "Sommellerie"
+        },
+        {
+            "id": "H",
+            "description": "INDUSTRIE"
+        },
+        {
+            "id": "H11",
+            "description": "Affaires et support technique client"
+        },
+        {
+            "id": "H1101",
+            "description": "Assistance et support technique client"
+        },
+        {
+            "id": "H110101",
+            "description": "Assistance et support technique client"
+        },
+        {
+            "id": "H1102",
+            "description": "Management et ingénierie d'affaires"
+        },
+        {
+            "id": "H110201",
+            "description": "Management et ingénierie d'affaires"
+        },
+        {
+            "id": "H12",
+            "description": "Conception, recherche, études et développement"
+        },
+        {
+            "id": "H1201",
+            "description": "Expertise technique couleur en industrie"
+        },
+        {
+            "id": "H120101",
+            "description": "Expertise technique couleur en industrie"
+        },
+        {
+            "id": "H1202",
+            "description": "Conception et dessin de produits électriques et électroniques"
+        },
+        {
+            "id": "H120201",
+            "description": "Conception et dessin de produits électriques et électroniques"
+        },
+        {
+            "id": "H1203",
+            "description": "Conception et dessin produits mécaniques"
+        },
+        {
+            "id": "H120301",
+            "description": "Conception et dessin produits mécaniques"
+        },
+        {
+            "id": "H1204",
+            "description": "Design industriel"
+        },
+        {
+            "id": "H120401",
+            "description": "Design industriel"
+        },
+        {
+            "id": "H1205",
+            "description": "Études - modèles en industrie des matériaux souples"
+        },
+        {
+            "id": "H120501",
+            "description": "Études - modèles en industrie des matériaux souples"
+        },
+        {
+            "id": "H1206",
+            "description": "Management et ingénierie études, recherche et développement industriel"
+        },
+        {
+            "id": "H120601",
+            "description": "Management et ingénierie études, recherche et développement industriel"
+        },
+        {
+            "id": "H1207",
+            "description": "Rédaction technique"
+        },
+        {
+            "id": "H120701",
+            "description": "Rédaction technique"
+        },
+        {
+            "id": "H1208",
+            "description": "Intervention technique en études et conception en automatisme"
+        },
+        {
+            "id": "H120801",
+            "description": "Intervention technique en études et conception en automatisme"
+        },
+        {
+            "id": "H1209",
+            "description": "Intervention technique en études et développement électronique"
+        },
+        {
+            "id": "H120901",
+            "description": "Intervention technique en études et développement électronique"
+        },
+        {
+            "id": "H1210",
+            "description": "Intervention technique en études, recherche et développement"
+        },
+        {
+            "id": "H121001",
+            "description": "Intervention technique en études, recherche et développement"
+        },
+        {
+            "id": "H13",
+            "description": "Hygiène Sécurité Environnement -HSE- industriels"
+        },
+        {
+            "id": "H1301",
+            "description": "Inspection de conformité"
+        },
+        {
+            "id": "H130101",
+            "description": "Inspection de conformité"
+        },
+        {
+            "id": "H1302",
+            "description": "Management et ingénierie Hygiène Sécurité Environnement -HSE- industriels"
+        },
+        {
+            "id": "H130201",
+            "description": "Management et ingénierie Hygiène Sécurité Environnement -HSE- industriels"
+        },
+        {
+            "id": "H1303",
+            "description": "Intervention technique en Hygiène Sécurité Environnement -HSE- industriel"
+        },
+        {
+            "id": "H130301",
+            "description": "Intervention technique en Hygiène Sécurité Environnement -HSE- industriel"
+        },
+        {
+            "id": "H14",
+            "description": "Méthodes et gestion industrielles"
+        },
+        {
+            "id": "H1401",
+            "description": "Management et ingénierie gestion industrielle et logistique"
+        },
+        {
+            "id": "H140101",
+            "description": "Management et ingénierie gestion industrielle et logistique"
+        },
+        {
+            "id": "H1402",
+            "description": "Management et ingénierie méthodes et industrialisation"
+        },
+        {
+            "id": "H140201",
+            "description": "Management et ingénierie méthodes et industrialisation"
+        },
+        {
+            "id": "H1403",
+            "description": "Intervention technique en gestion industrielle et logistique"
+        },
+        {
+            "id": "H140301",
+            "description": "Intervention technique en gestion industrielle et logistique"
+        },
+        {
+            "id": "H1404",
+            "description": "Intervention technique en méthodes et industrialisation"
+        },
+        {
+            "id": "H140401",
+            "description": "Intervention technique en méthodes et industrialisation"
+        },
+        {
+            "id": "H15",
+            "description": "Qualité et analyses industrielles"
+        },
+        {
+            "id": "H1501",
+            "description": "Direction de laboratoire d'analyse industrielle"
+        },
+        {
+            "id": "H150101",
+            "description": "Direction de laboratoire d'analyse industrielle"
+        },
+        {
+            "id": "H1502",
+            "description": "Management et ingénierie qualité industrielle"
+        },
+        {
+            "id": "H150201",
+            "description": "Management et ingénierie qualité industrielle"
+        },
+        {
+            "id": "H1503",
+            "description": "Intervention technique en laboratoire d'analyse industrielle"
+        },
+        {
+            "id": "H150301",
+            "description": "Intervention technique en laboratoire d'analyse industrielle"
+        },
+        {
+            "id": "H1504",
+            "description": "Intervention technique en contrôle essai qualité en électricité et électronique"
+        },
+        {
+            "id": "H150401",
+            "description": "Intervention technique en contrôle essai qualité en électricité et électronique"
+        },
+        {
+            "id": "H1505",
+            "description": "Intervention technique en formulation et analyse sensorielle"
+        },
+        {
+            "id": "H150501",
+            "description": "Intervention technique en formulation et analyse sensorielle"
+        },
+        {
+            "id": "H1506",
+            "description": "Intervention technique qualité en mécanique et travail des métaux"
+        },
+        {
+            "id": "H150601",
+            "description": "Intervention technique qualité en mécanique et travail des métaux"
+        },
+        {
+            "id": "H21",
+            "description": "Alimentaire"
+        },
+        {
+            "id": "H2101",
+            "description": "Abattage et découpe des viandes"
+        },
+        {
+            "id": "H210101",
+            "description": "Abattage et découpe des viandes"
+        },
+        {
+            "id": "H2102",
+            "description": "Conduite d'équipement de production alimentaire"
+        },
+        {
+            "id": "H210201",
+            "description": "Conduite d'équipement de production alimentaire"
+        },
+        {
+            "id": "H22",
+            "description": "Bois"
+        },
+        {
+            "id": "H2201",
+            "description": "Assemblage d'ouvrages en bois"
+        },
+        {
+            "id": "H220101",
+            "description": "Assemblage d'ouvrages en bois"
+        },
+        {
+            "id": "H2202",
+            "description": "Conduite d'équipement de fabrication de l'ameublement et du bois"
+        },
+        {
+            "id": "H220201",
+            "description": "Conduite d'équipement de fabrication de l'ameublement et du bois"
+        },
+        {
+            "id": "H2203",
+            "description": "Conduite d'installation de production de panneaux bois"
+        },
+        {
+            "id": "H220301",
+            "description": "Conduite d'installation de production de panneaux bois"
+        },
+        {
+            "id": "H2204",
+            "description": "Encadrement des industries de l'ameublement et du bois"
+        },
+        {
+            "id": "H220401",
+            "description": "Encadrement des industries de l'ameublement et du bois"
+        },
+        {
+            "id": "H2205",
+            "description": "Première transformation de bois d'oeuvre"
+        },
+        {
+            "id": "H220501",
+            "description": "Première transformation de bois d'œuvre"
+        },
+        {
+            "id": "H2206",
+            "description": "Réalisation de menuiserie bois et tonnellerie"
+        },
+        {
+            "id": "H220601",
+            "description": "Réalisation de menuiserie bois et tonnellerie"
+        },
+        {
+            "id": "H2207",
+            "description": "Réalisation de meubles en bois"
+        },
+        {
+            "id": "H220701",
+            "description": "Réalisation de meubles en bois"
+        },
+        {
+            "id": "H2208",
+            "description": "Réalisation d'ouvrages décoratifs en bois"
+        },
+        {
+            "id": "H220801",
+            "description": "Réalisation d'ouvrages décoratifs en bois"
+        },
+        {
+            "id": "H2209",
+            "description": "Intervention technique en ameublement et bois"
+        },
+        {
+            "id": "H220901",
+            "description": "Intervention technique en ameublement et bois"
+        },
+        {
+            "id": "H23",
+            "description": "Chimie et pharmacie"
+        },
+        {
+            "id": "H2301",
+            "description": "Conduite d'équipement de production chimique ou pharmaceutique"
+        },
+        {
+            "id": "H230101",
+            "description": "Conduite d'équipement de production chimique ou pharmaceutique"
+        },
+        {
+            "id": "H24",
+            "description": "Cuir et textile"
+        },
+        {
+            "id": "H2401",
+            "description": "Assemblage - montage d'articles en cuirs, peaux"
+        },
+        {
+            "id": "H240101",
+            "description": "Assemblage - montage d'articles en cuirs, peaux"
+        },
+        {
+            "id": "H2402",
+            "description": "Assemblage - montage de vêtements et produits textiles"
+        },
+        {
+            "id": "H240201",
+            "description": "Assemblage - montage de vêtements et produits textiles"
+        },
+        {
+            "id": "H2403",
+            "description": "Conduite de machine de fabrication de produits textiles"
+        },
+        {
+            "id": "H240301",
+            "description": "Conduite de machine de fabrication de produits textiles"
+        },
+        {
+            "id": "H2404",
+            "description": "Conduite de machine de production et transformation des fils"
+        },
+        {
+            "id": "H240401",
+            "description": "Conduite de machine de production et transformation des fils"
+        },
+        {
+            "id": "H2405",
+            "description": "Conduite de machine de textiles nontissés"
+        },
+        {
+            "id": "H240501",
+            "description": "Conduite de machine de textiles nontissés"
+        },
+        {
+            "id": "H2406",
+            "description": "Conduite de machine de traitement textile"
+        },
+        {
+            "id": "H240601",
+            "description": "Conduite de machine de traitement textile"
+        },
+        {
+            "id": "H2407",
+            "description": "Conduite de machine de transformation et de finition des cuirs et peaux"
+        },
+        {
+            "id": "H240701",
+            "description": "Conduite de machine de transformation et de finition des cuirs et peaux"
+        },
+        {
+            "id": "H2408",
+            "description": "Conduite de machine d'impression textile"
+        },
+        {
+            "id": "H240801",
+            "description": "Conduite de machine d'impression textile"
+        },
+        {
+            "id": "H2409",
+            "description": "Coupe cuir, textile et matériaux souples"
+        },
+        {
+            "id": "H240901",
+            "description": "Coupe cuir, textile et matériaux souples"
+        },
+        {
+            "id": "H2410",
+            "description": "Mise en forme, repassage et finitions en industrie textile"
+        },
+        {
+            "id": "H241001",
+            "description": "Mise en forme, repassage et finitions en industrie textile"
+        },
+        {
+            "id": "H2411",
+            "description": "Montage de prototype cuir et matériaux souples"
+        },
+        {
+            "id": "H241101",
+            "description": "Montage de prototype cuir et matériaux souples"
+        },
+        {
+            "id": "H2412",
+            "description": "Patronnage - gradation"
+        },
+        {
+            "id": "H241201",
+            "description": "Patronnage - gradation"
+        },
+        {
+            "id": "H2413",
+            "description": "Préparation de fils, montage de métiers textiles"
+        },
+        {
+            "id": "H241301",
+            "description": "Préparation de fils, montage de métiers textiles"
+        },
+        {
+            "id": "H2414",
+            "description": "Préparation et finition d'articles en cuir et matériaux souples"
+        },
+        {
+            "id": "H241401",
+            "description": "Préparation et finition d'articles en cuir et matériaux souples"
+        },
+        {
+            "id": "H2415",
+            "description": "Contrôle en industrie du cuir et du textile"
+        },
+        {
+            "id": "H241501",
+            "description": "Contrôle en industrie du cuir et du textile"
+        },
+        {
+            "id": "H25",
+            "description": "Direction, encadrement et pilotage de fabrication et production industrielles"
+        },
+        {
+            "id": "H2501",
+            "description": "Encadrement de production de matériel électrique et électronique"
+        },
+        {
+            "id": "H250101",
+            "description": "Encadrement de production de matériel électrique et électronique"
+        },
+        {
+            "id": "H2502",
+            "description": "Management et ingénierie de production"
+        },
+        {
+            "id": "H250201",
+            "description": "Management et ingénierie de production"
+        },
+        {
+            "id": "H2503",
+            "description": "Pilotage d'unité élémentaire de production mécanique ou de travail des métaux"
+        },
+        {
+            "id": "H250301",
+            "description": "Pilotage d'unité élémentaire de production mécanique ou de travail des métaux"
+        },
+        {
+            "id": "H2504",
+            "description": "Encadrement d'équipe en industrie de transformation"
+        },
+        {
+            "id": "H250401",
+            "description": "Encadrement d'équipe en industrie de transformation"
+        },
+        {
+            "id": "H2505",
+            "description": "Encadrement d'équipe ou d'atelier en matériaux souples"
+        },
+        {
+            "id": "H250501",
+            "description": "Encadrement d'équipe ou d'atelier en matériaux souples"
+        },
+        {
+            "id": "H26",
+            "description": "Electronique et électricité"
+        },
+        {
+            "id": "H2601",
+            "description": "Bobinage électrique"
+        },
+        {
+            "id": "H260101",
+            "description": "Bobinage électrique"
+        },
+        {
+            "id": "H2602",
+            "description": "Câblage électrique et électromécanique"
+        },
+        {
+            "id": "H260201",
+            "description": "Câblage électrique et électromécanique"
+        },
+        {
+            "id": "H2603",
+            "description": "Conduite d'installation automatisée de production électrique, électronique et microélectronique"
+        },
+        {
+            "id": "H260301",
+            "description": "Conduite d'installation automatisée de production électrique, électronique et microélectronique"
+        },
+        {
+            "id": "H2604",
+            "description": "Montage de produits électriques et électroniques"
+        },
+        {
+            "id": "H260401",
+            "description": "Montage de produits électriques et électroniques"
+        },
+        {
+            "id": "H2605",
+            "description": "Montage et câblage électronique"
+        },
+        {
+            "id": "H260501",
+            "description": "Montage et câblage électronique"
+        },
+        {
+            "id": "H27",
+            "description": "Energie"
+        },
+        {
+            "id": "H2701",
+            "description": "Pilotage d'installation énergétique et pétrochimique"
+        },
+        {
+            "id": "H270101",
+            "description": "Pilotage d'installation énergétique et pétrochimique"
+        },
+        {
+            "id": "H28",
+            "description": "Matériaux de construction, céramique et verre"
+        },
+        {
+            "id": "H2801",
+            "description": "Conduite d'équipement de transformation du verre"
+        },
+        {
+            "id": "H280101",
+            "description": "Conduite d'équipement de transformation du verre"
+        },
+        {
+            "id": "H2802",
+            "description": "Conduite d'installation de production de matériaux de construction"
+        },
+        {
+            "id": "H280201",
+            "description": "Conduite d'installation de production de matériaux de construction"
+        },
+        {
+            "id": "H2803",
+            "description": "Façonnage et émaillage en industrie céramique"
+        },
+        {
+            "id": "H280301",
+            "description": "Façonnage et émaillage en industrie céramique"
+        },
+        {
+            "id": "H2804",
+            "description": "Pilotage de centrale à béton prêt à l'emploi, ciment, enrobés et granulats"
+        },
+        {
+            "id": "H280401",
+            "description": "Pilotage de centrale à béton prêt à l'emploi, ciment, enrobés et granulats"
+        },
+        {
+            "id": "H2805",
+            "description": "Pilotage d'installation de production verrière"
+        },
+        {
+            "id": "H280501",
+            "description": "Pilotage d'installation de production verrière"
+        },
+        {
+            "id": "H29",
+            "description": "Mécanique, travail des métaux et outillage"
+        },
+        {
+            "id": "H2901",
+            "description": "Ajustement et montage de fabrication"
+        },
+        {
+            "id": "H290101",
+            "description": "Ajustement et montage de fabrication"
+        },
+        {
+            "id": "H2902",
+            "description": "Chaudronnerie - tôlerie"
+        },
+        {
+            "id": "H290201",
+            "description": "Chaudronnerie - tôlerie"
+        },
+        {
+            "id": "H290202",
+            "description": "Construction en carrosserie"
+        },
+        {
+            "id": "H2903",
+            "description": "Conduite d'équipement d'usinage"
+        },
+        {
+            "id": "H290301",
+            "description": "Conduite d'équipement d'usinage"
+        },
+        {
+            "id": "H2904",
+            "description": "Conduite d'équipement de déformation des métaux"
+        },
+        {
+            "id": "H290401",
+            "description": "Conduite d'équipement de déformation des métaux"
+        },
+        {
+            "id": "H2905",
+            "description": "Conduite d'équipement de formage et découpage des matériaux"
+        },
+        {
+            "id": "H290501",
+            "description": "Conduite d'équipement de formage et découpage des matériaux"
+        },
+        {
+            "id": "H2906",
+            "description": "Conduite d'installation automatisée ou robotisée de fabrication mécanique"
+        },
+        {
+            "id": "H290601",
+            "description": "Conduite d'installation automatisée ou robotisée de fabrication mécanique"
+        },
+        {
+            "id": "H2907",
+            "description": "Conduite d'installation de production des métaux"
+        },
+        {
+            "id": "H290701",
+            "description": "Conduite d'installation de production des métaux"
+        },
+        {
+            "id": "H2908",
+            "description": "Modelage de matériaux non métalliques"
+        },
+        {
+            "id": "H290801",
+            "description": "Modelage de matériaux non métalliques"
+        },
+        {
+            "id": "H2909",
+            "description": "Montage-assemblage mécanique"
+        },
+        {
+            "id": "H290901",
+            "description": "Montage-assemblage mécanique"
+        },
+        {
+            "id": "H2910",
+            "description": "Moulage sable"
+        },
+        {
+            "id": "H291001",
+            "description": "Moulage sable"
+        },
+        {
+            "id": "H2911",
+            "description": "Réalisation de structures métalliques"
+        },
+        {
+            "id": "H291101",
+            "description": "Réalisation de structures métalliques"
+        },
+        {
+            "id": "H2912",
+            "description": "Réglage d'équipement de production industrielle"
+        },
+        {
+            "id": "H291201",
+            "description": "Réglage d'équipement de production industrielle"
+        },
+        {
+            "id": "H2913",
+            "description": "Soudage manuel"
+        },
+        {
+            "id": "H291301",
+            "description": "Soudage manuel"
+        },
+        {
+            "id": "H2914",
+            "description": "Réalisation et montage en tuyauterie"
+        },
+        {
+            "id": "H291401",
+            "description": "Réalisation et montage en tuyauterie"
+        },
+        {
+            "id": "H31",
+            "description": "Papier et carton"
+        },
+        {
+            "id": "H3101",
+            "description": "Conduite d'équipement de fabrication de papier ou de carton"
+        },
+        {
+            "id": "H310101",
+            "description": "Conduite d'équipement de fabrication de papier ou de carton"
+        },
+        {
+            "id": "H3102",
+            "description": "Conduite d'installation de pâte à papier"
+        },
+        {
+            "id": "H310201",
+            "description": "Conduite d'installation de pâte à papier"
+        },
+        {
+            "id": "H32",
+            "description": "Plastique, caoutchouc"
+        },
+        {
+            "id": "H3201",
+            "description": "Conduite d'équipement de formage des plastiques et caoutchoucs"
+        },
+        {
+            "id": "H320101",
+            "description": "Conduite d'équipement de formage des plastiques et caoutchoucs"
+        },
+        {
+            "id": "H3202",
+            "description": "Réglage d'équipement de formage des plastiques et caoutchoucs"
+        },
+        {
+            "id": "H320201",
+            "description": "Réglage d'équipement de formage des plastiques et caoutchoucs"
+        },
+        {
+            "id": "H3203",
+            "description": "Fabrication de pièces en matériaux composites"
+        },
+        {
+            "id": "H320301",
+            "description": "Fabrication de pièces en matériaux composites"
+        },
+        {
+            "id": "H33",
+            "description": "Préparation et conditionnement"
+        },
+        {
+            "id": "H3301",
+            "description": "Conduite d'équipement de conditionnement"
+        },
+        {
+            "id": "H330101",
+            "description": "Conduite d'équipement de conditionnement"
+        },
+        {
+            "id": "H3302",
+            "description": "Opérations manuelles d'assemblage, tri ou emballage"
+        },
+        {
+            "id": "H330201",
+            "description": "Opérations manuelles d'assemblage, tri ou emballage"
+        },
+        {
+            "id": "H3303",
+            "description": "Préparation de matières et produits industriels (broyage, mélange, ...)"
+        },
+        {
+            "id": "H330301",
+            "description": "Préparation de matières et produits industriels (broyage, mélange, ...)"
+        },
+        {
+            "id": "H34",
+            "description": "Traitements thermiques et traitements de surfaces"
+        },
+        {
+            "id": "H3401",
+            "description": "Conduite de traitement d'abrasion de surface"
+        },
+        {
+            "id": "H340101",
+            "description": "Conduite de traitement d'abrasion de surface"
+        },
+        {
+            "id": "H3402",
+            "description": "Conduite de traitement par dépôt de surface"
+        },
+        {
+            "id": "H340201",
+            "description": "Conduite de traitement par dépôt de surface"
+        },
+        {
+            "id": "H3403",
+            "description": "Conduite de traitement thermique"
+        },
+        {
+            "id": "H340301",
+            "description": "Conduite de traitement thermique"
+        },
+        {
+            "id": "H3404",
+            "description": "Peinture industrielle"
+        },
+        {
+            "id": "H340401",
+            "description": "Peinture industrielle"
+        },
+        {
+            "id": "I",
+            "description": "INSTALLATION ET MAINTENANCE"
+        },
+        {
+            "id": "I11",
+            "description": "Encadrement"
+        },
+        {
+            "id": "I1101",
+            "description": "Direction et ingénierie en entretien infrastructure et bâti"
+        },
+        {
+            "id": "I110101",
+            "description": "Direction et ingénierie en entretien infrastructure et bâti"
+        },
+        {
+            "id": "I1102",
+            "description": "Management et ingénierie de maintenance industrielle"
+        },
+        {
+            "id": "I110201",
+            "description": "Management et ingénierie de maintenance industrielle"
+        },
+        {
+            "id": "I1103",
+            "description": "Supervision d'entretien et gestion de véhicules"
+        },
+        {
+            "id": "I110301",
+            "description": "Supervision d'entretien et gestion de véhicules"
+        },
+        {
+            "id": "I12",
+            "description": "Entretien technique"
+        },
+        {
+            "id": "I1201",
+            "description": "Entretien d'affichage et mobilier urbain"
+        },
+        {
+            "id": "I120101",
+            "description": "Entretien d'affichage et mobilier urbain"
+        },
+        {
+            "id": "I1202",
+            "description": "Entretien et surveillance du tracé routier"
+        },
+        {
+            "id": "I120201",
+            "description": "Entretien et surveillance du tracé routier"
+        },
+        {
+            "id": "I1203",
+            "description": "Maintenance des bâtiments et des locaux"
+        },
+        {
+            "id": "I120301",
+            "description": "Maintenance des bâtiments et des locaux"
+        },
+        {
+            "id": "I13",
+            "description": "Equipements de production, équipements collectifs"
+        },
+        {
+            "id": "I1301",
+            "description": "Installation et maintenance d'ascenseurs"
+        },
+        {
+            "id": "I130101",
+            "description": "Installation et maintenance d'ascenseurs"
+        },
+        {
+            "id": "I1302",
+            "description": "Installation et maintenance d'automatismes"
+        },
+        {
+            "id": "I130201",
+            "description": "Installation et maintenance d'automatismes"
+        },
+        {
+            "id": "I1303",
+            "description": "Installation et maintenance de distributeurs automatiques"
+        },
+        {
+            "id": "I130301",
+            "description": "Installation et maintenance de distributeurs automatiques"
+        },
+        {
+            "id": "I1304",
+            "description": "Installation et maintenance d'équipements industriels et d'exploitation"
+        },
+        {
+            "id": "I130401",
+            "description": "Installation et maintenance d'équipements industriels et d'exploitation"
+        },
+        {
+            "id": "I1305",
+            "description": "Installation et maintenance électronique"
+        },
+        {
+            "id": "I130501",
+            "description": "Installation et maintenance électronique"
+        },
+        {
+            "id": "I1306",
+            "description": "Installation et maintenance en froid, conditionnement d'air"
+        },
+        {
+            "id": "I130601",
+            "description": "Installation et maintenance en froid, conditionnement d'air"
+        },
+        {
+            "id": "I1307",
+            "description": "Installation et maintenance télécoms et courants faibles"
+        },
+        {
+            "id": "I130701",
+            "description": "Installation et maintenance télécoms et courants faibles"
+        },
+        {
+            "id": "I1308",
+            "description": "Maintenance d'installation de chauffage"
+        },
+        {
+            "id": "I130801",
+            "description": "Maintenance d'installation de chauffage"
+        },
+        {
+            "id": "I1309",
+            "description": "Maintenance électrique"
+        },
+        {
+            "id": "I130901",
+            "description": "Maintenance électrique"
+        },
+        {
+            "id": "I1310",
+            "description": "Maintenance mécanique industrielle"
+        },
+        {
+            "id": "I131001",
+            "description": "Maintenance mécanique industrielle"
+        },
+        {
+            "id": "I14",
+            "description": "Equipements domestiques et informatique"
+        },
+        {
+            "id": "I1401",
+            "description": "Maintenance informatique et bureautique"
+        },
+        {
+            "id": "I140101",
+            "description": "Maintenance informatique et bureautique"
+        },
+        {
+            "id": "I1402",
+            "description": "Réparation de biens électrodomestiques"
+        },
+        {
+            "id": "I140201",
+            "description": "Réparation de biens électrodomestiques"
+        },
+        {
+            "id": "I15",
+            "description": "Travaux d'accès difficile"
+        },
+        {
+            "id": "I1501",
+            "description": "Intervention en grande hauteur"
+        },
+        {
+            "id": "I150101",
+            "description": "Intervention en grande hauteur"
+        },
+        {
+            "id": "I1502",
+            "description": "Intervention en milieu subaquatique"
+        },
+        {
+            "id": "I150201",
+            "description": "Intervention en milieu subaquatique"
+        },
+        {
+            "id": "I1503",
+            "description": "Intervention en milieux et produits nocifs"
+        },
+        {
+            "id": "I150301",
+            "description": "Intervention en milieux et produits nocifs"
+        },
+        {
+            "id": "I150302",
+            "description": "Intervention en désamiantage"
+        },
+        {
+            "id": "I16",
+            "description": "Véhicules, engins, aéronefs"
+        },
+        {
+            "id": "I1601",
+            "description": "Installation et maintenance en nautisme"
+        },
+        {
+            "id": "I160101",
+            "description": "Installation et maintenance en nautisme"
+        },
+        {
+            "id": "I1602",
+            "description": "Maintenance d'aéronefs"
+        },
+        {
+            "id": "I160201",
+            "description": "Maintenance d'aéronefs"
+        },
+        {
+            "id": "I1603",
+            "description": "Maintenance d'engins de chantier, levage, manutention et de machines agricoles"
+        },
+        {
+            "id": "I160301",
+            "description": "Maintenance d'engins de chantier, levage, manutention et de machines agricoles"
+        },
+        {
+            "id": "I1604",
+            "description": "Mécanique automobile et entretien de véhicules"
+        },
+        {
+            "id": "I160401",
+            "description": "Mécanique automobile et entretien de véhicules"
+        },
+        {
+            "id": "I1605",
+            "description": "Mécanique de marine"
+        },
+        {
+            "id": "I160501",
+            "description": "Mécanique de marine"
+        },
+        {
+            "id": "I1606",
+            "description": "Réparation de carrosserie"
+        },
+        {
+            "id": "I160601",
+            "description": "Réparation de carrosserie"
+        },
+        {
+            "id": "I1607",
+            "description": "Réparation de cycles, motocycles et motoculteurs de loisirs"
+        },
+        {
+            "id": "I160701",
+            "description": "Réparation de cycles, motocycles et motoculteurs de loisirs"
+        },
+        {
+            "id": "J",
+            "description": "SANTE"
+        },
+        {
+            "id": "J11",
+            "description": "Praticiens médicaux"
+        },
+        {
+            "id": "J1101",
+            "description": "Médecine de prévention"
+        },
+        {
+            "id": "J110101",
+            "description": "Médecine de prévention"
+        },
+        {
+            "id": "J1102",
+            "description": "Médecine généraliste et spécialisée"
+        },
+        {
+            "id": "J110201",
+            "description": "Médecine généraliste et spécialisée"
+        },
+        {
+            "id": "J1103",
+            "description": "Médecine dentaire"
+        },
+        {
+            "id": "J110301",
+            "description": "Médecine dentaire"
+        },
+        {
+            "id": "J1104",
+            "description": "Suivi de la grossesse et de l'accouchement"
+        },
+        {
+            "id": "J110401",
+            "description": "Suivi de la grossesse et de l'accouchement"
+        },
+        {
+            "id": "J12",
+            "description": "Praticiens médico-techniques"
+        },
+        {
+            "id": "J1201",
+            "description": "Biologie médicale"
+        },
+        {
+            "id": "J120101",
+            "description": "Biologie médicale"
+        },
+        {
+            "id": "J1202",
+            "description": "Pharmacie"
+        },
+        {
+            "id": "J120201",
+            "description": "Pharmacie"
+        },
+        {
+            "id": "J13",
+            "description": "Professionnels médico-techniques"
+        },
+        {
+            "id": "J1301",
+            "description": "Personnel polyvalent des services hospitaliers"
+        },
+        {
+            "id": "J130101",
+            "description": "Personnel polyvalent des services hospitaliers"
+        },
+        {
+            "id": "J1302",
+            "description": "Analyses médicales"
+        },
+        {
+            "id": "J130201",
+            "description": "Analyses médicales"
+        },
+        {
+            "id": "J1303",
+            "description": "Assistance médico-technique"
+        },
+        {
+            "id": "J130301",
+            "description": "Assistance médico-technique"
+        },
+        {
+            "id": "J1304",
+            "description": "Aide en puériculture"
+        },
+        {
+            "id": "J130401",
+            "description": "Aide en puériculture"
+        },
+        {
+            "id": "J1305",
+            "description": "Conduite de véhicules sanitaires"
+        },
+        {
+            "id": "J130501",
+            "description": "Conduite de véhicules sanitaires"
+        },
+        {
+            "id": "J1306",
+            "description": "Imagerie médicale"
+        },
+        {
+            "id": "J130601",
+            "description": "Imagerie médicale"
+        },
+        {
+            "id": "J1307",
+            "description": "Préparation en pharmacie"
+        },
+        {
+            "id": "J130701",
+            "description": "Préparation en pharmacie"
+        },
+        {
+            "id": "J14",
+            "description": "Rééducation et appareillage"
+        },
+        {
+            "id": "J1401",
+            "description": "Audioprothèses"
+        },
+        {
+            "id": "J140101",
+            "description": "Audioprothèses"
+        },
+        {
+            "id": "J1402",
+            "description": "Diététique"
+        },
+        {
+            "id": "J140201",
+            "description": "Diététique"
+        },
+        {
+            "id": "J1403",
+            "description": "Ergothérapie"
+        },
+        {
+            "id": "J140301",
+            "description": "Ergothérapie"
+        },
+        {
+            "id": "J1404",
+            "description": "Kinésithérapie"
+        },
+        {
+            "id": "J140401",
+            "description": "Kinésithérapie"
+        },
+        {
+            "id": "J1405",
+            "description": "Optique - lunetterie"
+        },
+        {
+            "id": "J140501",
+            "description": "Optique - lunetterie"
+        },
+        {
+            "id": "J1406",
+            "description": "Orthophonie"
+        },
+        {
+            "id": "J140601",
+            "description": "Orthophonie"
+        },
+        {
+            "id": "J1407",
+            "description": "Orthoptique"
+        },
+        {
+            "id": "J140701",
+            "description": "Orthoptique"
+        },
+        {
+            "id": "J1408",
+            "description": "Ostéopathie et chiropraxie"
+        },
+        {
+            "id": "J140801",
+            "description": "Ostéopathie et chiropraxie"
+        },
+        {
+            "id": "J1409",
+            "description": "Pédicurie et podologie"
+        },
+        {
+            "id": "J140901",
+            "description": "Pédicurie et podologie"
+        },
+        {
+            "id": "J1410",
+            "description": "Prothèses dentaires"
+        },
+        {
+            "id": "J141001",
+            "description": "Prothèses dentaires"
+        },
+        {
+            "id": "J1411",
+            "description": "Prothèses et orthèses"
+        },
+        {
+            "id": "J141101",
+            "description": "Prothèses et orthèses"
+        },
+        {
+            "id": "J1412",
+            "description": "Rééducation en psychomotricité"
+        },
+        {
+            "id": "J141201",
+            "description": "Rééducation en psychomotricité"
+        },
+        {
+            "id": "J15",
+            "description": "Soins paramédicaux"
+        },
+        {
+            "id": "J1501",
+            "description": "Soins d'hygiène, de confort du patient"
+        },
+        {
+            "id": "J150101",
+            "description": "Soins d'hygiène, de confort du patient"
+        },
+        {
+            "id": "J1502",
+            "description": "Coordination de services médicaux ou paramédicaux"
+        },
+        {
+            "id": "J150201",
+            "description": "Coordination de services médicaux ou paramédicaux"
+        },
+        {
+            "id": "J1503",
+            "description": "Soins infirmiers spécialisés en anesthésie"
+        },
+        {
+            "id": "J150301",
+            "description": "Soins infirmiers spécialisés en anesthésie"
+        },
+        {
+            "id": "J1504",
+            "description": "Soins infirmiers spécialisés en bloc opératoire"
+        },
+        {
+            "id": "J150401",
+            "description": "Soins infirmiers spécialisés en bloc opératoire"
+        },
+        {
+            "id": "J1505",
+            "description": "Soins infirmiers spécialisés en prévention"
+        },
+        {
+            "id": "J150501",
+            "description": "Soins infirmiers spécialisés en prévention"
+        },
+        {
+            "id": "J1506",
+            "description": "Soins infirmiers généralistes"
+        },
+        {
+            "id": "J150601",
+            "description": "Soins infirmiers généralistes"
+        },
+        {
+            "id": "J1507",
+            "description": "Soins infirmiers spécialisés en puériculture"
+        },
+        {
+            "id": "J150701",
+            "description": "Soins infirmiers spécialisés en puériculture"
+        },
+        {
+            "id": "K",
+            "description": "SERVICES A LA PERSONNE ET A LA COLLECTIVITE"
+        },
+        {
+            "id": "K11",
+            "description": "Accompagnement de la personne"
+        },
+        {
+            "id": "K1101",
+            "description": "Accompagnement et médiation familiale"
+        },
+        {
+            "id": "K110101",
+            "description": "Accompagnement et médiation familiale"
+        },
+        {
+            "id": "K1103",
+            "description": "Développement personnel et bien-être de la personne"
+        },
+        {
+            "id": "K110301",
+            "description": "Développement personnel et bien-être de la personne"
+        },
+        {
+            "id": "K1104",
+            "description": "Psychologie"
+        },
+        {
+            "id": "K110401",
+            "description": "Psychologie"
+        },
+        {
+            "id": "K12",
+            "description": "Action sociale, socio-éducative et socio-culturelle"
+        },
+        {
+            "id": "K1201",
+            "description": "Action sociale"
+        },
+        {
+            "id": "K120101",
+            "description": "Action sociale"
+        },
+        {
+            "id": "K1202",
+            "description": "Éducation de jeunes enfants"
+        },
+        {
+            "id": "K120201",
+            "description": "Éducation de jeunes enfants"
+        },
+        {
+            "id": "K1203",
+            "description": "Encadrement technique en insertion professionnelle"
+        },
+        {
+            "id": "K120301",
+            "description": "Encadrement technique en insertion professionnelle"
+        },
+        {
+            "id": "K1204",
+            "description": "Médiation sociale et facilitation de la vie en société"
+        },
+        {
+            "id": "K120401",
+            "description": "Médiation sociale et facilitation de la vie en société"
+        },
+        {
+            "id": "K1205",
+            "description": "Information sociale"
+        },
+        {
+            "id": "K120501",
+            "description": "Information sociale"
+        },
+        {
+            "id": "K1206",
+            "description": "Intervention socioculturelle"
+        },
+        {
+            "id": "K120601",
+            "description": "Intervention socioculturelle"
+        },
+        {
+            "id": "K1207",
+            "description": "Intervention socioéducative"
+        },
+        {
+            "id": "K120701",
+            "description": "Intervention socioéducative"
+        },
+        {
+            "id": "K13",
+            "description": "Aide à la vie quotidienne"
+        },
+        {
+            "id": "K1301",
+            "description": "Accompagnement médicosocial"
+        },
+        {
+            "id": "K130101",
+            "description": "Accompagnement médicosocial"
+        },
+        {
+            "id": "K1302",
+            "description": "Assistance auprès d'adultes"
+        },
+        {
+            "id": "K130201",
+            "description": "Assistance auprès d'adultes"
+        },
+        {
+            "id": "K1303",
+            "description": "Assistance auprès d'enfants"
+        },
+        {
+            "id": "K130301",
+            "description": "Assistance auprès d'enfants"
+        },
+        {
+            "id": "K1304",
+            "description": "Services domestiques"
+        },
+        {
+            "id": "K130401",
+            "description": "Services domestiques"
+        },
+        {
+            "id": "K14",
+            "description": "Conception et mise en oeuvre des politiques publiques"
+        },
+        {
+            "id": "K1401",
+            "description": "Conception et pilotage de la politique des pouvoirs publics"
+        },
+        {
+            "id": "K140101",
+            "description": "Conception et pilotage de la politique des pouvoirs publics"
+        },
+        {
+            "id": "K1402",
+            "description": "Conseil en Santé Publique"
+        },
+        {
+            "id": "K140201",
+            "description": "Conseil en Santé Publique"
+        },
+        {
+            "id": "K1403",
+            "description": "Management de structure de santé, sociale ou pénitentiaire"
+        },
+        {
+            "id": "K140301",
+            "description": "Management de structure de santé, sociale ou pénitentiaire"
+        },
+        {
+            "id": "K1404",
+            "description": "Mise en oeuvre et pilotage de la politique des pouvoirs publics"
+        },
+        {
+            "id": "K140401",
+            "description": "Mise en oeuvre et pilotage de la politique des pouvoirs publics"
+        },
+        {
+            "id": "K1405",
+            "description": "Représentation de l'Etat sur le territoire national ou international"
+        },
+        {
+            "id": "K140501",
+            "description": "Représentation de l'Etat sur le territoire national ou international"
+        },
+        {
+            "id": "K15",
+            "description": "Contrôle public"
+        },
+        {
+            "id": "K1501",
+            "description": "Application des règles financières publiques"
+        },
+        {
+            "id": "K150101",
+            "description": "Application des règles financières publiques"
+        },
+        {
+            "id": "K1502",
+            "description": "Contrôle et inspection des Affaires Sociales"
+        },
+        {
+            "id": "K150201",
+            "description": "Contrôle et inspection des Affaires Sociales"
+        },
+        {
+            "id": "K1503",
+            "description": "Contrôle et inspection des impôts"
+        },
+        {
+            "id": "K150301",
+            "description": "Contrôle et inspection des impôts"
+        },
+        {
+            "id": "K1504",
+            "description": "Contrôle et inspection du Trésor Public"
+        },
+        {
+            "id": "K150401",
+            "description": "Contrôle et inspection du Trésor Public"
+        },
+        {
+            "id": "K1505",
+            "description": "Protection des consommateurs et contrôle des échanges commerciaux"
+        },
+        {
+            "id": "K150501",
+            "description": "Protection des consommateurs et contrôle des échanges commerciaux"
+        },
+        {
+            "id": "K16",
+            "description": "Culture et gestion documentaire"
+        },
+        {
+            "id": "K1601",
+            "description": "Gestion de l'information et de la documentation"
+        },
+        {
+            "id": "K160101",
+            "description": "Gestion de l'information et de la documentation"
+        },
+        {
+            "id": "K160102",
+            "description": "Gestion d'archives"
+        },
+        {
+            "id": "K1602",
+            "description": "Gestion de patrimoine culturel"
+        },
+        {
+            "id": "K160201",
+            "description": "Gestion de patrimoine culturel"
+        },
+        {
+            "id": "K17",
+            "description": "Défense, sécurité publique et secours"
+        },
+        {
+            "id": "K1701",
+            "description": "Personnel de la Défense"
+        },
+        {
+            "id": "K170101",
+            "description": "Personnel de la Défense"
+        },
+        {
+            "id": "K1702",
+            "description": "Direction de la sécurité civile et des secours"
+        },
+        {
+            "id": "K170201",
+            "description": "Direction de la sécurité civile et des secours"
+        },
+        {
+            "id": "K1703",
+            "description": "Direction opérationnelle de la défense"
+        },
+        {
+            "id": "K170301",
+            "description": "Direction opérationnelle de la défense"
+        },
+        {
+            "id": "K1704",
+            "description": "Management de la sécurité publique"
+        },
+        {
+            "id": "K170401",
+            "description": "Management de la sécurité publique"
+        },
+        {
+            "id": "K1705",
+            "description": "Sécurité civile et secours"
+        },
+        {
+            "id": "K170501",
+            "description": "Sécurité civile et secours"
+        },
+        {
+            "id": "K1706",
+            "description": "Sécurité publique"
+        },
+        {
+            "id": "K170601",
+            "description": "Sécurité publique"
+        },
+        {
+            "id": "K1707",
+            "description": "Surveillance municipale"
+        },
+        {
+            "id": "K170701",
+            "description": "Surveillance municipale"
+        },
+        {
+            "id": "K18",
+            "description": "Développement territorial et emploi"
+        },
+        {
+            "id": "K1801",
+            "description": "Conseil en emploi et insertion socioprofessionnelle"
+        },
+        {
+            "id": "K180101",
+            "description": "Conseil en emploi et insertion socioprofessionnelle"
+        },
+        {
+            "id": "K1802",
+            "description": "Développement local"
+        },
+        {
+            "id": "K180201",
+            "description": "Développement local"
+        },
+        {
+            "id": "K19",
+            "description": "Droit"
+        },
+        {
+            "id": "K1901",
+            "description": "Aide et médiation judiciaire"
+        },
+        {
+            "id": "K190101",
+            "description": "Aide et médiation judiciaire"
+        },
+        {
+            "id": "K1902",
+            "description": "Collaboration juridique"
+        },
+        {
+            "id": "K190201",
+            "description": "Collaboration juridique"
+        },
+        {
+            "id": "K1903",
+            "description": "Défense et conseil juridique"
+        },
+        {
+            "id": "K190301",
+            "description": "Défense et conseil juridique"
+        },
+        {
+            "id": "K1904",
+            "description": "Magistrature"
+        },
+        {
+            "id": "K190401",
+            "description": "Magistrature"
+        },
+        {
+            "id": "K21",
+            "description": "Formation initiale et continue"
+        },
+        {
+            "id": "K2101",
+            "description": "Conseil en formation"
+        },
+        {
+            "id": "K210101",
+            "description": "Conseil en formation"
+        },
+        {
+            "id": "K2102",
+            "description": "Coordination pédagogique"
+        },
+        {
+            "id": "K210201",
+            "description": "Coordination pédagogique"
+        },
+        {
+            "id": "K2103",
+            "description": "Direction d'établissement et d'enseignement"
+        },
+        {
+            "id": "K210301",
+            "description": "Direction d'établissement et d'enseignement"
+        },
+        {
+            "id": "K2104",
+            "description": "Éducation et surveillance au sein d'établissements d'enseignement"
+        },
+        {
+            "id": "K210401",
+            "description": "Éducation et surveillance au sein d'établissements d'enseignement"
+        },
+        {
+            "id": "K2106",
+            "description": "Enseignement des écoles"
+        },
+        {
+            "id": "K210601",
+            "description": "Enseignement des écoles"
+        },
+        {
+            "id": "K2107",
+            "description": "Enseignement général du second degré"
+        },
+        {
+            "id": "K210701",
+            "description": "Enseignement général du second degré"
+        },
+        {
+            "id": "K2108",
+            "description": "Enseignement supérieur"
+        },
+        {
+            "id": "K210801",
+            "description": "Enseignement supérieur"
+        },
+        {
+            "id": "K2109",
+            "description": "Enseignement technique et professionnel"
+        },
+        {
+            "id": "K210901",
+            "description": "Enseignement technique et professionnel"
+        },
+        {
+            "id": "K2110",
+            "description": "Formation en conduite de véhicules"
+        },
+        {
+            "id": "K211001",
+            "description": "Formation en conduite de véhicules"
+        },
+        {
+            "id": "K2111",
+            "description": "Formation professionnelle"
+        },
+        {
+            "id": "K211101",
+            "description": "Formation professionnelle"
+        },
+        {
+            "id": "K2112",
+            "description": "Orientation scolaire et professionnelle"
+        },
+        {
+            "id": "K211201",
+            "description": "Orientation scolaire et professionnelle"
+        },
+        {
+            "id": "K22",
+            "description": "Nettoyage et propreté industriels"
+        },
+        {
+            "id": "K2201",
+            "description": "Blanchisserie industrielle"
+        },
+        {
+            "id": "K220101",
+            "description": "Blanchisserie industrielle"
+        },
+        {
+            "id": "K2202",
+            "description": "Lavage de vitres"
+        },
+        {
+            "id": "K220201",
+            "description": "Lavage de vitres"
+        },
+        {
+            "id": "K2203",
+            "description": "Management et inspection en propreté de locaux"
+        },
+        {
+            "id": "K220301",
+            "description": "Management et inspection en propreté de locaux"
+        },
+        {
+            "id": "K2204",
+            "description": "Nettoyage de locaux"
+        },
+        {
+            "id": "K220401",
+            "description": "Nettoyage de locaux"
+        },
+        {
+            "id": "K23",
+            "description": "Propreté et environnement urbain"
+        },
+        {
+            "id": "K2301",
+            "description": "Distribution et assainissement d'eau"
+        },
+        {
+            "id": "K230101",
+            "description": "Distribution et assainissement d'eau"
+        },
+        {
+            "id": "K2302",
+            "description": "Management et inspection en environnement urbain"
+        },
+        {
+            "id": "K230201",
+            "description": "Management et inspection en environnement urbain"
+        },
+        {
+            "id": "K2303",
+            "description": "Nettoyage des espaces urbains"
+        },
+        {
+            "id": "K230301",
+            "description": "Nettoyage des espaces urbains"
+        },
+        {
+            "id": "K2304",
+            "description": "Revalorisation de produits industriels"
+        },
+        {
+            "id": "K230401",
+            "description": "Revalorisation de produits industriels"
+        },
+        {
+            "id": "K2305",
+            "description": "Salubrité et traitement de nuisibles"
+        },
+        {
+            "id": "K230501",
+            "description": "Salubrité et traitement de nuisibles"
+        },
+        {
+            "id": "K2306",
+            "description": "Supervision d'exploitation éco-industrielle"
+        },
+        {
+            "id": "K230601",
+            "description": "Supervision d'exploitation éco-industrielle"
+        },
+        {
+            "id": "K24",
+            "description": "Recherche"
+        },
+        {
+            "id": "K2401",
+            "description": "Recherche en sciences de l'homme et de la société"
+        },
+        {
+            "id": "K240101",
+            "description": "Recherche en sciences de l'homme et de la société"
+        },
+        {
+            "id": "K2402",
+            "description": "Recherche en sciences de l'univers, de la matière et du vivant"
+        },
+        {
+            "id": "K240201",
+            "description": "Recherche en sciences de l'univers, de la matière et du vivant"
+        },
+        {
+            "id": "K25",
+            "description": "Sécurité privée"
+        },
+        {
+            "id": "K2501",
+            "description": "Gardiennage de locaux"
+        },
+        {
+            "id": "K250101",
+            "description": "Gardiennage de locaux"
+        },
+        {
+            "id": "K2502",
+            "description": "Management de sécurité privée"
+        },
+        {
+            "id": "K250201",
+            "description": "Management de sécurité privée"
+        },
+        {
+            "id": "K2503",
+            "description": "Sécurité et surveillance privées"
+        },
+        {
+            "id": "K250301",
+            "description": "Sécurité et surveillance privées"
+        },
+        {
+            "id": "K26",
+            "description": "Services funéraires"
+        },
+        {
+            "id": "K2601",
+            "description": "Conduite d'opérations funéraires"
+        },
+        {
+            "id": "K260101",
+            "description": "Conduite d'opérations funéraires"
+        },
+        {
+            "id": "K2602",
+            "description": "Conseil en services funéraires"
+        },
+        {
+            "id": "K260201",
+            "description": "Conseil en services funéraires"
+        },
+        {
+            "id": "K2603",
+            "description": "Thanatopraxie"
+        },
+        {
+            "id": "K260301",
+            "description": "Thanatopraxie"
+        },
+        {
+            "id": "L",
+            "description": "SPECTACLE"
+        },
+        {
+            "id": "L11",
+            "description": "Animation de spectacles"
+        },
+        {
+            "id": "L1101",
+            "description": "Animation musicale et scénique"
+        },
+        {
+            "id": "L110101",
+            "description": "Animation musicale et scénique"
+        },
+        {
+            "id": "L1102",
+            "description": "Mannequinat et pose artistique"
+        },
+        {
+            "id": "L110201",
+            "description": "Mannequinat et pose artistique"
+        },
+        {
+            "id": "L1103",
+            "description": "Présentation de spectacles ou d'émissions"
+        },
+        {
+            "id": "L110301",
+            "description": "Présentation de spectacles ou d'émissions"
+        },
+        {
+            "id": "L12",
+            "description": "Artistes - interprètes du spectacle"
+        },
+        {
+            "id": "L1201",
+            "description": "Danse"
+        },
+        {
+            "id": "L120101",
+            "description": "Danse"
+        },
+        {
+            "id": "L1202",
+            "description": "Musique et chant"
+        },
+        {
+            "id": "L120201",
+            "description": "Musique et chant"
+        },
+        {
+            "id": "L1203",
+            "description": "Art dramatique"
+        },
+        {
+            "id": "L120301",
+            "description": "Art dramatique"
+        },
+        {
+            "id": "L1204",
+            "description": "Arts du cirque et arts visuels"
+        },
+        {
+            "id": "L120401",
+            "description": "Arts du cirque et arts visuels"
+        },
+        {
+            "id": "L13",
+            "description": "Conception et production de spectacles"
+        },
+        {
+            "id": "L1301",
+            "description": "Mise en scène de spectacles vivants"
+        },
+        {
+            "id": "L130101",
+            "description": "Mise en scène de spectacles vivants"
+        },
+        {
+            "id": "L1302",
+            "description": "Production et administration spectacle, cinéma et audiovisuel"
+        },
+        {
+            "id": "L130201",
+            "description": "Production et administration spectacle, cinéma et audiovisuel s"
+        },
+        {
+            "id": "L1303",
+            "description": "Promotion d'artistes et de spectacles"
+        },
+        {
+            "id": "L130301",
+            "description": "Promotion d'artistes et de spectacles"
+        },
+        {
+            "id": "L1304",
+            "description": "Réalisation cinématographique et audiovisuelle"
+        },
+        {
+            "id": "L130401",
+            "description": "Réalisation cinématographique et audiovisuelle"
+        },
+        {
+            "id": "L14",
+            "description": "Sport professionnel"
+        },
+        {
+            "id": "L1401",
+            "description": "Sportif professionnel"
+        },
+        {
+            "id": "L140101",
+            "description": "Sportif professionnel"
+        },
+        {
+            "id": "L15",
+            "description": "Techniciens du spectacle"
+        },
+        {
+            "id": "L1501",
+            "description": "Coiffure et maquillage spectacle"
+        },
+        {
+            "id": "L150101",
+            "description": "Coiffure et maquillage spectacle"
+        },
+        {
+            "id": "L1502",
+            "description": "Costume et habillage spectacle"
+        },
+        {
+            "id": "L150201",
+            "description": "Costume et habillage spectacle"
+        },
+        {
+            "id": "L1503",
+            "description": "Décor et accessoires spectacle"
+        },
+        {
+            "id": "L150301",
+            "description": "Décor et accessoires spectacle"
+        },
+        {
+            "id": "L1504",
+            "description": "Éclairage spectacle"
+        },
+        {
+            "id": "L150401",
+            "description": "Éclairage spectacle"
+        },
+        {
+            "id": "L1505",
+            "description": "Image cinématographique et télévisuelle"
+        },
+        {
+            "id": "L150501",
+            "description": "Image cinématographique et télévisuelle"
+        },
+        {
+            "id": "L1506",
+            "description": "Machinerie spectacle"
+        },
+        {
+            "id": "L150601",
+            "description": "Machinerie spectacle"
+        },
+        {
+            "id": "L1507",
+            "description": "Montage et post-production"
+        },
+        {
+            "id": "L150701",
+            "description": "Montage audiovisuel et post-production"
+        },
+        {
+            "id": "L1508",
+            "description": "Prise de son et sonorisation"
+        },
+        {
+            "id": "L150801",
+            "description": "Prise de son et sonorisation"
+        },
+        {
+            "id": "L1509",
+            "description": "Régie générale"
+        },
+        {
+            "id": "L150901",
+            "description": "Régie générale"
+        },
+        {
+            "id": "M",
+            "description": "SUPPORT A L'ENTREPRISE"
+        },
+        {
+            "id": "M11",
+            "description": "Achats"
+        },
+        {
+            "id": "M1101",
+            "description": "Achats"
+        },
+        {
+            "id": "M110101",
+            "description": "Achats"
+        },
+        {
+            "id": "M1102",
+            "description": "Direction des achats"
+        },
+        {
+            "id": "M110201",
+            "description": "Direction des achats"
+        },
+        {
+            "id": "M12",
+            "description": "Comptabilité et gestion"
+        },
+        {
+            "id": "M1201",
+            "description": "Analyse et ingénierie financière"
+        },
+        {
+            "id": "M120101",
+            "description": "Analyse et ingénierie financière"
+        },
+        {
+            "id": "M1202",
+            "description": "Audit et contrôle comptables et financiers"
+        },
+        {
+            "id": "M120201",
+            "description": "Audit et contrôle comptables et financiers"
+        },
+        {
+            "id": "M1203",
+            "description": "Comptabilité"
+        },
+        {
+            "id": "M120301",
+            "description": "Comptabilité"
+        },
+        {
+            "id": "M1204",
+            "description": "Contrôle de gestion"
+        },
+        {
+            "id": "M120401",
+            "description": "Contrôle de gestion"
+        },
+        {
+            "id": "M1205",
+            "description": "Direction administrative et financière"
+        },
+        {
+            "id": "M120501",
+            "description": "Direction administrative et financière"
+        },
+        {
+            "id": "M1206",
+            "description": "Management de groupe ou de service comptable"
+        },
+        {
+            "id": "M120601",
+            "description": "Management de groupe ou de service comptable"
+        },
+        {
+            "id": "M1207",
+            "description": "Trésorerie et financement"
+        },
+        {
+            "id": "M120701",
+            "description": "Trésorerie et financement"
+        },
+        {
+            "id": "M13",
+            "description": "Direction d'entreprise"
+        },
+        {
+            "id": "M1301",
+            "description": "Direction de grande entreprise ou d'établissement public"
+        },
+        {
+            "id": "M130101",
+            "description": "Direction de grande entreprise ou d'établissement public"
+        },
+        {
+            "id": "M1302",
+            "description": "Direction de petite ou moyenne entreprise"
+        },
+        {
+            "id": "M130201",
+            "description": "Direction de petite ou moyenne entreprise"
+        },
+        {
+            "id": "M14",
+            "description": "Organisation et études"
+        },
+        {
+            "id": "M1401",
+            "description": "Conduite d'enquêtes"
+        },
+        {
+            "id": "M140101",
+            "description": "Conduite d'enquêtes"
+        },
+        {
+            "id": "M1402",
+            "description": "Conseil en organisation et management d'entreprise"
+        },
+        {
+            "id": "M140201",
+            "description": "Conseil en organisation et management d'entreprise"
+        },
+        {
+            "id": "M1403",
+            "description": "Études et prospectives socio-économiques"
+        },
+        {
+            "id": "M140301",
+            "description": "Études et prospectives socio-économiques"
+        },
+        {
+            "id": "M1404",
+            "description": "Management et gestion d'enquêtes"
+        },
+        {
+            "id": "M140401",
+            "description": "Management et gestion d'enquêtes"
+        },
+        {
+            "id": "M15",
+            "description": "Ressources humaines"
+        },
+        {
+            "id": "M1501",
+            "description": "Assistanat en ressources humaines"
+        },
+        {
+            "id": "M150101",
+            "description": "Assistanat en ressources humaines"
+        },
+        {
+            "id": "M1502",
+            "description": "Développement des ressources humaines"
+        },
+        {
+            "id": "M150201",
+            "description": "Développement des ressources humaines"
+        },
+        {
+            "id": "M1503",
+            "description": "Management des ressources humaines"
+        },
+        {
+            "id": "M150301",
+            "description": "Management des ressources humaines"
+        },
+        {
+            "id": "M16",
+            "description": "Secrétariat et assistance"
+        },
+        {
+            "id": "M1601",
+            "description": "Accueil et renseignements"
+        },
+        {
+            "id": "M160101",
+            "description": "Accueil et renseignements"
+        },
+        {
+            "id": "M1602",
+            "description": "Opérations administratives"
+        },
+        {
+            "id": "M160201",
+            "description": "Opérations administratives"
+        },
+        {
+            "id": "M1603",
+            "description": "Distribution de documents"
+        },
+        {
+            "id": "M160301",
+            "description": "Distribution de documents"
+        },
+        {
+            "id": "M1604",
+            "description": "Assistanat de direction"
+        },
+        {
+            "id": "M160401",
+            "description": "Assistanat de direction"
+        },
+        {
+            "id": "M1605",
+            "description": "Assistanat technique et administratif"
+        },
+        {
+            "id": "M160501",
+            "description": "Assistanat technique et administratif"
+        },
+        {
+            "id": "M1606",
+            "description": "Saisie de données"
+        },
+        {
+            "id": "M160601",
+            "description": "Saisie de données"
+        },
+        {
+            "id": "M1607",
+            "description": "Secrétariat"
+        },
+        {
+            "id": "M160701",
+            "description": "Secrétariat"
+        },
+        {
+            "id": "M1608",
+            "description": "Secrétariat comptable"
+        },
+        {
+            "id": "M160801",
+            "description": "Secrétariat comptable"
+        },
+        {
+            "id": "M1609",
+            "description": "Secrétariat et assistanat médical ou médico-social"
+        },
+        {
+            "id": "M160901",
+            "description": "Secrétariat et assistanat médical ou médico-social"
+        },
+        {
+            "id": "M17",
+            "description": "Stratégie commerciale, marketing et supervision des ventes"
+        },
+        {
+            "id": "M1701",
+            "description": "Administration des ventes"
+        },
+        {
+            "id": "M170101",
+            "description": "Administration des ventes"
+        },
+        {
+            "id": "M1702",
+            "description": "Analyse de tendance"
+        },
+        {
+            "id": "M170201",
+            "description": "Analyse de tendance"
+        },
+        {
+            "id": "M1703",
+            "description": "Management et gestion de produit"
+        },
+        {
+            "id": "M170301",
+            "description": "Management et gestion de produit"
+        },
+        {
+            "id": "M1704",
+            "description": "Management relation clientèle"
+        },
+        {
+            "id": "M170401",
+            "description": "Management relation clientèle"
+        },
+        {
+            "id": "M1705",
+            "description": "Marketing"
+        },
+        {
+            "id": "M170501",
+            "description": "Marketing"
+        },
+        {
+            "id": "M1706",
+            "description": "Promotion des ventes"
+        },
+        {
+            "id": "M170601",
+            "description": "Promotion des ventes"
+        },
+        {
+            "id": "M1707",
+            "description": "Stratégie commerciale"
+        },
+        {
+            "id": "M170701",
+            "description": "Stratégie commerciale"
+        },
+        {
+            "id": "M18",
+            "description": "Systèmes d'information et de télécommunication"
+        },
+        {
+            "id": "M1801",
+            "description": "Administration de systèmes d'information"
+        },
+        {
+            "id": "M180101",
+            "description": "Administration de systèmes d'information"
+        },
+        {
+            "id": "M1802",
+            "description": "Conseil et maîtrise d'ouvrage en systèmes d'information"
+        },
+        {
+            "id": "M180201",
+            "description": "Expertise et support en systèmes d'information"
+        },
+        {
+            "id": "M1803",
+            "description": "Direction des systèmes d'information"
+        },
+        {
+            "id": "M180301",
+            "description": "Direction des systèmes d'information"
+        },
+        {
+            "id": "M1804",
+            "description": "Études et développement de réseaux de télécoms"
+        },
+        {
+            "id": "M180401",
+            "description": "Études et développement de réseaux de télécoms"
+        },
+        {
+            "id": "M1805",
+            "description": "Études et développement informatique"
+        },
+        {
+            "id": "M180501",
+            "description": "Études et développement informatique"
+        },
+        {
+            "id": "M1806",
+            "description": "Expertise et support technique en systèmes d'information"
+        },
+        {
+            "id": "M180601",
+            "description": "Conseil et maîtrise d'ouvrage en systèmes d'information"
+        },
+        {
+            "id": "M1807",
+            "description": "Exploitation de systèmes de communication et de commandement"
+        },
+        {
+            "id": "M180701",
+            "description": "Exploitation de systèmes de communication et de commandement"
+        },
+        {
+            "id": "M1808",
+            "description": "Information géographique"
+        },
+        {
+            "id": "M180801",
+            "description": "Information géographique"
+        },
+        {
+            "id": "M1809",
+            "description": "Information météorologique"
+        },
+        {
+            "id": "M180901",
+            "description": "Information météorologique"
+        },
+        {
+            "id": "M1810",
+            "description": "Production et exploitation de systèmes d'information"
+        },
+        {
+            "id": "M181001",
+            "description": "Production et exploitation de systèmes d'information"
+        },
+        {
+            "id": "N",
+            "description": "TRANSPORT ET LOGISTIQUE"
+        },
+        {
+            "id": "N11",
+            "description": "Magasinage, manutention des charges et déménagement"
+        },
+        {
+            "id": "N1101",
+            "description": "Conduite d'engins de déplacement des charges"
+        },
+        {
+            "id": "N110101",
+            "description": "Conduite d'engins de déplacement des charges"
+        },
+        {
+            "id": "N1102",
+            "description": "Déménagement"
+        },
+        {
+            "id": "N110201",
+            "description": "Déménagement"
+        },
+        {
+            "id": "N1103",
+            "description": "Magasinage et préparation de commandes"
+        },
+        {
+            "id": "N110301",
+            "description": "Magasinage et préparation de commandes"
+        },
+        {
+            "id": "N1104",
+            "description": "Manoeuvre et conduite d'engins lourds de manutention"
+        },
+        {
+            "id": "N110401",
+            "description": "Manoeuvre et conduite d'engins lourds de manutention"
+        },
+        {
+            "id": "N1105",
+            "description": "Manutention manuelle de charges"
+        },
+        {
+            "id": "N110501",
+            "description": "Manutention manuelle de charges"
+        },
+        {
+            "id": "N12",
+            "description": "Organisation de la circulation des marchandises"
+        },
+        {
+            "id": "N1201",
+            "description": "Affrètement transport"
+        },
+        {
+            "id": "N120101",
+            "description": "Affrètement transport"
+        },
+        {
+            "id": "N1202",
+            "description": "Gestion des opérations de circulation internationale des marchandises"
+        },
+        {
+            "id": "N120201",
+            "description": "Gestion des opérations de circulation internationale des marchandises"
+        },
+        {
+            "id": "N13",
+            "description": "Personnel d'encadrement"
+        },
+        {
+            "id": "N1301",
+            "description": "Conception et organisation de la chaîne logistique"
+        },
+        {
+            "id": "N130101",
+            "description": "Conception et organisation de la chaîne logistique"
+        },
+        {
+            "id": "N1302",
+            "description": "Direction de site logistique"
+        },
+        {
+            "id": "N130201",
+            "description": "Direction de site logistique"
+        },
+        {
+            "id": "N1303",
+            "description": "Intervention technique d'exploitation logistique"
+        },
+        {
+            "id": "N130301",
+            "description": "Intervention technique d'exploitation logistique"
+        },
+        {
+            "id": "N21",
+            "description": "Personnel navigant du transport aérien"
+        },
+        {
+            "id": "N2101",
+            "description": "Navigation commerciale aérienne"
+        },
+        {
+            "id": "N210101",
+            "description": "Navigation commerciale aérienne"
+        },
+        {
+            "id": "N2102",
+            "description": "Pilotage et navigation technique aérienne"
+        },
+        {
+            "id": "N210201",
+            "description": "Pilotage et navigation technique aérienne"
+        },
+        {
+            "id": "N22",
+            "description": "Personnel sédentaire du transport aérien"
+        },
+        {
+            "id": "N2201",
+            "description": "Personnel d'escale aéroportuaire"
+        },
+        {
+            "id": "N220101",
+            "description": "Personnel d'escale aéroportuaire"
+        },
+        {
+            "id": "N2202",
+            "description": "Contrôle de la navigation aérienne"
+        },
+        {
+            "id": "N220201",
+            "description": "Contrôle de la navigation aérienne"
+        },
+        {
+            "id": "N2203",
+            "description": "Exploitation des pistes aéroportuaires"
+        },
+        {
+            "id": "N220301",
+            "description": "Exploitation des pistes aéroportuaires"
+        },
+        {
+            "id": "N2204",
+            "description": "Préparation des vols"
+        },
+        {
+            "id": "N220401",
+            "description": "Préparation des vols"
+        },
+        {
+            "id": "N2205",
+            "description": "Direction d'escale et exploitation aéroportuaire"
+        },
+        {
+            "id": "N220501",
+            "description": "Direction d'escale et exploitation aéroportuaire"
+        },
+        {
+            "id": "N31",
+            "description": "Personnel navigant du transport maritime et fluvial"
+        },
+        {
+            "id": "N3101",
+            "description": "Encadrement de la navigation maritime"
+        },
+        {
+            "id": "N310101",
+            "description": "Encadrement de la navigation maritime"
+        },
+        {
+            "id": "N3102",
+            "description": "Equipage de la navigation maritime"
+        },
+        {
+            "id": "N310201",
+            "description": "Equipage de la navigation maritime"
+        },
+        {
+            "id": "N3103",
+            "description": "Navigation fluviale"
+        },
+        {
+            "id": "N310301",
+            "description": "Navigation fluviale"
+        },
+        {
+            "id": "N32",
+            "description": "Personnel sédentaire du transport maritime et fluvial"
+        },
+        {
+            "id": "N3201",
+            "description": "Exploitation des opérations portuaires et du transport maritime"
+        },
+        {
+            "id": "N320101",
+            "description": "Exploitation des opérations portuaires et du transport maritime"
+        },
+        {
+            "id": "N3202",
+            "description": "Exploitation du transport fluvial"
+        },
+        {
+            "id": "N320201",
+            "description": "Exploitation du transport fluvial"
+        },
+        {
+            "id": "N3203",
+            "description": "Manutention portuaire"
+        },
+        {
+            "id": "N320301",
+            "description": "Manutention portuaire"
+        },
+        {
+            "id": "N41",
+            "description": "Personnel de conduite du transport routier"
+        },
+        {
+            "id": "N4101",
+            "description": "Conduite de transport de marchandises sur longue distance"
+        },
+        {
+            "id": "N410101",
+            "description": "Conduite de transport de marchandises sur longue distance"
+        },
+        {
+            "id": "N4102",
+            "description": "Conduite de transport de particuliers"
+        },
+        {
+            "id": "N410201",
+            "description": "Conduite de transport de particuliers"
+        },
+        {
+            "id": "N4103",
+            "description": "Conduite de transport en commun sur route"
+        },
+        {
+            "id": "N410301",
+            "description": "Conduite de transport en commun sur route"
+        },
+        {
+            "id": "N4104",
+            "description": "Courses et livraisons express"
+        },
+        {
+            "id": "N410401",
+            "description": "Courses et livraisons express"
+        },
+        {
+            "id": "N4105",
+            "description": "Conduite et livraison par tournées sur courte distance"
+        },
+        {
+            "id": "N410501",
+            "description": "Conduite et livraison par tournées sur courte distance"
+        },
+        {
+            "id": "N42",
+            "description": "Personnel d'encadrement du transport routier"
+        },
+        {
+            "id": "N4201",
+            "description": "Direction d'exploitation des transports routiers de marchandises"
+        },
+        {
+            "id": "N420101",
+            "description": "Direction d'exploitation des transports routiers de marchandises"
+        },
+        {
+            "id": "N4202",
+            "description": "Direction d'exploitation des transports routiers de personnes"
+        },
+        {
+            "id": "N420201",
+            "description": "Direction d'exploitation des transports routiers de personnes"
+        },
+        {
+            "id": "N4203",
+            "description": "Intervention technique d'exploitation des transports routiers de marchandises"
+        },
+        {
+            "id": "N420301",
+            "description": "Intervention technique d'exploitation des transports routiers de marchandises"
+        },
+        {
+            "id": "N4204",
+            "description": "Intervention technique d'exploitation des transports routiers de personnes"
+        },
+        {
+            "id": "N420401",
+            "description": "Intervention technique d'exploitation des transports routiers de personnes"
+        },
+        {
+            "id": "N43",
+            "description": "Personnel navigant du transport terrestre"
+        },
+        {
+            "id": "N4301",
+            "description": "Conduite sur rails"
+        },
+        {
+            "id": "N430101",
+            "description": "Conduite sur rails"
+        },
+        {
+            "id": "N4302",
+            "description": "Contrôle des transports en commun"
+        },
+        {
+            "id": "N430201",
+            "description": "Contrôle des transports en commun"
+        },
+        {
+            "id": "N44",
+            "description": "Personnel sédentaire du transport ferroviaire et réseau filo guidé"
+        },
+        {
+            "id": "N4401",
+            "description": "Circulation du réseau ferré"
+        },
+        {
+            "id": "N440101",
+            "description": "Circulation du réseau ferré"
+        },
+        {
+            "id": "N4402",
+            "description": "Exploitation et manoeuvre des remontées mécaniques"
+        },
+        {
+            "id": "N440201",
+            "description": "Exploitation et manoeuvre des remontées mécaniques"
+        },
+        {
+            "id": "N4403",
+            "description": "Manoeuvre du réseau ferré"
+        },
+        {
+            "id": "N440301",
+            "description": "Manoeuvre du réseau ferré"
+        },
+        {
+            "id": "K130501",
+            "description": "Intervention sociale et familiale"
+        },
+        {
+            "id": "K210501",
+            "description": "Enseignement artistique"
+        },
+        {
+            "id": "K1305",
+            "description": "Intervention sociale et familiale"
+        },
+        {
+            "id": "K2105",
+            "description": "Enseignement artistique"
+        },
+        {
+            "id": "K1102",
+            "description": "Aide aux bénéficiaires d'une mesure de protection juridique"
+        },
+        {
+            "id": "L1510",
+            "description": "Films d'animation et effets spéciaux"
+        },
+        {
+            "id": "L151001",
+            "description": "Films d'animation et effets spéciaux"
+        }
+    ]
+}

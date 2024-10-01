@@ -1,0 +1,70 @@
+{
+    "name": "permisconduire",
+    "version": "1.0",
+    "taxonomy": {
+        "id": "91/439/EEC",
+        "description": "Directive 91/439/EEC of 29 July 1991 on driving licenses"
+    },
+    "values": [
+        {
+            "id": "AM",
+            "description": "Cyclomoteur 25 km/h - 45 km/h"
+        },
+        {
+            "id": "A",
+            "description": "Moto > 35 kW"
+        },
+        {
+            "id": "A1",
+            "description": "Moto < 125 cm³ < 11kW"
+        },
+        {
+            "id": "A2",
+            "description": "Moto < 35 kW"
+        },
+        {
+            "id": "B",
+            "description": "Auto < 3.500 kg < 8 passagers"
+        },
+        {
+            "id": "B+E",
+            "description": "B + remorque > 750 kg"
+        },
+        {
+            "id": "C",
+            "description": "Camion > 7.500 kg"
+        },
+        {
+            "id": "C1",
+            "description": "Camion > 3.500 kg < 7.500 kg"
+        },
+        {
+            "id": "C+E",
+            "description": "C + remorque > 750 kg"
+        },
+        {
+            "id": "C1+E",
+            "description": "C1 + remorque > 750 kg"
+        },
+        {
+            "id": "D",
+            "description": "Autobus > 16 passagers"
+        },
+        {
+            "id": "D+E",
+            "description": "D + remorque > 750 kg"
+        },
+        {
+            "id": "D1",
+            "description": "Minibus max 16 passagers < 8 m de long"
+        },
+        {
+            "id": "D1+E",
+            "description": "D1 + remorque > 750 kg"
+        },
+        {
+            "id": "G",
+            "description": "Véhicules agricoles"
+        }
+    ]
+}

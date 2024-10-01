@@ -1,0 +1,31 @@
+
+{
+    "name": "competencenumerique",
+    "version": "1.0",
+    "taxonomy": {
+        "id": "ESCO",
+        "description": "Aptitudes ESCO"
+    },
+    "values": [
+        {
+            "id": "10",
+            "description": "Traitement de l'information"
+        },
+        {
+            "id": "20",
+            "description": "Communication"
+        },
+        {
+            "id": "30",
+            "description": "Création de contenu"
+        },
+        {
+            "id": "40",
+            "description": "Sécurité"
+        },
+        {
+            "id": "50",
+            "description": "Résolution de problèmes"
+        }
+    ]
+}

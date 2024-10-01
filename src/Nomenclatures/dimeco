@@ -1,0 +1,2594 @@
+{
+    "name": "dimeco",
+    "version": "1.0",
+    "taxonomy": {
+        "id": "DIMECO",
+        "description": "VDAB COMPETENTSJABLOON  V.1.0"
+    },
+    "values": [
+        {
+            "id": "N410301-1",
+            "description": "Conducteur / Conductrice d'autobus"
+        },
+        {
+            "id": "N410301-3",
+            "description": "Chauffeur / Chauffeuse de véhicules de plaisance"
+        },
+        {
+            "id": "N410301-2",
+            "description": "Conducteur / Conductrice de tram"
+        },
+        {
+            "id": "N410301-4",
+            "description": "Chauffeur / Chauffeuse d'autocar"
+        },
+        {
+            "id": "I160601-3",
+            "description": "Préparateur / Préparatrice en carrosserie"
+        },
+        {
+            "id": "I160601-1",
+            "description": "(Dé)monteur / (Dé)monteuse de carrosserie"
+        },
+        {
+            "id": "I160601-4",
+            "description": "Peintre en carrosserie"
+        },
+        {
+            "id": "I160601-2",
+            "description": "Tôlier / Tôlière en carrosserie"
+        },
+        {
+            "id": "A120301-1",
+            "description": "Agent / Agente d'entretien des parcs et jardins"
+        },
+        {
+            "id": "K220101-1",
+            "description": "Blanchisseur / Blanchisseuse "
+        },
+        {
+            "id": "M120701-1",
+            "description": "Responsable des finances"
+        },
+        {
+            "id": "M160301-1",
+            "description": "Distributeur / Distributrice de courriers et d'imprimés"
+        },
+        {
+            "id": "G150201-1",
+            "description": "Collaborateur polyvalent / Collaboratrice polyvalente d'hôtellerie"
+        },
+        {
+            "id": "J150501-1",
+            "description": "Infirmier social / Infirmière sociale "
+        },
+        {
+            "id": "E120401-1",
+            "description": "Projectionniste"
+        },
+        {
+            "id": "A150301-1",
+            "description": "Toiletteur / Toiletteuse"
+        },
+        {
+            "id": "F110401-1",
+            "description": "Dessinateur / Dessinatrice de la construction"
+        },
+        {
+            "id": "J150301-1",
+            "description": "Infirmier spécialisé / Infirmière spécialisée en anesthésie"
+        },
+        {
+            "id": "G150301-1",
+            "description": "Gouvernant / Gouvernante en établissement hôtelier"
+        },
+        {
+            "id": "G160501-1",
+            "description": "Plongeur / Plongeuse en restauration"
+        },
+        {
+            "id": "A141701-1",
+            "description": "Saliculteur / Salicultrice"
+        },
+        {
+            "id": "E110101-1",
+            "description": "Gestionnaire de site Internet"
+        },
+        {
+            "id": "H150401-1",
+            "description": "Technicien / Technicienne de contrôle qualité en électricité et électronique"
+        },
+        {
+            "id": "C120101-1",
+            "description": "Chargé / Chargée d'accueil et de services clientèle bancaire"
+        },
+        {
+            "id": "N210101-1",
+            "description": "Steward / Hôtesse en navigation aérienne"
+        },
+        {
+            "id": "K150101-1",
+            "description": "Agent / Agente d'administration des finances publiques"
+        },
+        {
+            "id": "G120601-1",
+            "description": "Croupier / Croupière"
+        },
+        {
+            "id": "H260401-1",
+            "description": "Assembleur / Assembleuse de produits électriques et électroniques"
+        },
+        {
+            "id": "M110101-1",
+            "description": "Acheteur / Acheteuse"
+        },
+        {
+            "id": "M160801-1",
+            "description": "Secrétaire comptable"
+        },
+        {
+            "id": "M140101-1",
+            "description": "Agent / Agente d'enquête"
+        },
+        {
+            "id": "K190301-1",
+            "description": "Juriste"
+        },
+        {
+            "id": "M170601-1",
+            "description": "Responsable de la promotion des ventes"
+        },
+        {
+            "id": "F110701-1",
+            "description": "Géomètre"
+        },
+        {
+            "id": "D150101-1",
+            "description": "Démonstrateur / Démonstratrice"
+        },
+        {
+            "id": "K190201-1",
+            "description": "Assistant / Assistante juridique"
+        },
+        {
+            "id": "A120201-1",
+            "description": "Agent /Agente d'entretien des espaces naturels"
+        },
+        {
+            "id": "A140301-1",
+            "description": "Aide d'élevage agricole et aquacole"
+        },
+        {
+            "id": "E110701-1",
+            "description": "Organisateur / Organisatrice d'événements"
+        },
+        {
+            "id": "K150301-1",
+            "description": "Contrôleur / Contrôleuse des impôts"
+        },
+        {
+            "id": "L110201-2",
+            "description": "Mannequin"
+        },
+        {
+            "id": "L110201-1",
+            "description": "Modèle"
+        },
+        {
+            "id": "H110101-1",
+            "description": "Conseiller / Conseillère technique pour le support à la clientèle"
+        },
+        {
+            "id": "K150401-1",
+            "description": "Agent / Agente de l'Administration générale de la Trésorerie"
+        },
+        {
+            "id": "H150501-1",
+            "description": "Expert / Experte en arômes et parfums"
+        },
+        {
+            "id": "K220201-1",
+            "description": "Laveur / Laveuse de vitres"
+        },
+        {
+            "id": "D121301-1",
+            "description": "Vendeur / Vendeuse en gros de matériel et d'équipement"
+        },
+        {
+            "id": "G170301-1",
+            "description": "Réceptionniste en établissement hôtelier"
+        },
+        {
+            "id": "G130201-1",
+            "description": "Chargé / Chargée de l'optimisation des produits touristiques"
+        },
+        {
+            "id": "G160401-1",
+            "description": "Pizzaïolo / Pizzaïola"
+        },
+        {
+            "id": "G160401-2",
+            "description": "Gaufrier - crêpier / Gaufrière - crêpière"
+        },
+        {
+            "id": "D150801-1",
+            "description": "Responsable de la caisse"
+        },
+        {
+            "id": "L130401-1",
+            "description": "Réalisateur audiovisuel / Réalisatrice audiovisuelle"
+        },
+        {
+            "id": "J120101-1",
+            "description": "Biologiste médical / médicale"
+        },
+        {
+            "id": "G170201-1",
+            "description": "Employé du hall / Employée du hall"
+        },
+        {
+            "id": "I130101-1",
+            "description": "Installateur / Installatrice d'ascenseurs"
+        },
+        {
+            "id": "I130101-2",
+            "description": "Technicien / Technicienne de maintenance d'ascenseurs"
+        },
+        {
+            "id": "J141201-1",
+            "description": "Psychomotricien / Psychomotricienne "
+        },
+        {
+            "id": "M180601-1",
+            "description": "Expert / Experte en intégration et implémentation TIC"
+        },
+        {
+            "id": "L110101-1",
+            "description": "DJ"
+        },
+        {
+            "id": "M140301-1",
+            "description": "Chargé / Chargée d'études socio-économiques"
+        },
+        {
+            "id": "K140501-1",
+            "description": "Diplomate"
+        },
+        {
+            "id": "A141101-1",
+            "description": "Éleveur porcin / Éleveuse porcine "
+        },
+        {
+            "id": "F150201-1",
+            "description": "Monteur / Monteuse d'échafaudages"
+        },
+        {
+            "id": "J130201-1",
+            "description": "Technologue de laboratoire médical"
+        },
+        {
+            "id": "D120301-1",
+            "description": "Agent / Agente de soins en hydrothérapie"
+        },
+        {
+            "id": "H310201-1",
+            "description": "Conducteur / Conductrice d'équipement de fabrication de pâte à papier"
+        },
+        {
+            "id": "K190401-1",
+            "description": "Magistrat / Magistrate "
+        },
+        {
+            "id": "N430201-1",
+            "description": "Accompagnateur-contrôleur / Accompagnatrice-contrôleuse dans les transports en commun"
+        },
+        {
+            "id": "D150501-1",
+            "description": "Caissier / Caissière "
+        },
+        {
+            "id": "D150501-2",
+            "description": "Pompiste"
+        },
+        {
+            "id": "K260301-1",
+            "description": "Embaumeur / Embaumeuse "
+        },
+        {
+            "id": "C140101-1",
+            "description": "Employé / Employée de banque"
+        },
+        {
+            "id": "M170201-1",
+            "description": "Analyste des tendances et marchés"
+        },
+        {
+            "id": "M130101-1",
+            "description": "Directeur / Directrice d'une grande entreprise"
+        },
+        {
+            "id": "N220101-1",
+            "description": "Agent / Agente d'escale"
+        },
+        {
+            "id": "M160601-1",
+            "description": "Dactylographe"
+        },
+        {
+            "id": "M160201-1",
+            "description": "Agent administratif / Agente administrative"
+        },
+        {
+            "id": "N110401-1",
+            "description": "Conducteur / Conductrice de grue mobile"
+        },
+        {
+            "id": "N110401-3",
+            "description": "Eclusier / Eclusière-barragiste"
+        },
+        {
+            "id": "N110401-2",
+            "description": "Conducteur remorqueur / Conductrice remorqueuse"
+        },
+        {
+            "id": "M120101-1",
+            "description": "Analyste financier / financière"
+        },
+        {
+            "id": "M140401-1",
+            "description": "Responsable des enquêtes"
+        },
+        {
+            "id": "M110201-1",
+            "description": "Responsable des achats"
+        },
+        {
+            "id": "J140801-1",
+            "description": "Ostéopathe-chiropracteur / chiropractrice"
+        },
+        {
+            "id": "G170101-1",
+            "description": "Concierge d'hôtel"
+        },
+        {
+            "id": "G180201-1",
+            "description": "Maître / Maîtresse d'hôtel"
+        },
+        {
+            "id": "M160101-1",
+            "description": "Agent / Agente d'accueil"
+        },
+        {
+            "id": "H130201-1",
+            "description": "Expert / Experte en sécurité, hygiène et environnement"
+        },
+        {
+            "id": "K170401-1",
+            "description": "Responsable de la sécurité publique"
+        },
+        {
+            "id": "G180401-1",
+            "description": "Sommelier / Sommelière "
+        },
+        {
+            "id": "A150201-1",
+            "description": "Maréchal-ferrant / Maréchale-ferrante"
+        },
+        {
+            "id": "B160401-1",
+            "description": "Horloger / Horlogère"
+        },
+        {
+            "id": "G150101-1",
+            "description": "Valet/femme de chambre"
+        },
+        {
+            "id": "N120101-1",
+            "description": "Affréteur / Affréteuse"
+        },
+        {
+            "id": "D120101-1",
+            "description": "Antiquaire"
+        },
+        {
+            "id": "D120101-3",
+            "description": "Acheteur vendeur / Acheteuse vendeuse d'articles de seconde main"
+        },
+        {
+            "id": "D120101-2",
+            "description": "Galeriste"
+        },
+        {
+            "id": "C130101-1",
+            "description": "Agent / Agente sur les marchés financiers"
+        },
+        {
+            "id": "D150401-1",
+            "description": "Directeur / Directrice de magasin"
+        },
+        {
+            "id": "E120301-1",
+            "description": "Opérateur / Opératrice de laboratoire de photographie"
+        },
+        {
+            "id": "F120201-3",
+            "description": "Assistant / Assistante chef / cheffe de chantier"
+        },
+        {
+            "id": "F120201-1",
+            "description": "Chef / Cheffe de chantier"
+        },
+        {
+            "id": "D120501-1",
+            "description": "Teinturier / Teinturière d'articles textiles ou cuirs"
+        },
+        {
+            "id": "E130501-1",
+            "description": "Correcteur / Correctrice"
+        },
+        {
+            "id": "M160501-1",
+            "description": "Assistant technique et administratif / Assistante technique et administrative"
+        },
+        {
+            "id": "H241001-1",
+            "description": "Repasseur / Repasseuse"
+        },
+        {
+            "id": "H241001-2",
+            "description": "Finisseur-réparateur / Finisseuse-réparatrice de produits de bonneterie et textile"
+        },
+        {
+            "id": "C110801-1",
+            "description": "Responsable du département des assurances"
+        },
+        {
+            "id": "H260101-1",
+            "description": "Enrouleur / Enrouleuse de bobines électriques"
+        },
+        {
+            "id": "A140201-1",
+            "description": "Aide agricole en production légumière et végétale"
+        },
+        {
+            "id": "C130301-1",
+            "description": "Gestionnaire de portefeuilles"
+        },
+        {
+            "id": "G110201-1",
+            "description": "Chargé / Chargée de promotion du tourisme"
+        },
+        {
+            "id": "D150701-1",
+            "description": "Employé / Employée de magasin "
+        },
+        {
+            "id": "K140101-1",
+            "description": "Cadre dirigeant / dirigeante d'un établissement public"
+        },
+        {
+            "id": "J140501-1",
+            "description": "Opticien / Opticienne"
+        },
+        {
+            "id": "F161302-1",
+            "description": "Monteur / Monteuse d'isolation industrielle"
+        },
+        {
+            "id": "H140301-1",
+            "description": "Technicien / Technicienne en gestion industrielle et logistique"
+        },
+        {
+            "id": "H260501-1",
+            "description": "Monteur-câbleur / Monteuse-câbleuse de matériels électroniques"
+        },
+        {
+            "id": "K110301-1",
+            "description": "Coach en développement personnel et bien-être"
+        },
+        {
+            "id": "N110301-1",
+            "description": "Magasinier / Magasinière"
+        },
+        {
+            "id": "K130401-1",
+            "description": "Employé / Employée de maison"
+        },
+        {
+            "id": "K130401-3",
+            "description": "Homme / Femme à tout faire à domicile"
+        },
+        {
+            "id": "K130401-2",
+            "description": "Aide ménager / ménagère à domicile"
+        },
+        {
+            "id": "N440201-1",
+            "description": "Opérateur / Opératrice remontée mécanique"
+        },
+        {
+            "id": "L110301-1",
+            "description": "Présentateur / Présentatrice"
+        },
+        {
+            "id": "C110901-1",
+            "description": "Gestionnaire d'assurances"
+        },
+        {
+            "id": "K150501-1",
+            "description": "Contrôleur / Contrôleuse pour l'inspection économique"
+        },
+        {
+            "id": "K150501-2",
+            "description": "Inspecteur / Inspectrice des denrées alimentaires"
+        },
+        {
+            "id": "H220901-1",
+            "description": "Technicien / Technicienne de fabrication en industrie du bois"
+        },
+        {
+            "id": "K240101-1",
+            "description": "Chargé / Chargée d'études en sciences humaines"
+        },
+        {
+            "id": "H320101-1",
+            "description": "Conducteur / Conductrice d'équipement de transformation des plastiques et caoutchoucs"
+        },
+        {
+            "id": "K230401-1",
+            "description": "Trieur / Trieuse de déchets"
+        },
+        {
+            "id": "E140201-1",
+            "description": "Planificateur / Planificatrice média"
+        },
+        {
+            "id": "J120201-1",
+            "description": "Pharmacien / Pharmacienne "
+        },
+        {
+            "id": "A130301-1",
+            "description": "Chargé / Chargée d'études en agronomie"
+        },
+        {
+            "id": "H250301-1",
+            "description": "Chef / Cheffe d'atelier de production mécanique et travail des métaux"
+        },
+        {
+            "id": "K230101-1",
+            "description": "Technicien / Technicienne de maintenance de la distribution et de l'assainissement des eaux"
+        },
+        {
+            "id": "I110301-1",
+            "description": "Responsable de la gestion et de l'entretien des véhicules"
+        },
+        {
+            "id": "G120401-1",
+            "description": "Animateur / Animatrice d'activités sportives"
+        },
+        {
+            "id": "H290801-1",
+            "description": "Modeleur / Modeleuse de matériaux non métalliques"
+        },
+        {
+            "id": "F110301-1",
+            "description": "Contrôleur / Contrôleuse technique de la construction"
+        },
+        {
+            "id": "N310201-1",
+            "description": "Marin / Marine"
+        },
+        {
+            "id": "K220401-2",
+            "description": "Agent / Agente de nettoyage industriel"
+        },
+        {
+            "id": "K220401-1",
+            "description": "Nettoyeur / Nettoyeuse de locaux et de grandes surfaces"
+        },
+        {
+            "id": "A150101-1",
+            "description": "Soigneur animalier /Soigneuse animalière"
+        },
+        {
+            "id": "M160701-1",
+            "description": "Secrétaire"
+        },
+        {
+            "id": "K190101-1",
+            "description": "Conseiller / Conseillère juridique et médiateur / médiatrice"
+        },
+        {
+            "id": "L140101-1",
+            "description": "Sportif professionnel / Sportive professionnelle"
+        },
+        {
+            "id": "F140101-1",
+            "description": "Ouvrier / Ouvrière de l'extraction liquide et gazeuse"
+        },
+        {
+            "id": "D140701-1",
+            "description": "Délégué technico-commercial / Déléguée technico-commerciale"
+        },
+        {
+            "id": "D121201-3",
+            "description": "Vendeur / Vendeuse d'appareils électriques"
+        },
+        {
+            "id": "D121201-1",
+            "description": "Vendeur / Vendeuse en Bricolage"
+        },
+        {
+            "id": "D121201-2",
+            "description": "Vendeur / Vendeuse en décoration intérieure"
+        },
+        {
+            "id": "M170701-1",
+            "description": "Responsable commercial / commerciale "
+        },
+        {
+            "id": "K120601-1",
+            "description": "Animateur socioculturel / Animatrice socioculturelle"
+        },
+        {
+            "id": "K120601-2",
+            "description": "Coordinateur socioculturel / Coordinatrice socioculturelle"
+        },
+        {
+            "id": "A130101-1",
+            "description": "Conseiller / Conseillère technique en agriculture"
+        },
+        {
+            "id": "B140101-1",
+            "description": "Vannier / Vannière"
+        },
+        {
+            "id": "K130201-1",
+            "description": "Aide familial / familiale"
+        },
+        {
+            "id": "F150101-1",
+            "description": "Monteur / Monteuse d'ossatures en bois"
+        },
+        {
+            "id": "F120401-1",
+            "description": "Coordinateur / Coordinatrice de sécurité et de santé sur chantier"
+        },
+        {
+            "id": "D110201-2",
+            "description": "Aide-boulanger / boulangère"
+        },
+        {
+            "id": "D110201-1",
+            "description": "Boulanger / Boulangère "
+        },
+        {
+            "id": "F170501-1",
+            "description": "Poseur / Poseuse de conduites d'eaux"
+        },
+        {
+            "id": "F170501-2",
+            "description": "Poseur / Poseuse de canalisations"
+        },
+        {
+            "id": "H220301-1",
+            "description": "Conducteur / Conductrice d'installation de production de panneaux bois"
+        },
+        {
+            "id": "E110301-1",
+            "description": "Responsable de la communication externe"
+        },
+        {
+            "id": "E110301-3",
+            "description": "Assistant / Assistante de communication"
+        },
+        {
+            "id": "E110301-2",
+            "description": "Responsable de la communication interne"
+        },
+        {
+            "id": "E110601-2",
+            "description": "Rédacteur / Rédactrice en chef"
+        },
+        {
+            "id": "E110601-3",
+            "description": "Copywriter"
+        },
+        {
+            "id": "E110601-1",
+            "description": "Journaliste"
+        },
+        {
+            "id": "K140301-1",
+            "description": "Directeur / Directrice d'établissement médicosocial ou pénitentiaire"
+        },
+        {
+            "id": "E110501-1",
+            "description": "Editeur / Editrice"
+        },
+        {
+            "id": "H241201-1",
+            "description": "Patronneur / Patronneuse"
+        },
+        {
+            "id": "N110101-1",
+            "description": "Conducteur / Conductrice de chariots élévateurs"
+        },
+        {
+            "id": "N110101-2",
+            "description": "Conducteur / Conductrice de chariots à mât rétractable"
+        },
+        {
+            "id": "F140201-1",
+            "description": "Ouvrier / Ouvrière de l'extraction solide"
+        },
+        {
+            "id": "H120901-1",
+            "description": "Technicien / Technicienne d'études et développement en électricité et électronique"
+        },
+        {
+            "id": "I150302-1",
+            "description": "Désamianteur / Désamianteuse"
+        },
+        {
+            "id": "H250101-1",
+            "description": "Responsable de production de matériaux électriques et électroniques"
+        },
+        {
+            "id": "H291001-1",
+            "description": "Mouleur / Mouleuse sable"
+        },
+        {
+            "id": "G140101-1",
+            "description": "Assistant / Assistante de direction d'hôtel-restaurant"
+        },
+        {
+            "id": "G130301-1",
+            "description": "Agent / Agente de voyages"
+        },
+        {
+            "id": "F120101-2",
+            "description": "Conducteur / Conductrice de chantier"
+        },
+        {
+            "id": "E130801-1",
+            "description": "Technicien / Technicienne en industrie graphique"
+        },
+        {
+            "id": "H150101-1",
+            "description": "Directeur / Directrice de laboratoire d'analyse industrielle"
+        },
+        {
+            "id": "D120801-1",
+            "description": "Manucure-pédicure"
+        },
+        {
+            "id": "D120801-2",
+            "description": "Esthéticien / Esthéticienne"
+        },
+        {
+            "id": "D120801-3",
+            "description": "Masseur / Masseuse"
+        },
+        {
+            "id": "D120801-5",
+            "description": "Conseiller / Conseillère en beauté"
+        },
+        {
+            "id": "D120801-4",
+            "description": "Perceur-tatoueur / Perceuse-tatoueuse"
+        },
+        {
+            "id": "F160101-1",
+            "description": "Plafonneur / Plafonneuse"
+        },
+        {
+            "id": "F160101-2",
+            "description": "Plafonneur / Plafonneuse - construction sèche"
+        },
+        {
+            "id": "I120301-1",
+            "description": "Agent / Agente de maintenance des bâtiments et des locaux"
+        },
+        {
+            "id": "G120301-1",
+            "description": "Animateur / Animatrice de loisirs auprès d'enfants ou d'adolescents"
+        },
+        {
+            "id": "H220601-1",
+            "description": "Menuisier / Menuisière d'atelier"
+        },
+        {
+            "id": "N310101-1",
+            "description": "Officier / Officière de marine"
+        },
+        {
+            "id": "N310101-2",
+            "description": "Officier / Officière de remorqueur côtier et portuaire"
+        },
+        {
+            "id": "I130901-1",
+            "description": "Électricien / Électricienne de maintenance"
+        },
+        {
+            "id": "K230301-1",
+            "description": "Ouvrier / Ouvrière de propreté publique"
+        },
+        {
+            "id": "J141001-1",
+            "description": "Technicien / Technicienne en prothèse dentaire"
+        },
+        {
+            "id": "D140401-1",
+            "description": "Vendeur / Vendeuse de véhicules"
+        },
+        {
+            "id": "H140201-1",
+            "description": "Responsable des méthodes de production et de l'industrialisation"
+        },
+        {
+            "id": "F161101-1",
+            "description": "Rénovateur / Rénovatrice de façades-Réparateur / Réparatrice de béton"
+        },
+        {
+            "id": "F161101-2",
+            "description": "Ravaleur / Ravaleuse de façades"
+        },
+        {
+            "id": "K250201-1",
+            "description": "Responsable de la sécurité privée"
+        },
+        {
+            "id": "L130301-1",
+            "description": "Agent / Agente des artistes, des modèles et des athlètes"
+        },
+        {
+            "id": "F160202-1",
+            "description": "Electricien installateur industriel / Electricienne installatrice industrielle "
+        },
+        {
+            "id": "H150301-1",
+            "description": "Laborantin / Laborantine de production industrielle"
+        },
+        {
+            "id": "J140701-1",
+            "description": "Orthopticien / Orthopticienne"
+        },
+        {
+            "id": "I160501-1",
+            "description": "Mécanicien / Mécanicienne de marine"
+        },
+        {
+            "id": "F160801-1",
+            "description": "Carreleur / Carreleuse"
+        },
+        {
+            "id": "F160801-2",
+            "description": "Parqueteur / Parqueteuse"
+        },
+        {
+            "id": "H240801-1",
+            "description": "Conducteur / Conductrice de machine d'impression textile"
+        },
+        {
+            "id": "K120501-1",
+            "description": "Conseiller / Conseillère en aide sociale"
+        },
+        {
+            "id": "M150301-1",
+            "description": "Manager / Manageuse des ressources humaines"
+        },
+        {
+            "id": "G120501-1",
+            "description": "Opérateur / Opératrice d'attractions ou de structures de loisirs"
+        },
+        {
+            "id": "J150101-1",
+            "description": "Aide-soignant / Aide-soignante"
+        },
+        {
+            "id": "F150301-3",
+            "description": "Charpentier escaliéteur / Charpentière escaliétrice"
+        },
+        {
+            "id": "F150301-1",
+            "description": "Charpentier / Charpentière"
+        },
+        {
+            "id": "F150301-2",
+            "description": "Charpentier / Charpentière de marine"
+        },
+        {
+            "id": "I131001-1",
+            "description": "Mécanicien / Mécanicienne de maintenance"
+        },
+        {
+            "id": "I140201-2",
+            "description": "Technicien / Technicienne de maintenance d'appareils électroménagers électriques et électroniques \"Blanc\""
+        },
+        {
+            "id": "I140201-1",
+            "description": "Technicien / Technicienne de maintenance d'appareils électroménagers électriques et électroniques \"Brun\""
+        },
+        {
+            "id": "I140201-4",
+            "description": "Réparateur / Réparatrice de matériels de bricolage"
+        },
+        {
+            "id": "H120501-1",
+            "description": "Technicien / Technicienne d'études en matériaux souples"
+        },
+        {
+            "id": "F150202-1",
+            "description": "Monteur / Monteuse de structures métalliques lourdes"
+        },
+        {
+            "id": "F130101-1",
+            "description": "Conducteur / Conductrice de grue à tour"
+        },
+        {
+            "id": "M170501-1",
+            "description": "Directeur / Directrice du marketing"
+        },
+        {
+            "id": "L150501-1",
+            "description": "Technicien / Technicienne images"
+        },
+        {
+            "id": "A141401-1",
+            "description": "Horticulteur - maraicher / Horticultrice - maraichère"
+        },
+        {
+            "id": "H340201-1",
+            "description": "Agent / Agente de traitement des surfaces de divers matériaux"
+        },
+        {
+            "id": "C150201-1",
+            "description": "Chargé / Chargée de gestion locative en immobilier"
+        },
+        {
+            "id": "K120701-1",
+            "description": "Éducateur-accompagnateur / Éducatrice-accompagnatrice"
+        },
+        {
+            "id": "L150101-1",
+            "description": "Maquilleur-coiffeur / Maquilleuse-coiffeuse"
+        },
+        {
+            "id": "H260301-1",
+            "description": "Opérateur / Opératrice de production de composants électriques et électroniques"
+        },
+        {
+            "id": "H241401-1",
+            "description": "Préparateur et finisseur / Préparatrice et finisseuse de produits en cuir et de textiles"
+        },
+        {
+            "id": "H290901-1",
+            "description": "Opérateur / Opératrice en montage et assemblage mécanique"
+        },
+        {
+            "id": "H290901-2",
+            "description": "Constructeur / Constructrice de machines"
+        },
+        {
+            "id": "A141301-1",
+            "description": "Brasseur / Brasseuse"
+        },
+        {
+            "id": "A110101-1",
+            "description": "Conducteur / Conductrice de machines agricoles et forestières"
+        },
+        {
+            "id": "K140401-1",
+            "description": "Chargé / Chargée de mission dans le service public"
+        },
+        {
+            "id": "A120501-1",
+            "description": "Agent / Agente d'exploitation forestière"
+        },
+        {
+            "id": "E130401-1",
+            "description": "Opérateur / Opératrice de finition en industrie graphique"
+        },
+        {
+            "id": "M120401-1",
+            "description": "Responsable de la gestion budgétaire"
+        },
+        {
+            "id": "K110101-1",
+            "description": "Médiateur conjugal et familial / Médiatrice conjugale et familiale"
+        },
+        {
+            "id": "C120401-1",
+            "description": "Gestionnaire de produits bancaires"
+        },
+        {
+            "id": "C130201-1",
+            "description": "Gestionnaire de back et middle office sur les marchés financiers"
+        },
+        {
+            "id": "E140101-1",
+            "description": "Responsable des campagnes publicitaires"
+        },
+        {
+            "id": "D121001-1",
+            "description": "Vendeur / Vendeuse d'animaux (domestiques)"
+        },
+        {
+            "id": "N220301-1",
+            "description": "Manutentionnaire dans le fret aérien"
+        },
+        {
+            "id": "N220301-2",
+            "description": "Responsable de chargement fret aérien"
+        },
+        {
+            "id": "D120601-1",
+            "description": "Cordonnier / Cordonnière "
+        },
+        {
+            "id": "M170301-1",
+            "description": "Chef / cheffe de produit"
+        },
+        {
+            "id": "G180301-1",
+            "description": "Serveur / Serveuse dans un restaurant"
+        },
+        {
+            "id": "G180301-2",
+            "description": "Commis / Commise de salle "
+        },
+        {
+            "id": "D110501-1",
+            "description": "Préparateur / Préparatrice de produits à base de poissons"
+        },
+        {
+            "id": "D110501-2",
+            "description": "Poissonnier / Poissonière "
+        },
+        {
+            "id": "J150401-1",
+            "description": "Infirmier spécialisé / Infirmière spécialisée au bloc opératoire"
+        },
+        {
+            "id": "K130101-1",
+            "description": "Accompagnateur / Accompagnatrice d'activités de la vie quotidienne"
+        },
+        {
+            "id": "N420201-1",
+            "description": "Responsable de l'organisation du transport routier des personnes"
+        },
+        {
+            "id": "M120501-1",
+            "description": "Responsable administratif et financier / Responsable administrative et financière"
+        },
+        {
+            "id": "C110401-1",
+            "description": "Responsable de bureau d'assurances"
+        },
+        {
+            "id": "D150601-1",
+            "description": "Marchandiseur / Marchandiseuse"
+        },
+        {
+            "id": "N110501-1",
+            "description": "Manutentionnaire"
+        },
+        {
+            "id": "M120601-1",
+            "description": "Chef /Cheffe comptable"
+        },
+        {
+            "id": "H120101-1",
+            "description": "Technicien / Technicienne en colorants"
+        },
+        {
+            "id": "M150101-1",
+            "description": "Assistant / Assistante ressources humaines"
+        },
+        {
+            "id": "M160901-1",
+            "description": "Secrétaire médical / médicale"
+        },
+        {
+            "id": "K210101-1",
+            "description": "Conseiller / Conseillère en formation"
+        },
+        {
+            "id": "A120401-1",
+            "description": "Garde forestier / forestière"
+        },
+        {
+            "id": "D120401-1",
+            "description": "Loueur / Loueuse de véhicules et de matériel de loisirs"
+        },
+        {
+            "id": "C120601-1",
+            "description": "Chargé / Chargée de clientèle bancaire"
+        },
+        {
+            "id": "K210201-1",
+            "description": "Coordinateur / Coordinatrice pédagogique"
+        },
+        {
+            "id": "I120101-1",
+            "description": "Agent / Agente d'entretien d'affichage et mobilier urbain"
+        },
+        {
+            "id": "C120501-1",
+            "description": "Conseiller / Conseillère en gestion de patrimoine financier"
+        },
+        {
+            "id": "M160401-1",
+            "description": "Assistant / Assistante de direction"
+        },
+        {
+            "id": "K260201-1",
+            "description": "Entrepreneur / Entrepreneuse des pompes funèbres"
+        },
+        {
+            "id": "A140101-1",
+            "description": "Aide agricole en production fruitière"
+        },
+        {
+            "id": "F160901-1",
+            "description": "Poseur / Poseuse de revêtements souples"
+        },
+        {
+            "id": "H240501-1",
+            "description": "Conducteur / Conductrice de machine de textiles non tissés"
+        },
+        {
+            "id": "G160101-1",
+            "description": "Chef / Cheffe de cuisine de collectivité"
+        },
+        {
+            "id": "G160101-3",
+            "description": "Chef / Cheffe de cuisine"
+        },
+        {
+            "id": "H240901-1",
+            "description": "Coupeur / Coupeuse cuir, textile et matériaux souples"
+        },
+        {
+            "id": "J130101-1",
+            "description": "Assistant / Assistante logistique en milieu hospitalier"
+        },
+        {
+            "id": "B170101-1",
+            "description": "Taxidermiste"
+        },
+        {
+            "id": "F170201-1",
+            "description": "Ouvrier / Ouvrière de voirie"
+        },
+        {
+            "id": "J110301-1",
+            "description": "Dentiste"
+        },
+        {
+            "id": "K180201-2",
+            "description": "Chef / Cheffe de projets au développement local"
+        },
+        {
+            "id": "K180201-1",
+            "description": "Agent / Agente de développement local"
+        },
+        {
+            "id": "H220101-1",
+            "description": "Assembleur / Assembleuse d'ouvrages en bois"
+        },
+        {
+            "id": "J130501-1",
+            "description": "Ambulancier / Ambulancière-secouriste"
+        },
+        {
+            "id": "D110101-1",
+            "description": "Boucher / Bouchère"
+        },
+        {
+            "id": "D110101-2",
+            "description": "Aide-boucher / bouchère"
+        },
+        {
+            "id": "H150201-1",
+            "description": "Responsable contrôle qualité en industrie"
+        },
+        {
+            "id": "M181001-1",
+            "description": "Gestionnaire d'exploitation informatique"
+        },
+        {
+            "id": "F170401-2",
+            "description": "Manœuvre en construction"
+        },
+        {
+            "id": "E110201-1",
+            "description": "Auteur / Auteure"
+        },
+        {
+            "id": "D150901-1",
+            "description": "Responsable de département d'un magasin"
+        },
+        {
+            "id": "B180101-1",
+            "description": "Chapelier / Chapelière"
+        },
+        {
+            "id": "K120201-1",
+            "description": "Responsable de structure d'accueil"
+        },
+        {
+            "id": "I160401-1",
+            "description": "Mécanicien / Mécanicienne pour camions et véhicules utilitaires lourds (+ 3,5 T)"
+        },
+        {
+            "id": "I160401-4",
+            "description": "Technicien / Technicienne automobile"
+        },
+        {
+            "id": "I160401-3",
+            "description": "Mécanicien / Mécanicienne pour voitures et véhicules utilitaires légers (- 3,5 T)"
+        },
+        {
+            "id": "M180401-1",
+            "description": "Développeur / Développeuse de réseaux de télécommunications"
+        },
+        {
+            "id": "H241301-1",
+            "description": "Opérateur / Opératrice en préparation et approvisionnement de tissage"
+        },
+        {
+            "id": "B130101-1",
+            "description": "Étalagiste-décorateur / décoratrice"
+        },
+        {
+            "id": "H240701-1",
+            "description": "Conducteur / Conductrice de machine de transformation et de finition des cuirs et peaux"
+        },
+        {
+            "id": "H330101-1",
+            "description": "Conducteur / Conductrice d'équipement de conditionnement"
+        },
+        {
+            "id": "D140801-1",
+            "description": "Opérateur / Opératrice call center"
+        },
+        {
+            "id": "D140801-2",
+            "description": "Superviseur /  Superviseuse d'un call center"
+        },
+        {
+            "id": "G140201-1",
+            "description": "Directeur / Directrice d'hôtel-restaurant"
+        },
+        {
+            "id": "H130301-1",
+            "description": "Technicien / Technicienne en sécurité, hygiène et environnement"
+        },
+        {
+            "id": "L130201-1",
+            "description": "Responsable de la programmation audiovisuelle ou de spectacles"
+        },
+        {
+            "id": "F160201-1",
+            "description": "Electricien installateur résidentiel / Electricienne installatrice résidentielle"
+        },
+        {
+            "id": "I110101-1",
+            "description": "Responsable de l'entretien des bâtiments et infrastructures"
+        },
+        {
+            "id": "M170101-1",
+            "description": "Responsable de l'administration des ventes"
+        },
+        {
+            "id": "D120901-1",
+            "description": "Fleuriste"
+        },
+        {
+            "id": "J141101-1",
+            "description": "Bandagiste-orthésiste-prothésiste"
+        },
+        {
+            "id": "F110101-1",
+            "description": "Architecte"
+        },
+        {
+            "id": "F110101-2",
+            "description": "Architecte paysagiste"
+        },
+        {
+            "id": "K140201-1",
+            "description": "Conseiller / Conseillère en santé publique"
+        },
+        {
+            "id": "G140401-1",
+            "description": "Directeur / Directrice  de restaurant de collectivité"
+        },
+        {
+            "id": "H120701-1",
+            "description": "Rédacteur / Rédactrice technique"
+        },
+        {
+            "id": "K230601-1",
+            "description": "Responsable de site éco-industriel"
+        },
+        {
+            "id": "J140901-1",
+            "description": "Podologue"
+        },
+        {
+            "id": "L150301-1",
+            "description": "Décorateur / Décoratrice et accessoiriste spectacle"
+        },
+        {
+            "id": "N120201-2",
+            "description": "Déclarant / Déclarante en douane"
+        },
+        {
+            "id": "N120201-1",
+            "description": "Agent / Agente de transit"
+        },
+        {
+            "id": "C110101-1",
+            "description": "Concepteur-développeur / Conceptrice-développeuse de produits d'assurances"
+        },
+        {
+            "id": "N130301-1",
+            "description": "Gestionnaire des opérations logistiques"
+        },
+        {
+            "id": "H330201-1",
+            "description": "Conditionneur / Conditionneuse main"
+        },
+        {
+            "id": "H330201-2",
+            "description": "Ouvrier / Ouvrière de production"
+        },
+        {
+            "id": "D110601-1",
+            "description": "Vendeur / Vendeuse de denrées alimentaires dans le commerce de détail"
+        },
+        {
+            "id": "D110601-2",
+            "description": "Marchand forain / Marchande foraine"
+        },
+        {
+            "id": "H140101-1",
+            "description": "Responsable du planning et de la gestion de la production"
+        },
+        {
+            "id": "K211101-1",
+            "description": "Formateur / Formatrice pour adultes"
+        },
+        {
+            "id": "F170301-2",
+            "description": "Chapiste"
+        },
+        {
+            "id": "F170301-1",
+            "description": "Maçon / Maçonne "
+        },
+        {
+            "id": "F170301-3",
+            "description": "Jointoyeur / Jointoyeuse "
+        },
+        {
+            "id": "M140201-1",
+            "description": "Conseiller / Conseillère en organisation et management d'entreprise"
+        },
+        {
+            "id": "I150201-1",
+            "description": "Travailleur sous-marin / Travailleuse sous-marine"
+        },
+        {
+            "id": "N130101-1",
+            "description": "Responsable logistique"
+        },
+        {
+            "id": "H290202-1",
+            "description": "Constructeur / Constructrice en carrosserie"
+        },
+        {
+            "id": "J150601-1",
+            "description": "Infirmier / Infirmière "
+        },
+        {
+            "id": "H280501-1",
+            "description": "Opérateur / Opératrice de production de verre"
+        },
+        {
+            "id": "A141001-1",
+            "description": "Eleveur ovin et caprin / Eleveuse ovine et caprine"
+        },
+        {
+            "id": "F110801-1",
+            "description": "Métreur / Métreuse "
+        },
+        {
+            "id": "J110401-1",
+            "description": "Sage-femme"
+        },
+        {
+            "id": "F160601-1",
+            "description": "Peintre-décorateur / décoratrice "
+        },
+        {
+            "id": "H290601-1",
+            "description": "Conducteur / Conductrice d'installation automatisée ou robotisée de fabrication mécanique"
+        },
+        {
+            "id": "H240101-1",
+            "description": "Opérateur / Opératrice d'assemblage-montage d'articles en cuirs, peaux"
+        },
+        {
+            "id": "E120201-1",
+            "description": "Opérateur / Opératrice de laboratoire cinématographique"
+        },
+        {
+            "id": "K210401-1",
+            "description": "Éducateur / Éducatrice dans un établissement scolaire"
+        },
+        {
+            "id": "H291401-1",
+            "description": "Tuyauteur / Tuyauteuse"
+        },
+        {
+            "id": "M180101-1",
+            "description": "Administrateur / Administratrice de base de données"
+        },
+        {
+            "id": "M180101-2",
+            "description": "Gestionnaire de réseau"
+        },
+        {
+            "id": "A140801-1",
+            "description": "Eleveur / Eleveuse d'animaux sauvages ou de compagnie"
+        },
+        {
+            "id": "L150701-1",
+            "description": "Monteur / Monteuse de sons et d'images"
+        },
+        {
+            "id": "A140501-1",
+            "description": "Arboriculteur / Arboricultrice"
+        },
+        {
+            "id": "H220401-1",
+            "description": "Contremaître / Contremaîtresse des industries de l'ameublement et du bois"
+        },
+        {
+            "id": "J130401-1",
+            "description": "Aide en soins post-natal"
+        },
+        {
+            "id": "K180101-1",
+            "description": "Conseiller / Conseillère emploi"
+        },
+        {
+            "id": "M120301-1",
+            "description": "Comptable"
+        },
+        {
+            "id": "H220701-1",
+            "description": "Ébéniste"
+        },
+        {
+            "id": "J140301-1",
+            "description": "Ergothérapeute"
+        },
+        {
+            "id": "H120201-1",
+            "description": "Dessinateur-concepteur / Dessinatrice-conceptrice en électricité et électronique"
+        },
+        {
+            "id": "B180201-1",
+            "description": "Fabricant / Fabricante d'articles en cuir et autres matériaux souples"
+        },
+        {
+            "id": "M180501-1",
+            "description": "Analyste-développeur / développeuse TIC"
+        },
+        {
+            "id": "I130301-1",
+            "description": "Technicien / Technicienne de maintenance de distributeurs automatiques"
+        },
+        {
+            "id": "J140201-1",
+            "description": "Diététicien / Diététicienne"
+        },
+        {
+            "id": "J130701-1",
+            "description": "Assistant / Assistante pharmaco-technique"
+        },
+        {
+            "id": "D120701-1",
+            "description": "Retoucheur / Retoucheuse en habillement"
+        },
+        {
+            "id": "N320301-1",
+            "description": "Manutentionnaire portuaire"
+        },
+        {
+            "id": "K130301-1",
+            "description": "Accueillant / Accueillante d'enfant "
+        },
+        {
+            "id": "N110201-2",
+            "description": "Déménageur / Déménageuse"
+        },
+        {
+            "id": "D130101-1",
+            "description": "Gérant / Gérante de magasin dans le commerce de détail"
+        },
+        {
+            "id": "K250101-1",
+            "description": "Concierge"
+        },
+        {
+            "id": "H320301-1",
+            "description": "Opérateur / Opératrice de fabrication de pièces en matériaux composites"
+        },
+        {
+            "id": "D110701-1",
+            "description": "Vendeur / Vendeuse en gros de produits frais"
+        },
+        {
+            "id": "F161301-1",
+            "description": "Isolateur / Isolatrice de gros œuvre et toiture"
+        },
+        {
+            "id": "D110301-1",
+            "description": "Traiteur-charcutier / Traiteuse-charcutière"
+        },
+        {
+            "id": "F170601-1",
+            "description": "Agent / Agente de fabrication de l'industrie du béton"
+        },
+        {
+            "id": "A140901-1",
+            "description": "Eleveur / Eleveuse de lapins et volailles"
+        },
+        {
+            "id": "C120301-1",
+            "description": "Responsable commercial / commerciale dans le secteur financier"
+        },
+        {
+            "id": "C110501-1",
+            "description": "Actuaire"
+        },
+        {
+            "id": "D140101-1",
+            "description": "Assistant commercial / Assistante commerciale"
+        },
+        {
+            "id": "K170701-1",
+            "description": "Agent / Agente de la sécurité locale"
+        },
+        {
+            "id": "M170401-1",
+            "description": "Responsable des relations à la clientèle"
+        },
+        {
+            "id": "K170301-1",
+            "description": "Responsable de la défense"
+        },
+        {
+            "id": "D140601-1",
+            "description": "Responsable des ventes"
+        },
+        {
+            "id": "C120201-1",
+            "description": "Conseiller / Conseillère en crédits"
+        },
+        {
+            "id": "G160301-2",
+            "description": "Collaborateur polyvalent / Collaboratrice polyvalente en restauration"
+        },
+        {
+            "id": "E130701-2",
+            "description": "Opérateur / Opératrice  en reprographie"
+        },
+        {
+            "id": "E130701-1",
+            "description": "Collaborateur / Collaboratrice en copy center"
+        },
+        {
+            "id": "K150201-1",
+            "description": "Contrôleur / Contrôleuse pour l'inspection sociale"
+        },
+        {
+            "id": "D150301-1",
+            "description": "Responsable de rayon non alimentaire"
+        },
+        {
+            "id": "M180901-1",
+            "description": "Météorologue"
+        },
+        {
+            "id": "D140501-1",
+            "description": "Délégué médical / Déléguée médicale"
+        },
+        {
+            "id": "K230501-1",
+            "description": "Agent / Agente de salubrité et de traitement des nuisibles"
+        },
+        {
+            "id": "G130101-1",
+            "description": "Concepteur / Conceptrice de produits touristiques"
+        },
+        {
+            "id": "N220401-1",
+            "description": "Agent / Agente technique de préparation des vols"
+        },
+        {
+            "id": "M120201-1",
+            "description": "Expert / Experte comptable"
+        },
+        {
+            "id": "A130201-1",
+            "description": "Contrôleur / Contrôleuse technique en agriculture"
+        },
+        {
+            "id": "F160203-1",
+            "description": "Installateur / Installatrice de réseaux de communication de données"
+        },
+        {
+            "id": "M130201-1",
+            "description": "Directeur / Directrice de Petite ou Moyenne Entreprise -PME-"
+        },
+        {
+            "id": "C111001-1",
+            "description": "Souscripteur / Souscriptrice d'assurances"
+        },
+        {
+            "id": "A141501-1",
+            "description": "Marin-pêcheur"
+        },
+        {
+            "id": "A140601-1",
+            "description": "Patron / Patronne de pêche"
+        },
+        {
+            "id": "C110201-1",
+            "description": "Conseiller / Conseillère en assurances"
+        },
+        {
+            "id": "H260201-1",
+            "description": "Monteur-câbleur / Monteuse-câbleuse de matériels électriques et électromécaniques"
+        },
+        {
+            "id": "C120701-1",
+            "description": "Directeur / Directrice d'une agence bancaire"
+        },
+        {
+            "id": "K220301-1",
+            "description": "Responsable du service de nettoyage"
+        },
+        {
+            "id": "I120201-1",
+            "description": "Opérateur / Opératrice d'entretien et de surveillance du réseau routier"
+        },
+        {
+            "id": "K120301-1",
+            "description": "Moniteur-animateur / Monitrice-animatrice dans l'économie sociale"
+        },
+        {
+            "id": "H240301-1",
+            "description": "Conducteur / Conductrice de machine de fabrication de produits textiles"
+        },
+        {
+            "id": "F160401-1",
+            "description": "Monteur / Monteuse d'aménagement intérieur"
+        },
+        {
+            "id": "K120101-1",
+            "description": "Assistant social / Assistante sociale"
+        },
+        {
+            "id": "H220801-1",
+            "description": "Sculpteur / Sculptrice sur bois"
+        },
+        {
+            "id": "H340301-1",
+            "description": "Agent / Agente de traitement thermique"
+        },
+        {
+            "id": "C150101-1",
+            "description": "Syndic d'immeubles"
+        },
+        {
+            "id": "F120301-1",
+            "description": "Responsable d'exploitation de gisements et de carrières"
+        },
+        {
+            "id": "E120101-1",
+            "description": "Photographe"
+        },
+        {
+            "id": "C110701-1",
+            "description": "Expert / Experte en sinistres pour les assurances"
+        },
+        {
+            "id": "D150201-1",
+            "description": "Responsable de rayon produits alimentaires"
+        },
+        {
+            "id": "H241501-1",
+            "description": "Contrôleur / Contrôleuse de la qualité des textiles, du cuir et de la confection"
+        },
+        {
+            "id": "G160201-2",
+            "description": "Commis / Commise de cuisine "
+        },
+        {
+            "id": "G160201-5",
+            "description": "Chef / Cheffe de partie "
+        },
+        {
+            "id": "G160201-1",
+            "description": "Cuisinier / Cuisinière "
+        },
+        {
+            "id": "H280301-1",
+            "description": "Opérateur / Opératrice de fabrication de céramique"
+        },
+        {
+            "id": "M180701-1",
+            "description": "Analyste des systèmes de communication et d'information"
+        },
+        {
+            "id": "H130101-1",
+            "description": "Inspecteur / Inspectrice de conformité"
+        },
+        {
+            "id": "N220201-1",
+            "description": "Contrôleur aérien / Contrôleuse aérienne "
+        },
+        {
+            "id": "G180101-2",
+            "description": "Serveur / Serveuse dans une brasserie"
+        },
+        {
+            "id": "G180101-1",
+            "description": "Barman / Barmaid"
+        },
+        {
+            "id": "G180101-3",
+            "description": "Exploitant / Exploitante d'un café/une brasserie"
+        },
+        {
+            "id": "K170101-1",
+            "description": "Collaborateur / Collaboratrice à la défense"
+        },
+        {
+            "id": "F160301-3",
+            "description": "Technicien / Technicienne de maintenance de brûleurs"
+        },
+        {
+            "id": "F160301-2",
+            "description": "Monteur / Monteuse d'installations de chauffage central"
+        },
+        {
+            "id": "F160301-1",
+            "description": "Installateur / Installatrice sanitaire"
+        },
+        {
+            "id": "F160301-4",
+            "description": "Poseur / Poseuse de dispositifs de ventilation"
+        },
+        {
+            "id": "K210301-1",
+            "description": "Responsable d'un établissement scolaire"
+        },
+        {
+            "id": "B180301-1",
+            "description": "Couturier / Couturière"
+        },
+        {
+            "id": "H340401-1",
+            "description": "Peintre industriel / Peintre industrielle"
+        },
+        {
+            "id": "H120801-1",
+            "description": "Technicien / Technicienne d'études et conception en automatisme"
+        },
+        {
+            "id": "B180401-1",
+            "description": "Réalisateur / Réalisatrice d'ouvrages d'art en textile"
+        },
+        {
+            "id": "H140401-1",
+            "description": "Technicien / Technicienne en processus et méthodes de production"
+        },
+        {
+            "id": "L150601-1",
+            "description": "Machiniste spectacle"
+        },
+        {
+            "id": "K211201-1",
+            "description": "Conseiller / Conseillère d'orientation professionnelle et de formations"
+        },
+        {
+            "id": "I160101-1",
+            "description": "Technicien / Technicienne de maintenance en nautisme"
+        },
+        {
+            "id": "A150401-1",
+            "description": "Vétérinaire"
+        },
+        {
+            "id": "B180601-1",
+            "description": "Garnisseur / Garnisseuse "
+        },
+        {
+            "id": "E110801-1",
+            "description": "Interprète"
+        },
+        {
+            "id": "E110801-2",
+            "description": "Traducteur / Traductrice"
+        },
+        {
+            "id": "H280401-1",
+            "description": "Opérateur/ Opératrice de production de béton prêt à l'emploi, ciment, asphalte et granulats"
+        },
+        {
+            "id": "I150301-1",
+            "description": "Intervenant / Intervenante en milieux et produits nocifs"
+        },
+        {
+            "id": "F130202-2",
+            "description": "Ouvrier / Ouvrière de dragage"
+        },
+        {
+            "id": "K170201-1",
+            "description": "Responsable de la sécurité civile"
+        },
+        {
+            "id": "D110401-1",
+            "description": "Pâtissier-chocolatier-glacier / Pâtissière-chocolatière-glacière"
+        },
+        {
+            "id": "J130301-1",
+            "description": "Assistant / Assistante médico-technique"
+        },
+        {
+            "id": "K170601-1",
+            "description": "Agent / Agente de la sécurité publique"
+        },
+        {
+            "id": "K210801-1",
+            "description": "Professeur / Professeure de l'enseignement supérieur"
+        },
+        {
+            "id": "C110601-1",
+            "description": "Expert / Experte risques en assurances"
+        },
+        {
+            "id": "J150201-1",
+            "description": "Infirmier / Infirmière en chef"
+        },
+        {
+            "id": "H291101-1",
+            "description": "Assembleur / Assembleuse d'éléments de structure métallique"
+        },
+        {
+            "id": "C110301-1",
+            "description": "Courtier / Courtière en assurances"
+        },
+        {
+            "id": "J140401-1",
+            "description": "Kinésithérapeute"
+        },
+        {
+            "id": "A120101-1",
+            "description": "Bûcheron-élagueur / Bûcheronne-élagueuse"
+        },
+        {
+            "id": "H210101-1",
+            "description": "Abatteur-découpeur / Abatteuse-découpeuse de viandes"
+        },
+        {
+            "id": "H210101-2",
+            "description": "Coupeur-désosseur / Coupeuse-désosseuse"
+        },
+        {
+            "id": "J140601-1",
+            "description": "Logopède"
+        },
+        {
+            "id": "H340101-2",
+            "description": "Polisseur industriel / Polisseuse industrielle"
+        },
+        {
+            "id": "H340101-1",
+            "description": "Agent / Agente de parachèvement industriel"
+        },
+        {
+            "id": "B140201-1",
+            "description": "Relieur et restaurateur / Relieuse et restauratrice de livres"
+        },
+        {
+            "id": "J140101-1",
+            "description": "Audiologue-audicien / audicienne"
+        },
+        {
+            "id": "H290401-1",
+            "description": "Opérateur / Opératrice sur machines pour la première déformation des métaux"
+        },
+        {
+            "id": "J150701-1",
+            "description": "Infirmier spécialisé / Infirmière spécialisée en pédiatrie"
+        },
+        {
+            "id": "M180301-1",
+            "description": "Responsable de département informatique"
+        },
+        {
+            "id": "D140301-1",
+            "description": "Délégué commercial / Déléguée commerciale auprès de particuliers"
+        },
+        {
+            "id": "G120101-1",
+            "description": "Accompagnateur / Accompagnatrice de voyages - Guide touristique"
+        },
+        {
+            "id": "H110201-1",
+            "description": "Conseiller technico-commercial / Conseillère technico-commerciale"
+        },
+        {
+            "id": "H240401-1",
+            "description": "Conducteur / Conductrice de machine de production et transformation des fils"
+        },
+        {
+            "id": "H310101-1",
+            "description": "Conducteur / Conductrice d'équipement de fabrication de papier ou de carton"
+        },
+        {
+            "id": "L150201-1",
+            "description": "Costumier / Costumière"
+        },
+        {
+            "id": "A141601-2",
+            "description": "Ouvrier / Ouvrière agricole"
+        },
+        {
+            "id": "A141601-1",
+            "description": "Agriculteur / Agricultrice"
+        },
+        {
+            "id": "D140201-1",
+            "description": "Délégué commercial / Déléguée commerciale grands comptes et entreprises"
+        },
+        {
+            "id": "A141201-1",
+            "description": "Fabricant et affineur / Fabricante et affineuse de fromages"
+        },
+        {
+            "id": "H280201-1",
+            "description": "Opérateur / Opératrice de production de matériaux de construction"
+        },
+        {
+            "id": "H241101-1",
+            "description": "Prototypiste"
+        },
+        {
+            "id": "K230201-1",
+            "description": "Responsable de service d'assainissement"
+        },
+        {
+            "id": "L150901-1",
+            "description": "Responsable production et technique en spectacle et l'audiovisuelle"
+        },
+        {
+            "id": "G110101-1",
+            "description": "Agent / Agente d'accueil en tourisme"
+        },
+        {
+            "id": "H270101-1",
+            "description": "Opérateur / Opératrice de production en énergie et pétrochimie"
+        },
+        {
+            "id": "J110101-1",
+            "description": "Médecin de prévention"
+        },
+        {
+            "id": "B150101-1",
+            "description": "Facteur et réparateur / Factrice et réparatrice d'instrument de musique"
+        },
+        {
+            "id": "E130301-2",
+            "description": "Chef / Cheffe d'atelier en industrie graphique"
+        },
+        {
+            "id": "L130101-1",
+            "description": "Metteur / Metteuse en scène théâtre"
+        },
+        {
+            "id": "H220501-1",
+            "description": "Opérateur / Opératrice de scierie"
+        },
+        {
+            "id": "H220501-2",
+            "description": "Opérateur / Opératrice de première transformation du bois d'œuvre"
+        },
+        {
+            "id": "I160701-1",
+            "description": "Mécanicien / Mécanicienne de cycles, motocycles"
+        },
+        {
+            "id": "I160701-2",
+            "description": "Mécanicien / Mécanicienne de machines de jardinage"
+        },
+        {
+            "id": "I160701-3",
+            "description": "Réparateur / Réparatrice de vélos"
+        },
+        {
+            "id": "K110401-1",
+            "description": "Psychologue"
+        },
+        {
+            "id": "M150201-1",
+            "description": "Responsable de recrutement et de formation"
+        },
+        {
+            "id": "C150401-1",
+            "description": "Agent immobilier / Agente immobilière"
+        },
+        {
+            "id": "A140401-1",
+            "description": "Aquaculteur / Aquacultrice"
+        },
+        {
+            "id": "B160201-1",
+            "description": "Verrier artisanal / Verrière artisanale "
+        },
+        {
+            "id": "F160501-1",
+            "description": "Monteur / Monteuse de câbles et de conduits aériens et souterrains"
+        },
+        {
+            "id": "B180501-1",
+            "description": "Créateur / Créatrice de mode et de textile"
+        },
+        {
+            "id": "H250201-1",
+            "description": "Responsable de production"
+        },
+        {
+            "id": "G140301-1",
+            "description": "Gérant / Gérante de structure de loisirs ou d'hébergement touristique"
+        },
+        {
+            "id": "C150301-1",
+            "description": "Responsable de projets immobiliers"
+        },
+        {
+            "id": "H291201-1",
+            "description": "Régleur / Régleuse de machines de production"
+        },
+        {
+            "id": "I130401-1",
+            "description": "Electromécanicien / Electromécanicienne de maintenance industrielle"
+        },
+        {
+            "id": "H210201-1",
+            "description": "Opérateur / Opératrice de production en industrie alimentaire"
+        },
+        {
+            "id": "H290301-3",
+            "description": "Régleur-opérateur / Régleuse-opératrice machines-outils CN"
+        },
+        {
+            "id": "H290301-7",
+            "description": "Régleur-opérateur / Régleuse-opératrice machines-outils conventionnelles"
+        },
+        {
+            "id": "H290301-6",
+            "description": "Régleur-opérateur / Régleuse-opératrice machine d'usinage par électroérosion"
+        },
+        {
+            "id": "I130701-1",
+            "description": "Technicien / Technicienne de réseaux de communication et en système de sécurité"
+        },
+        {
+            "id": "F130201-2",
+            "description": "Conducteur / Conductrice d'engins de damage"
+        },
+        {
+            "id": "F130201-1",
+            "description": "Conducteur / Conductrice d'engins de chantier"
+        },
+        {
+            "id": "F130201-3",
+            "description": "Conducteur / Conductrice de foreuses"
+        },
+        {
+            "id": "K160201-1",
+            "description": "Conservateur /Conservatrice du patrimoine"
+        },
+        {
+            "id": "H290501-1",
+            "description": "Conducteur / Conductrice d'équipement de formage et découpage des matériaux"
+        },
+        {
+            "id": "M180201-1",
+            "description": "Business Analyst TIC"
+        },
+        {
+            "id": "F160701-3",
+            "description": "Vitrier / Vitrière "
+        },
+        {
+            "id": "F160701-2",
+            "description": "Menuisier / Menuisière de chantier d'intérieur"
+        },
+        {
+            "id": "F160701-1",
+            "description": "Menuisier / Menuisière de chantier d'extérieur"
+        },
+        {
+            "id": "F160701-4",
+            "description": "Serrurier / Serrurière"
+        },
+        {
+            "id": "J130601-1",
+            "description": "Technologue en imagerie médicale"
+        },
+        {
+            "id": "F110601-1",
+            "description": "Chargé / Chargée d'études techniques du bâtiment"
+        },
+        {
+            "id": "D120201-2",
+            "description": "Assistant coiffeur / Assistante coiffeuse"
+        },
+        {
+            "id": "D120201-1",
+            "description": "Coiffeur / Coiffeuse"
+        },
+        {
+            "id": "H290201-1",
+            "description": "Tôlier industriel / Tôlière industrielle"
+        },
+        {
+            "id": "F161001-1",
+            "description": "Couvreur / Couvreuse de toits inclinés"
+        },
+        {
+            "id": "F161001-2",
+            "description": "Couvreur / Couvreuse de toits plats"
+        },
+        {
+            "id": "F161001-3",
+            "description": "Couvreur / Couvreuse  de toits industriels"
+        },
+        {
+            "id": "F161001-4",
+            "description": "Monteur / Monteuse d'éléments de façade et de toit en métal"
+        },
+        {
+            "id": "J110201-1",
+            "description": "Médecin"
+        },
+        {
+            "id": "H291301-3",
+            "description": "Soudeur / Soudeuse semi-automatique"
+        },
+        {
+            "id": "H291301-2",
+            "description": "Soudeur / Soudeuse à l'électrode enrobée"
+        },
+        {
+            "id": "H291301-4",
+            "description": "Soudeur / Soudeuse TIG"
+        },
+        {
+            "id": "H291301-5",
+            "description": "Soudeur / Soudeuse autogène (OXY-ACE)"
+        },
+        {
+            "id": "D121101-1",
+            "description": "Vendeur / Vendeuse d'articles de sports et de loisirs"
+        },
+        {
+            "id": "H121001-1",
+            "description": "Technicien / Technicienne d'études, recherche et développement dans l'industrie de transformation"
+        },
+        {
+            "id": "B120101-1",
+            "description": "Céramiste-potier /potière"
+        },
+        {
+            "id": "I130801-2",
+            "description": "Technicien / Technicienne de maintenance en systèmes de chauffage"
+        },
+        {
+            "id": "H120601-1",
+            "description": "Responsable recherche-développement en industrie"
+        },
+        {
+            "id": "K160102-1",
+            "description": "Archiviste"
+        },
+        {
+            "id": "I110201-1",
+            "description": "Responsable de maintenance industrielle"
+        },
+        {
+            "id": "E130201-2",
+            "description": "Conducteur / Conductrice de machines de façonnage routage"
+        },
+        {
+            "id": "K210901-2",
+            "description": "Enseignant / Enseignante dans l’enseignement secondaire technique ou professionnel"
+        },
+        {
+            "id": "F170101-2",
+            "description": "Coffreur-ferrailleur / Coffreuse-ferrailleuse "
+        },
+        {
+            "id": "I130201-1",
+            "description": "Technicien / Technicienne en automatisation industrielle"
+        },
+        {
+            "id": "H290701-1",
+            "description": "Conducteur / Conductrice d'installation de production des métaux"
+        },
+        {
+            "id": "F110501-1",
+            "description": "Géologue"
+        },
+        {
+            "id": "B160301-2",
+            "description": "Diamantaire"
+        },
+        {
+            "id": "B160301-1",
+            "description": "Créateur / Créatrice d'ouvrages en bijouterie, joaillerie et orfèvrerie"
+        },
+        {
+            "id": "D121401-1",
+            "description": "Vendeur / Vendeuse en habillement et accessoires"
+        },
+        {
+            "id": "F161201-1",
+            "description": "Tailleur / Tailleuse de pierre naturelle"
+        },
+        {
+            "id": "H150601-1",
+            "description": "Contrôleur / Contrôleuse de qualité des constructions mécaniques et métalliques"
+        },
+        {
+            "id": "L150401-1",
+            "description": "Eclairagiste"
+        },
+        {
+            "id": "I160201-1",
+            "description": "Technicien / Technicienne de maintenance aéronautique"
+        },
+        {
+            "id": "A140701-1",
+            "description": "Eleveur bovin ou équin / Eleveuse bovine ou équine"
+        },
+        {
+            "id": "K210701-1",
+            "description": "Enseignant / Enseignante dans l’enseignement secondaire"
+        },
+        {
+            "id": "N210201-1",
+            "description": "Chef / Cheffe Personnel Navigant Technique"
+        },
+        {
+            "id": "K160101-1",
+            "description": "Bibliothécaire et gestionnaire de l'information"
+        },
+        {
+            "id": "K160101-2",
+            "description": "Agent / Agente de bibliothèque"
+        },
+        {
+            "id": "B160101-1",
+            "description": "Métallier / Métallière d'art"
+        },
+        {
+            "id": "M180801-1",
+            "description": "Concepteur / Conceptrice-analyste de systèmes informatiques géographiques"
+        },
+        {
+            "id": "H320201-1",
+            "description": "Régleur / Régleuse d'équipement de transformation des plastiques et caoutchoucs"
+        },
+        {
+            "id": "F110201-1",
+            "description": "Architecte- Décorateur / Décoratrice d'intérieur"
+        },
+        {
+            "id": "H230101-1",
+            "description": "Conducteur / Conductrice d'installation en industrie chimique"
+        },
+        {
+            "id": "H230101-2",
+            "description": "Conducteur / Conductrice d'installation en industrie pharmaceutique"
+        },
+        {
+            "id": "H290101-1",
+            "description": "Ajusteur / Ajusteuse"
+        },
+        {
+            "id": "H290101-2",
+            "description": "Matriceur / Matriceuse"
+        },
+        {
+            "id": "E120501-3",
+            "description": "Graphiste infographiste"
+        },
+        {
+            "id": "E130601-2",
+            "description": "Opérateur / Opératrice prépresse"
+        },
+        {
+            "id": "H280101-1",
+            "description": "Conducteur / Conductrice d'équipement de transformation du verre"
+        },
+        {
+            "id": "I130501-1",
+            "description": "Technicien / Technicienne de maintenance en électronique industrielle"
+        },
+        {
+            "id": "I150101-1",
+            "description": "Spécialiste des travaux en hauteur"
+        },
+        {
+            "id": "K250301-1",
+            "description": "Agent / Agente de gardiennage"
+        },
+        {
+            "id": "K170501-1",
+            "description": "Agent / Agente de protection civile"
+        },
+        {
+            "id": "H250401-1",
+            "description": "Chef / Cheffe d'équipe en industrie de production"
+        },
+        {
+            "id": "I160301-1",
+            "description": "Mécanicien / Mécanicienne de maintenance d'engins de chantier, agricoles et levage"
+        },
+        {
+            "id": "E130101-5",
+            "description": "Imprimeur / Imprimeuse "
+        },
+        {
+            "id": "E130101-6",
+            "description": "Conducteur / Conductrice de presses numériques"
+        },
+        {
+            "id": "H330301-1",
+            "description": "Préparateur / Préparatrice de matières premières"
+        },
+        {
+            "id": "H240601-1",
+            "description": "Conducteur / Conductrice de machine de traitement textile"
+        },
+        {
+            "id": "H220201-1",
+            "description": "Opérateur / Opératrice de production bois"
+        },
+        {
+            "id": "K240201-1",
+            "description": "Chercheur / Chercheuse en sciences exactes"
+        },
+        {
+            "id": "I130601-1",
+            "description": "Technicien / Technicienne en froid et climatisation"
+        },
+        {
+            "id": "H240201-2",
+            "description": "Opérateur / Opératrice d'assemblage-montage dans la décoration de maison"
+        },
+        {
+            "id": "H240201-1",
+            "description": "Opérateur / Opératrice d'assemblage-montage de vêtements et produits textiles"
+        },
+        {
+            "id": "H240201-3",
+            "description": "Opérateur / Opératrice d'assemblage-montage en bonneterie"
+        },
+        {
+            "id": "I140101-1",
+            "description": "Technicien / Technicienne PC et matériel de bureau"
+        },
+        {
+            "id": "H250501-1",
+            "description": "Chef / Cheffe d'équipe en production des industries des matériaux souples"
+        },
+        {
+            "id": "H120301-1",
+            "description": "Dessinateur-concepteur / Dessinatrice-conceptrice mécanique"
+        },
+        {
+            "id": "N440301-1",
+            "description": "Atteleur / Atteleuse"
+        },
+        {
+            "id": "B130301-1",
+            "description": "Graveur / Graveuse"
+        },
+        {
+            "id": "N410201-1",
+            "description": "Chauffeur / Chauffeuse de transport de particuliers"
+        },
+        {
+            "id": "N410401-1",
+            "description": "Coursier livreur / Coursière livreuse"
+        },
+        {
+            "id": "K260101-1",
+            "description": "Agent / Agente des pompes funèbres"
+        },
+        {
+            "id": "K260101-3",
+            "description": "Agent / Agente de crémation"
+        },
+        {
+            "id": "K260101-2",
+            "description": "Fossoyeur / Fossoyeuse"
+        },
+        {
+            "id": "N320101-1",
+            "description": "Responsable d'exploitation des opérations portuaires et du transport maritime"
+        },
+        {
+            "id": "N320201-1",
+            "description": "Responsable d'une entreprise de navigation intérieure"
+        },
+        {
+            "id": "H120401-1",
+            "description": "Designer industriel / Designeuse industrielle"
+        },
+        {
+            "id": "L120201-1",
+            "description": "Chanteur / Chanteuse "
+        },
+        {
+            "id": "L120201-2",
+            "description": "Musicien / Musicienne"
+        },
+        {
+            "id": "L120201-3",
+            "description": "Compositeur / Compositrice"
+        },
+        {
+            "id": "N130201-1",
+            "description": "Responsable de site logistique"
+        },
+        {
+            "id": "N440101-1",
+            "description": "Contrôleur / Contrôleuse de circulation ferroviaire (Traffic Controller)"
+        },
+        {
+            "id": "N420401-1",
+            "description": "Dispatcher / Dispatcheuse du transport routier des personnes"
+        },
+        {
+            "id": "L120401-1",
+            "description": "Artiste de cirque et de variété"
+        },
+        {
+            "id": "N420301-1",
+            "description": "Dispatcher / Dispatcheuse du transport routier des marchandises"
+        },
+        {
+            "id": "K120401-1",
+            "description": "Agent / Agente de médiation et de la vie sociale"
+        },
+        {
+            "id": "N410501-2",
+            "description": "Chauffeur livreur / Chauffeuse livreuse "
+        },
+        {
+            "id": "K211001-1",
+            "description": "Moniteur / Monitrice d'auto-école"
+        },
+        {
+            "id": "K211001-2",
+            "description": "Moniteur / Monitrice de bateau-école"
+        },
+        {
+            "id": "N220501-1",
+            "description": "Responsable de l'exploitation aéroportuaire"
+        },
+        {
+            "id": "L120301-1",
+            "description": "Acteur / Actrice"
+        },
+        {
+            "id": "L120301-2",
+            "description": "Figurant / Figurante "
+        },
+        {
+            "id": "E110401-1",
+            "description": "Concepteur / Conceptrice de contenus multimédias"
+        },
+        {
+            "id": "B130201-1",
+            "description": "Décorateur / Décoratrice d'objets d'art et artisanaux"
+        },
+        {
+            "id": "G120201-1",
+            "description": "Animateur / Animatrice  d'activités culturelles ou ludiques"
+        },
+        {
+            "id": "N420101-1",
+            "description": "Responsable de l'organisation du transport routier des marchandises"
+        },
+        {
+            "id": "N430101-1",
+            "description": "Conducteur / Conductrice de trains et métros"
+        },
+        {
+            "id": "L120101-2",
+            "description": "Chorégraphe"
+        },
+        {
+            "id": "L120101-1",
+            "description": "Danseur / Danseuse"
+        },
+        {
+            "id": "N310301-2",
+            "description": "Matelot dans la navigation intérieure"
+        },
+        {
+            "id": "N310301-1",
+            "description": "Commandant / Commandante Capitaine dans la navigation intérieure"
+        },
+        {
+            "id": "K210601-1",
+            "description": "Enseignant / Enseignante dans l'enseignement maternel ou primaire"
+        },
+        {
+            "id": "B110101-1",
+            "description": "Artiste plasticien / plasticienne "
+        },
+        {
+            "id": "L150801-1",
+            "description": "Ingénieur / Ingénieure du son"
+        },
+        {
+            "id": "N410101-4",
+            "description": "Conducteur / Conductrice de poids lourd permis CE - convoi exceptionnel"
+        },
+        {
+            "id": "N410101-1",
+            "description": "Conducteur / Conductrice de poids lourd permis C"
+        },
+        {
+            "id": "N410101-2",
+            "description": "Conducteur / Conductrice de poids lourd permis CE - multibennes"
+        },
+        {
+            "id": "N410101-3",
+            "description": "Conducteur / Conductrice de poids lourd permis CE"
+        },
+        {
+            "id": "M180501-2",
+            "description": "Data scientist"
+        },
+        {
+            "id": "K210501-1",
+            "description": "Enseignant / Enseignante dans l'enseignement secondaire artistique à horaire réduit"
+        },
+        {
+            "id": "L151001-1",
+            "description": "Dessinateur-modélisateur / Dessinatrice-modélisatrice films d'animation et effets spéciaux"
+        },
+        {
+            "id": "I130601-2",
+            "description": "Technicien / Technicienne HVAC"
+        }
+    ]
+}
