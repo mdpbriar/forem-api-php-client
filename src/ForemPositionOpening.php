@@ -3,6 +3,7 @@
 namespace Mdpbriar\ForemApiPhpClient;
 
 use Carbon\Carbon;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
@@ -21,6 +22,7 @@ class ForemPositionOpening
     protected EntityName $entityName;
     protected StatusPosition $statusPosition;
     protected SupplierId $supplierId;
+    protected ContactMethod $contactMethod;
 
     public function __construct(array $options){
         if (!$this->validate($options)){
@@ -32,11 +34,19 @@ class ForemPositionOpening
         $this->statusPosition = new StatusPosition($options['validFrom'] ?? null, $options['validTo'] ?? null);
         $this->supplierId = new SupplierId($options['companyNumber'] ?? $options['partnerCode'], $options['idOwner'] ?? null);
         $this->entityName = new EntityName($options['entityName'] ?? null);
+        $this->contactMethod = new ContactMethod(
+            telephone: $options['telephone'],
+            internetEmailAddress: $options['internetEmailAddress'],
+            internetWebAddress: $options['internetWebAddress'],
+            postalAddress: $options['postalAddress'],
+            mobile: $options['mobile'] ?? null,
+            fax: $options['fax'] ?? null,
+        );
 
     }
 
 
-    public function validate(array $options): bool
+    public static function validate(array $options): bool
     {
         if (!isset($options['partnerCode'], $options['idOffre'])){
             return false;
@@ -56,6 +66,7 @@ class ForemPositionOpening
             'PositionSupplier' => [
                 ...$this->supplierId->getSupplierArray(),
                 ...$this->entityName?->getEntityNameArray(),
+                ...$this->contactMethod->getContactMethodArray(),
             ],
         ];
         return ArrayToXml::convert($array, [

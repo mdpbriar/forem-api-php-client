@@ -70,7 +70,7 @@ class BaseModel
     public static function getAll(): array
     {
         return array_map(function($item){
-            return new static((int)$item['id'], $item['description']);
+            return new static($item['id'], $item['description']);
         }, self::getValues());
     }
 
@@ -96,13 +96,29 @@ class BaseModel
      * @return array
      * @throws \JsonException
      */
-    public static function filterValuesFromId(int $id): array
+    public static function filterValuesFromId(string|int $id): array
     {
         $values = self::getValues();
         return array_filter($values, function($value) use ($id){
-            return (int)$value['id'] === $id;
+            return $value['id'] === $id;
         });
     }
+
+    /**
+     * Retourne un array contenant les valeurs associées aux ids en paramètre
+     *
+     * @param array $ids
+     * @return array
+     * @throws \JsonException
+     */
+    public static function filterValuesInIds(array $ids): array
+    {
+        $values = self::getValues();
+        return array_filter($values, function($value) use ($ids){
+            return in_array((int)$value['id'], $ids, true);
+        });
+    }
+
 
     /**
      *
@@ -113,7 +129,7 @@ class BaseModel
      * @return bool
      * @throws \JsonException
      */
-    public static function isValidId(int $id): bool
+    public static function isValidId(string|int $id): bool
     {
         return !empty(static::filterValuesFromId($id));
     }
@@ -126,14 +142,14 @@ class BaseModel
      * @return static
      * @throws \JsonException
      */
-    public static function getFromId(int $id): static
+    public static function getFromId(string|int $id): static
     {
         $result = static::filterValuesFromId($id);
         if (empty($result)){
             throw new NotFoundResourceException("The id {$id} does not exists in ". static::$file);
         }
         $unique = array_slice($result, 0, 1)[0];
-        return new static((int)$unique['id'], $unique['description']);
+        return new static($unique['id'], $unique['description']);
     }
 
 }

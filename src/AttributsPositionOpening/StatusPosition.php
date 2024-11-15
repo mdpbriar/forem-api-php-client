@@ -18,7 +18,7 @@ class StatusPosition
         }
     }
 
-    public function setStatus(Carbon|string $validFrom, Carbon|string $validTo, PositionRecordStatus|string|null $statut = null): void
+    public function setStatus(Carbon|string|null $validFrom, Carbon|string|null $validTo, PositionRecordStatus|string|null $statut = null): void
     {
         if (!$statut){
             $statut = PositionRecordStatus::Active;
