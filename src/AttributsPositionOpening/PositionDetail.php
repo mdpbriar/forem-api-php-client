@@ -11,9 +11,12 @@ class PositionDetail
     protected string $industryCode;
     protected PostalAddress $physicalLocation;
 
+    protected JobCategories $jobCategories;
+
     public function __construct(
         string $industryCode,
         array $physicalLocation,
+        array $jobCategories,
     )
     {
         $this->setIndustryCode($industryCode);
@@ -22,6 +25,7 @@ class PositionDetail
             postalCode: $physicalLocation['postalCode'],
             municipality: $physicalLocation['municipality'] ?? null,
         );
+        $this->jobCategories = new JobCategories($jobCategories);
 
     }
 
@@ -36,9 +40,7 @@ class PositionDetail
 
     public function getPositionDetailArray(): array
     {
-
-
-        return [
+        $array = [
             'PositionDetail' => [
                 'IndustryCode' => [
                     '_attributes' => [
@@ -46,9 +48,12 @@ class PositionDetail
                     ],
                     '_value' => $this->industryCode,
                 ],
-            ],
             ...$this->physicalLocation->getPostalAddressArray(),
+            ...$this->jobCategories->getJobCategoriesArray(),
+            ],
         ];
+
+        return $array;
     }
 
 }

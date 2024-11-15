@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\JobCategories;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
@@ -58,7 +59,8 @@ class ForemPositionOpening
         );
         $this->positionDetail = new PositionDetail(
             industryCode: $options['positionDetail']['industryCode'],
-            physicalLocation: $options['positionDetail']['physicalLocation']
+            physicalLocation: $options['positionDetail']['physicalLocation'],
+            jobCategories: $options['positionDetail']['jobCategories'],
         );
 
 

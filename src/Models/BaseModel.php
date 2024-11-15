@@ -16,7 +16,7 @@ class BaseModel
 
 
     public function __construct(
-        public int $id,
+        public int|string $id,
         public string $description
     ){}
 
@@ -32,6 +32,17 @@ class BaseModel
         return json_decode($file_content, true, 512, JSON_THROW_ON_ERROR);
     }
 
+    /**
+     * Retourne la version associée au modèle, définit dans le json associé
+     *
+     * @priority high
+     * @return string|null*
+     */
+    public static function getVersion(): ?string
+    {
+        $json = static::getJson();
+        return $json['version'] ?? null;
+    }
 
     /**
      * Retourne la description associée au modèle, définit dans le json associé
