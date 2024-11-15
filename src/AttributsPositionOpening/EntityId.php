@@ -4,16 +4,16 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
 
 use Mdpbriar\ForemApiPhpClient\Enums\IdOwnerType;
 
-class SupplierId
+class EntityId
 {
     public function __construct(
         protected ?string $companyNumber,
-        protected IdOwnerType|string|null $supplierId = IdOwnerType::PartnerCode
+        protected IdOwnerType|string|null $idOwnerType = IdOwnerType::PartnerCode
     ){
-        $this->setSupplierId($companyNumber, $supplierId);
+        $this->setEntityId($companyNumber, $idOwnerType);
     }
 
-    public function setSupplierId(string $companyNumber, IdOwnerType|string|null $idOwnerType): void
+    public function setEntityId(string $companyNumber, IdOwnerType|string|null $idOwnerType): void
     {
         if (!$idOwnerType){
             $idOwnerType = IdOwnerType::PartnerCode;
@@ -21,17 +21,17 @@ class SupplierId
         if (!$idOwnerType instanceof IdOwnerType){
             $idOwnerType = IdOwnerType::from($idOwnerType);
         }
-        $this->supplierId = $idOwnerType;
+        $this->idOwnerType = $idOwnerType;
         $this->companyNumber = $companyNumber;
 
     }
 
-    public function getSupplierArray(): array
+    public function getSupplierArray(string $baliseName = 'SupplierId'): array
     {
         return [
             'SupplierId' => [
                 '_attributes' => [
-                    'idOwner' => $this->supplierId->value
+                    'idOwner' => $this->idOwnerType->value
                 ],
                 'IdValue' => $this->companyNumber,
             ]

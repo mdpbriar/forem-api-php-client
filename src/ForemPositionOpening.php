@@ -6,9 +6,10 @@ use Carbon\Carbon;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\SupplierId;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\Enums\IdOwnerType;
 use Mdpbriar\ForemApiPhpClient\Enums\PositionRecordStatus;
 use Spatie\ArrayToXml\ArrayToXml;
@@ -22,10 +23,10 @@ class ForemPositionOpening
     protected IdOffre $idOffre;
     protected EntityName $entityName;
     protected StatusPosition $statusPosition;
-    protected SupplierId $supplierId;
+    protected EntityId $supplierId;
     protected ContactMethod $contactMethod;
-
     protected PositionDateInfo $positionDateInfo;
+    protected Organization $organization;
 
     public function __construct(array $options){
         if (!self::validate($options)){
@@ -35,7 +36,7 @@ class ForemPositionOpening
         # On ajoute l'ID offre
         $this->idOffre = new IdOffre($options['idOffre'], $options['partnerCode']);
         $this->statusPosition = new StatusPosition($options['validFrom'] ?? null, $options['validTo'] ?? null);
-        $this->supplierId = new SupplierId($options['companyNumber'] ?? $options['partnerCode'], $options['idOwner'] ?? null);
+        $this->supplierId = new EntityId($options['companyNumber'] ?? $options['partnerCode'], $options['idOwner'] ?? null);
         $this->entityName = new EntityName($options['entityName'] ?? null);
         $this->contactMethod = new ContactMethod(
             telephone: $options['telephone'],
@@ -50,6 +51,10 @@ class ForemPositionOpening
             expectedEndDate: $options['expectedEndDate'] ?? null,
             asSoonAsPossible: $options['asSoonAsPossible'] ?? null,
         );
+        $this->organization = new Organization(
+            organization: $options['organization'] ?? null,
+        );
+
 
     }
 
@@ -81,6 +86,7 @@ class ForemPositionOpening
                     'xml:lang' => $this->lang,
                 ],
                 ...$this->positionDateInfo->getDatesArray(),
+                ...$this->organization->getOrganizationArray(),
             ],
         ];
         return ArrayToXml::convert($array, [
