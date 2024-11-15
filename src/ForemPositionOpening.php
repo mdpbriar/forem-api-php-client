@@ -8,6 +8,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\Enums\IdOwnerType;
@@ -27,6 +28,7 @@ class ForemPositionOpening
     protected ContactMethod $contactMethod;
     protected PositionDateInfo $positionDateInfo;
     protected Organization $organization;
+    protected PositionDetail $positionDetail;
 
     public function __construct(array $options){
         if (!self::validate($options)){
@@ -53,6 +55,10 @@ class ForemPositionOpening
         );
         $this->organization = new Organization(
             organization: $options['organization'] ?? null,
+        );
+        $this->positionDetail = new PositionDetail(
+            industryCode: $options['positionDetail']['industryCode'],
+            physicalLocation: $options['positionDetail']['physicalLocation']
         );
 
 
@@ -87,6 +93,7 @@ class ForemPositionOpening
                 ],
                 ...$this->positionDateInfo->getDatesArray(),
                 ...$this->organization->getOrganizationArray(),
+                ...$this->positionDetail->getPositionDetailArray(),
             ],
         ];
         return ArrayToXml::convert($array, [

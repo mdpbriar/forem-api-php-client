@@ -74,7 +74,7 @@ class ContactMethod
             "InternetWebAddress" => $this->internetWebAddress,
         ]);
 
-        $contactMethods = array_merge($contactMethods, $this->postalAddress->getPostalCodeArray());
+        $contactMethods = array_merge($contactMethods, $this->postalAddress->getPostalAddressArray());
 
         return [
             'ContactMethod' => $contactMethods,
