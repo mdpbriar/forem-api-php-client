@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\SupplierId;
 use Mdpbriar\ForemApiPhpClient\Enums\IdOwnerType;
@@ -24,8 +25,10 @@ class ForemPositionOpening
     protected SupplierId $supplierId;
     protected ContactMethod $contactMethod;
 
+    protected PositionDateInfo $positionDateInfo;
+
     public function __construct(array $options){
-        if (!$this->validate($options)){
+        if (!self::validate($options)){
             throw new \RuntimeException("Les options ne sont pas valides");
         }
         # On initialise le partner code
@@ -41,6 +44,11 @@ class ForemPositionOpening
             postalAddress: $options['postalAddress'],
             mobile: $options['mobile'] ?? null,
             fax: $options['fax'] ?? null,
+        );
+        $this->positionDateInfo = new PositionDateInfo(
+            startDate: $options['startDate'] ?? null,
+            expectedEndDate: $options['expectedEndDate'] ?? null,
+            asSoonAsPossible: $options['asSoonAsPossible'] ?? null,
         );
 
     }
@@ -67,6 +75,12 @@ class ForemPositionOpening
                 ...$this->supplierId->getSupplierArray(),
                 ...$this->entityName?->getEntityNameArray(),
                 ...$this->contactMethod->getContactMethodArray(),
+            ],
+            'PositionProfile' => [
+                '_attributes' => [
+                    'xml:lang' => $this->lang,
+                ],
+                ...$this->positionDateInfo->getDatesArray(),
             ],
         ];
         return ArrayToXml::convert($array, [
