@@ -130,6 +130,21 @@ class BaseModel
         });
     }
 
+    /**
+     * Retourne un array ne contenant pas les valeurs associées aux ids en paramètre
+     *
+     * @param array $ids
+     * @return array
+     * @throws \JsonException
+     */
+    public static function filterValuesNotInIds(array $ids): array
+    {
+        $values = self::getValues();
+        return array_filter($values, function($value) use ($ids){
+            return !in_array((int)$value['id'], $ids, true);
+        });
+    }
+
 
     /**
      *

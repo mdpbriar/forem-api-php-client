@@ -61,6 +61,9 @@ class ForemPositionOpening
             industryCode: $options['positionDetail']['industryCode'],
             physicalLocation: $options['positionDetail']['physicalLocation'],
             jobCategories: $options['positionDetail']['jobCategories'],
+            positionTitle: $options['positionDetail']['positionTitle'],
+            positionClassification: $options['positionDetail']['positionClassification'],
+            positionSchedule: $options['positionDetail']['positionSchedule'],
         );
 
 
