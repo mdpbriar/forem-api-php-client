@@ -64,6 +64,7 @@ class ForemPositionOpening
             positionTitle: $options['positionDetail']['positionTitle'],
             positionClassification: $options['positionDetail']['positionClassification'],
             positionSchedule: $options['positionDetail']['positionSchedule'],
+            shifts: $options['positionDetail']['shifts'] ?? null,
         );
 
 

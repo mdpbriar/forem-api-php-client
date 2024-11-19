@@ -4,6 +4,7 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\PositionSchedule;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Shift;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
 use Mdpbriar\ForemApiPhpClient\Models\Nacebel2008;
 
@@ -18,6 +19,8 @@ class PositionDetail
     protected ContratTravail $positionClassification;
     protected PositionSchedule $positionSchedule;
 
+    protected array $shifts = [];
+
 
     public function __construct(
         string $industryCode,
@@ -26,6 +29,7 @@ class PositionDetail
         string $positionTitle,
         string $positionClassification,
         array $positionSchedule,
+        array $shifts = null,
     )
     {
         $this->setIndustryCode($industryCode);
@@ -38,6 +42,19 @@ class PositionDetail
         $this->positionTitle = $positionTitle;
         $this->setPositionClassification($positionClassification);
         $this->positionSchedule = new PositionSchedule($positionSchedule);
+        # Si on a des shifts déclarés, on créé les shifts avec la classe correspondante
+        if ($shifts){
+            foreach ($shifts as $shift){
+                $shiftObj = new Shift(
+                    shiftPeriod: $shift['shiftPeriod'],
+                    hours: $shift['hours'] ?? null,
+                    startTime: $shift['startTime'] ?? null,
+                    endTime: $shift['endTime'] ?? null,
+                );
+                $this->shifts[] = $shiftObj;
+            }
+        }
+
 
     }
 
@@ -53,6 +70,16 @@ class PositionDetail
     public function setPositionClassification(string $positionClassification): void
     {
         $this->positionClassification = ContratTravail::getFromId($positionClassification);
+    }
+
+    private function getShiftsArray(): ?array
+    {
+        if (!$this->shifts){
+            return null;
+        }
+        return array_map(function(Shift $shift){
+            return $shift->getShiftArray();
+        }, $this->shifts);
     }
 
     public function getPositionDetailArray(): array
@@ -72,6 +99,10 @@ class PositionDetail
                 ...$this->positionSchedule->getPositionScheduleArray(),
             ],
         ];
+
+        if ($this->shifts){
+            $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getShiftsArray());
+        }
 
         return $array;
     }
