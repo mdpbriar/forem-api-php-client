@@ -65,6 +65,7 @@ class ForemPositionOpening
             positionClassification: $options['positionDetail']['positionClassification'],
             positionSchedule: $options['positionDetail']['positionSchedule'],
             competencies: $options['positionDetail']['competencies'],
+            userArea: $options['positionDetail']['experience'],
             shifts: $options['positionDetail']['shifts'] ?? null,
             remunerationPackage: $options['positionDetail']['remunerationPackage'] ?? null,
         );

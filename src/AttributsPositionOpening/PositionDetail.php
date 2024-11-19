@@ -7,6 +7,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competenc
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\PositionSchedule;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\RemunerationPackage;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Shift;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
 use Mdpbriar\ForemApiPhpClient\Models\Nacebel2008;
 
@@ -26,6 +27,8 @@ class PositionDetail
 
     protected ?RemunerationPackage $remunerationPackage = null;
 
+    protected UserArea $userArea;
+
     # TODO : add travel, relocation
     public function __construct(
         string $industryCode,
@@ -35,7 +38,7 @@ class PositionDetail
         string $positionClassification,
         array $positionSchedule,
         array $competencies,
-//        array $userArea,
+        array $userArea,
         ?array $shifts = null,
         ?array $remunerationPackage = null,
         ?array $travel = null,
@@ -76,6 +79,11 @@ class PositionDetail
         if ($remunerationPackage){
             $this->remunerationPackage = new RemunerationPackage($remunerationPackage);
         }
+
+        $this->userArea = new UserArea(
+            experience: $userArea['experience'],
+            unitOfMeasure: $userArea['unitOfMeasure']
+        );
 
 
     }
@@ -138,6 +146,8 @@ class PositionDetail
         if ($this->remunerationPackage){
             $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getRemunerationPackageArray());
         }
+        $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getUserAreaArray());
+
         return $array;
     }
 
