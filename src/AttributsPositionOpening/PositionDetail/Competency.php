@@ -21,13 +21,15 @@ class Competency
     public function __construct(
         string $name,
         string|int $id,
-        ?array $competencyEvidence = null,
+        ?int $value = null,
+        ?int $minValue = null,
+        ?int $maxValue = null,
     )
     {
         $this->setName($name);
         $this->competencyId = new CompetencyId($this->name, $id);
         $this->taxonomyId = new TaxonomyId($this->name, $id);
-        $this->setCompetencyEvidence($competencyEvidence);
+        $this->setCompetencyEvidence($value, $minValue, $maxValue);
 
     }
 
@@ -42,16 +44,16 @@ class Competency
     /**
      * @throws \Exception
      */
-    private function setCompetencyEvidence(?array $competencyEvidence = null): void
+    private function setCompetencyEvidence(?int $value = null, ?int $minValue = null, ?int $maxValue = null): void
     {
         if (in_array($this->name, CompetencyType::MANDATORY_EVIDENCE)){
-            if (!$competencyEvidence){
+            if (!$value){
                 throw new \UnexpectedValueException("Competency evidence est obligatoire pour {$this->name->value}");
             }
             $this->competencyEvidence = new CompetencyEvidence(
-                value: $competencyEvidence['value'],
-                minValue: $competencyEvidence['minValue'] ?? null,
-                maxValue: $competencyEvidence['maxValue'] ?? null,
+                value: $value,
+                minValue: $minValue ?? null,
+                maxValue: $maxValue ?? null,
                 language: $this->name === CompetencyType::L,
             );
         }

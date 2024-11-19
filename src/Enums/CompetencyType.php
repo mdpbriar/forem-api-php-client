@@ -32,4 +32,18 @@ enum CompetencyType: string
             self::OS => CompetenceNumerique::class,
         };
     }
+
+    public function getLabel(): string
+    {
+        return match ($this) {
+            self::SC => "Niveau d'étude",
+            self::DL => "Permis de conduire",
+            self::L => "Compétences linguistiques",
+            self::C => "Compétences",
+            self::PE => "Expérience",
+            self::OS => "Compétences numériques",
+        };
+    }
+
+
 }

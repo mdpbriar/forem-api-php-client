@@ -14,6 +14,8 @@ class BaseModel
     protected static string $file = 'file';
     protected static string $directory = 'Nomenclatures';
 
+    protected static array $include = [];
+
 
     public function __construct(
         public int|string $id,
@@ -83,7 +85,13 @@ class BaseModel
      */
     public static function getValues(): array
     {
-        return self::getJson()['values'];
+        $values = self::getJson()['values'];
+        if (count(static::$include) > 0){
+            $values = array_filter($values, function ($value){
+                return in_array($value["id"], static::$include, true);
+            });
+        }
+        return $values;
     }
 
     /**

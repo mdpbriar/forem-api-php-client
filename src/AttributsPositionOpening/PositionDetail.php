@@ -58,7 +58,13 @@ class PositionDetail
         }
 
         foreach ($competencies as $competency){
-            $this->competencies[] = new Competency($competency['name'], $competency['id'], $competency['competencyEvidence']);
+            $this->competencies[] = new Competency(
+                $competency['name'],
+                $competency['id'],
+                value: $competency['value'] ?? null,
+                minValue: $competency['minValue'] ?? null,
+                maxValue: $competency['maxValue'] ?? null
+            );
         }
 
 
