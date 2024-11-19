@@ -5,6 +5,7 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\PositionSchedule;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\RemunerationPackage;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Shift;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
 use Mdpbriar\ForemApiPhpClient\Models\Nacebel2008;
@@ -23,7 +24,9 @@ class PositionDetail
     protected array $shifts = [];
     protected array $competencies = [];
 
+    protected ?RemunerationPackage $remunerationPackage = null;
 
+    # TODO : add travel, relocation
     public function __construct(
         string $industryCode,
         array $physicalLocation,
@@ -32,7 +35,11 @@ class PositionDetail
         string $positionClassification,
         array $positionSchedule,
         array $competencies,
-        array $shifts = null,
+//        array $userArea,
+        ?array $shifts = null,
+        ?array $remunerationPackage = null,
+        ?array $travel = null,
+        ?array $relocation = null,
     )
     {
         $this->setIndustryCode($industryCode);
@@ -65,6 +72,9 @@ class PositionDetail
                 minValue: $competency['minValue'] ?? null,
                 maxValue: $competency['maxValue'] ?? null
             );
+        }
+        if ($remunerationPackage){
+            $this->remunerationPackage = new RemunerationPackage($remunerationPackage);
         }
 
 
@@ -124,6 +134,10 @@ class PositionDetail
         }
         $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getCompetenciesArray());
 
+        // Si remuneration Package est défini :
+        if ($this->remunerationPackage){
+            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getRemunerationPackageArray());
+        }
         return $array;
     }
 
