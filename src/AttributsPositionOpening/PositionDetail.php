@@ -3,6 +3,7 @@
 namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\PositionSchedule;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Shift;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
@@ -20,6 +21,7 @@ class PositionDetail
     protected PositionSchedule $positionSchedule;
 
     protected array $shifts = [];
+    protected array $competencies = [];
 
 
     public function __construct(
@@ -29,6 +31,7 @@ class PositionDetail
         string $positionTitle,
         string $positionClassification,
         array $positionSchedule,
+        array $competencies,
         array $shifts = null,
     )
     {
@@ -45,14 +48,17 @@ class PositionDetail
         # Si on a des shifts déclarés, on créé les shifts avec la classe correspondante
         if ($shifts){
             foreach ($shifts as $shift){
-                $shiftObj = new Shift(
+                $this->shifts[] = new Shift(
                     shiftPeriod: $shift['shiftPeriod'],
                     hours: $shift['hours'] ?? null,
                     startTime: $shift['startTime'] ?? null,
                     endTime: $shift['endTime'] ?? null,
                 );
-                $this->shifts[] = $shiftObj;
             }
+        }
+
+        foreach ($competencies as $competency){
+            $this->competencies[] = new Competency($competency['name'], $competency['id'], $competency['competencyEvidence']);
         }
 
 
@@ -82,6 +88,13 @@ class PositionDetail
         }, $this->shifts);
     }
 
+    private function getCompetenciesArray(): array
+    {
+        return array_map(function(Competency $competency){
+            return $competency->getCompetencyArray();
+        }, $this->competencies);
+    }
+
     public function getPositionDetailArray(): array
     {
         $array = [
@@ -103,6 +116,7 @@ class PositionDetail
         if ($this->shifts){
             $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getShiftsArray());
         }
+        $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getCompetenciesArray());
 
         return $array;
     }

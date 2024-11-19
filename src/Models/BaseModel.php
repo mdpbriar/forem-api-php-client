@@ -45,6 +45,21 @@ class BaseModel
     }
 
     /**
+     * Retourne l'id associé au modèle, définit dans le json associé
+     *
+     * @priority high
+     * @return string|null*
+     */
+    public static function getFieldId(): ?string
+    {
+        $json = static::getJson();
+        if (!isset($json['taxonomy'])){
+            return null;
+        }
+        return $json['taxonomy']['id'] ?? null;
+    }
+
+    /**
      * Retourne la description associée au modèle, définit dans le json associé
      *
      * @priority high
