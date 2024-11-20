@@ -105,6 +105,9 @@ class ForemPositionOpening
                 ...$this->positionDetail->getPositionDetailArray(),
             ],
         ];
+
+//        $arrayToXml = new ArrayToXml($array);
+
         return ArrayToXml::convert($array, [
             'rootElementName' => 'PositionOpening',
             '_attributes' => [
