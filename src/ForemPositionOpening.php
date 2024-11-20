@@ -2,20 +2,17 @@
 
 namespace Mdpbriar\ForemApiPhpClient;
 
-use Carbon\Carbon;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescriptions;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\JobCategories;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
-use Mdpbriar\ForemApiPhpClient\Enums\IdOwnerType;
-use Mdpbriar\ForemApiPhpClient\Enums\PositionRecordStatus;
 use Spatie\ArrayToXml\ArrayToXml;
-
 
 
 class ForemPositionOpening
@@ -30,6 +27,8 @@ class ForemPositionOpening
     protected PositionDateInfo $positionDateInfo;
     protected Organization $organization;
     protected PositionDetail $positionDetail;
+
+    protected FormattedPositionDescriptions $formattedPositionDescriptions;
 
     public function __construct(array $options){
         if (!self::validate($options)){
@@ -70,6 +69,8 @@ class ForemPositionOpening
             remunerationPackage: $options['positionDetail']['remunerationPackage'] ?? null,
         );
 
+        # On récupère les descriptions dans les options
+        $this->formattedPositionDescriptions = new FormattedPositionDescriptions($options['formattedDescriptions']);
 
     }
 
@@ -103,9 +104,9 @@ class ForemPositionOpening
                 ...$this->positionDateInfo->getDatesArray(),
                 ...$this->organization->getOrganizationArray(),
                 ...$this->positionDetail->getPositionDetailArray(),
+                ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
             ],
         ];
-
 //        $arrayToXml = new ArrayToXml($array);
 
         return ArrayToXml::convert($array, [

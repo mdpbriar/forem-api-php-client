@@ -1,9 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
-
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\Name;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\Value;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription;
 
 class FormattedPositionDescription
 {
@@ -21,7 +18,7 @@ class FormattedPositionDescription
     public function getFormattedDescriptionArray(): array
     {
         return [
-            'FormattedPositionDescription' => [
+            "__custom:FormattedPositionDescription:{$this->name->name}" => [
                 ...$this->name->getNameArray(),
                 ...$this->value->getArrayValue(),
             ]

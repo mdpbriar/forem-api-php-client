@@ -7,7 +7,7 @@ class Name
 
     const ACCEPTED_VALUES = ["jobDescription", "contractInformation", "companyPromotionalText"];
 
-    protected string $name;
+    public string $name;
 
     public function __construct(
         string $name

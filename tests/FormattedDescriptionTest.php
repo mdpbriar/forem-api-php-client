@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+
 final class FormattedDescriptionTest extends TestCase
 {
     public function testFormattedDescriptionCreation(): void
@@ -20,7 +21,7 @@ final class FormattedDescriptionTest extends TestCase
         ];
 
         foreach ($tests as $test){
-            $formattedDescription = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription(
+            $formattedDescription = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription(
                 formattedDescription: $test['formattedDescription'],
             );
             $expected = $test['expected'];
@@ -40,7 +41,7 @@ final class FormattedDescriptionTest extends TestCase
             'name' => 'unTestQuiNePassePas',
             'value' => 'Voilà quoi',
         ];
-        $userArea = new Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription(
+        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription(
             $test
         );
 

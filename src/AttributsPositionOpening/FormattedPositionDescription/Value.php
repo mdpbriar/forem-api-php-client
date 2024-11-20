@@ -15,14 +15,16 @@ class Value
 
     private function setValue(string $value): void
     {
-        $this->value = "<![CDATA[{$value}]]>";
+        $this->value = $value;
     }
 
 
     public function getArrayValue(): array
     {
         return [
-            'Value' => $this->value,
+            'Value' => [
+                '_cdata' => $this->value
+            ],
         ];
     }
 
