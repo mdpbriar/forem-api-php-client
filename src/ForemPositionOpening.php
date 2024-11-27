@@ -7,6 +7,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescriptions;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
@@ -27,13 +28,11 @@ class ForemPositionOpening
     protected PositionDateInfo $positionDateInfo;
     protected Organization $organization;
     protected PositionDetail $positionDetail;
-
     protected FormattedPositionDescriptions $formattedPositionDescriptions;
+    protected HowToApply $howToApply;
 
     public function __construct(array $options){
-        if (!self::validate($options)){
-            throw new \RuntimeException("Les options ne sont pas valides");
-        }
+
         # On initialise le partner code
         # On ajoute l'ID offre
         $this->idOffre = new IdOffre($options['idOffre'], $options['partnerCode']);
@@ -69,18 +68,45 @@ class ForemPositionOpening
             remunerationPackage: $options['positionDetail']['remunerationPackage'] ?? null,
         );
 
-        # On récupère les descriptions dans les options
-        $this->formattedPositionDescriptions = new FormattedPositionDescriptions($options['formattedDescriptions']);
+        $this->setOptions($options);
 
     }
 
 
-    public static function validate(array $options): bool
+
+    private function setOptions(array $options): void
     {
-        if (!isset($options['partnerCode'], $options['idOffre'])){
-            return false;
+        $required_fields = ['formattedDescriptions', 'howToApply'];
+
+        foreach ($required_fields as $required_field){
+            if (!isset($options[$required_field])){
+                throw new \InvalidArgumentException("L'option '{$required_field}' n'est pas définie");
+            }
         }
-        return true;
+
+        # On récupère les descriptions dans les options
+        $this->formattedPositionDescriptions = new FormattedPositionDescriptions($options['formattedDescriptions']);
+        # On récupère les informations sur comment candidater
+        $this->howToApply = new HowToApply($options['howToApply']);
+    }
+
+
+
+    public static function validate(array $options): array
+    {
+        try {
+            $offre = new static($options);
+            $offre->buildXml();
+            return [
+                'valid' => true,
+                'message' => "Les données sont valides"
+            ];
+        } catch (\Throwable $e){
+            return [
+                'valid' => False,
+                'message' => $e->getMessage()
+            ];
+        }
 
     }
 
@@ -105,6 +131,7 @@ class ForemPositionOpening
                 ...$this->organization->getOrganizationArray(),
                 ...$this->positionDetail->getPositionDetailArray(),
                 ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
+                ...$this->howToApply->getHowToApplyArray(),
             ],
         ];
 //        $arrayToXml = new ArrayToXml($array);
@@ -119,5 +146,8 @@ class ForemPositionOpening
         ], true, xmlEncoding: 'UTF-8', xmlVersion: '1.0');
 
     }
+
+
+
 
 }
