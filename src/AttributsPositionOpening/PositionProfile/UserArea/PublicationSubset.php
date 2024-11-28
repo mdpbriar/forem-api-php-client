@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\UserArea;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea;
 
 use Mdpbriar\ForemApiPhpClient\ValidateOptions;
 

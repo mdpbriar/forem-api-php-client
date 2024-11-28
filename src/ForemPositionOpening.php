@@ -5,15 +5,14 @@ namespace Mdpbriar\ForemApiPhpClient;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescriptions;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\UserArea;
 use Spatie\ArrayToXml\ArrayToXml;
 
 

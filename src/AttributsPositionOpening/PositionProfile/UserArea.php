@@ -1,14 +1,18 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\UserArea\PublicationSubset;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea\ActiveMediation;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea\PublicationSubset;
 
 class UserArea
 {
 
     protected ?string $selectionProcedure = null;
     protected array $publicationSubsets = [];
+
+    protected ?ActiveMediation $activeMediation = null;
+    protected ?string $comments = null;
 
     public function __construct(
         array $userArea
@@ -25,6 +29,8 @@ class UserArea
                 return new PublicationSubset($publicationSubset);
             }, $options['publicationSubsets']);
         }
+        $this->activeMediation = isset($options['activeMediation']) ? new ActiveMediation($options['activeMediation']) : null;
+        $this->comments = $options['comments'] ?? null;
 
 
     }
@@ -41,6 +47,12 @@ class UserArea
                     return $publicationSubset->getArray();
                 }, $this->publicationSubsets)
             );
+        }
+        if ($this->activeMediation){
+            $array = array_merge($array, $this->activeMediation->getArray());
+        }
+        if ($this->comments){
+            $array['Comments'] = ['_cdata' => $this->comments];
         }
         return [
             'UserArea' => $array
