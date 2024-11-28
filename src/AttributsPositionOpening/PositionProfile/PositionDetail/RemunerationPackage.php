@@ -25,11 +25,11 @@ class RemunerationPackage
     }
 
 
-    public function getRemunerationPackageArray(): array
+    public function getArray(): array
     {
         $array = [];
         if ($this->basePay){
-            $array = array_merge($array, $this->basePay->getBasePayArray());
+            $array = array_merge($array, $this->basePay->getArray());
         }
 
         return [

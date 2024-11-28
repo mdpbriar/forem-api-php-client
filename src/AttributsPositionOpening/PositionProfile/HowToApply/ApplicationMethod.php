@@ -37,7 +37,7 @@ class ApplicationMethod
     {
         $array = [];
         if ($this->telephone){
-            $array = array_merge($array, $this->telephone->getTelephoneArray());
+            $array = array_merge($array, $this->telephone->getArray());
         }
         if ($this->internetEmailAddress){
             $array['InternetEmailAddress'] = $this->internetEmailAddress;
@@ -46,7 +46,7 @@ class ApplicationMethod
             $array['InternetWebAddress'] = $this->internetWebAddress;
         }
         if ($this->postalAddress){
-            $array = array_merge($array, $this->postalAddress->getPostalAddressArray());
+            $array = array_merge($array, $this->postalAddress->getArray());
         }
 
         return [

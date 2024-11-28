@@ -32,7 +32,7 @@ class HowToApply
     public function getHowToApplyArray(): ?array
     {
         $array = [
-            ...$this->personName->getPersonNameArray(),
+            ...$this->personName->getArray(),
             ...$this->applicationMethod->getArray(),
         ];
 

@@ -20,7 +20,7 @@ class UserArea
         }
     }
 
-    public function getUserAreaArray(): array
+    public function getArray(): array
     {
         return [
             'UserArea' => [

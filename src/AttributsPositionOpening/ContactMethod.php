@@ -54,23 +54,23 @@ class ContactMethod
     }
 
 
-    public function getContactMethodArray(): array
+    public function getArray(): array
     {
         $contactMethods = [
-            ...$this->telephone->getTelephoneArray(),
+            ...$this->telephone->getArray(),
         ];
         if ($this->mobile){
-            $contactMethods = array_merge($contactMethods, $this->mobile->getTelephoneArray());
+            $contactMethods = array_merge($contactMethods, $this->mobile->getArray());
         }
         if ($this->fax){
-            $contactMethods = array_merge($contactMethods, $this->fax->getTelephoneArray());
+            $contactMethods = array_merge($contactMethods, $this->fax->getArray());
         }
         $contactMethods = array_merge($contactMethods, [
             "InternetEmailAddress" => $this->internetEmailAddress,
             "InternetWebAddress" => $this->internetWebAddress,
         ]);
 
-        $contactMethods = array_merge($contactMethods, $this->postalAddress->getPostalAddressArray());
+        $contactMethods = array_merge($contactMethods, $this->postalAddress->getArray());
 
         return [
             'ContactMethod' => $contactMethods,

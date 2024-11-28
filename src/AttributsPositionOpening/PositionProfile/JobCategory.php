@@ -54,7 +54,7 @@ class JobCategory
         $this->categoryDescription = $categoryDescription;
     }
 
-    public function getJobCategoryArray(): array
+    public function getArray(): array
     {
         return [
             'TaxonomyName' => [

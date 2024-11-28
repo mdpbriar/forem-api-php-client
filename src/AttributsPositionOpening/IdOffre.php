@@ -15,7 +15,7 @@ class IdOffre
         $this->id_offre = $id_offre;
     }
 
-    public function getIdArray(): array
+    public function getArray(): array
     {
         return [
             'Id' => [

@@ -27,7 +27,7 @@ class PositionDateInfo
         $this->expectedEndDate = $expectedEndDate->format('Y-m-d');
     }
 
-    public function getDatesArray(): ?array
+    public function getArray(): ?array
     {
         $contents = [];
         if ($this->startDate){

@@ -104,18 +104,18 @@ class PositionDetail
             return null;
         }
         return array_map(function(Shift $shift){
-            return $shift->getShiftArray();
+            return $shift->getArray();
         }, $this->shifts);
     }
 
     private function getCompetenciesArray(): array
     {
         return array_map(function(Competency $competency){
-            return $competency->getCompetencyArray();
+            return $competency->getArray();
         }, $this->competencies);
     }
 
-    public function getPositionDetailArray(): array
+    public function getArray(): array
     {
         $array = [
             'PositionDetail' => [
@@ -125,11 +125,11 @@ class PositionDetail
                     ],
                     '_value' => $this->industryCode,
                 ],
-            ...$this->physicalLocation->getPostalAddressArray(),
-            ...$this->jobCategories->getJobCategoriesArray(),
+            ...$this->physicalLocation->getArray(),
+            ...$this->jobCategories->getArray(),
                 'PositionTitle' => $this->positionTitle,
                 'PositionClassification' => $this->positionClassification->id,
-                ...$this->positionSchedule->getPositionScheduleArray(),
+                ...$this->positionSchedule->getArray(),
             ],
         ];
 
@@ -140,9 +140,9 @@ class PositionDetail
 
         // Si remuneration Package est défini :
         if ($this->remunerationPackage){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getRemunerationPackageArray());
+            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getArray());
         }
-        $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getUserAreaArray());
+        $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getArray());
 
         return $array;
     }

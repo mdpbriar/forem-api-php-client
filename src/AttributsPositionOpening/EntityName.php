@@ -5,20 +5,20 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
 class EntityName
 {
 
+    protected string $entityName;
     public function __construct(
-        protected ?string $entityName = null
-    ){}
+        string $entityName
+    ){
+        $this->setEntityName($entityName);
+    }
 
     public function setEntityName(string $entityName): void
     {
         $this->entityName = $entityName;
     }
 
-    public function getEntityNameArray(): array
+    public function getArray(): array
     {
-        if (!$this->entityName) {
-            return [];
-        }
 
         return [
             'EntityName' => [

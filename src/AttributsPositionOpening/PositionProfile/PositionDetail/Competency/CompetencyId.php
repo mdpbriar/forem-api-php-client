@@ -25,7 +25,7 @@ class CompetencyId
         $this->description = $competence->description;
     }
 
-    public function getCompetencyIdArray(): array
+    public function getArray(): array
     {
         return [
             'CompetencyId' => [

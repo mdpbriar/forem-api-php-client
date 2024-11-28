@@ -40,7 +40,7 @@ class BasePay
         }
     }
 
-    public function getBasePayArray(): array
+    public function getArray(): array
     {
         return [
             'BasePay' => [

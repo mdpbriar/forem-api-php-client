@@ -39,9 +39,9 @@ class Organization
             $contents['OrganizationName'] = $this->organizationName;
         }
         if ($this->legalId){
-            $contents = array_merge($contents, $this->legalId->getSupplierArray('LegalId'));
+            $contents = array_merge($contents, $this->legalId->getArray('LegalId'));
         }
-        $contents = array_merge($contents, ['ContactInfo' => $this->contactMethod->getContactMethodArray()]);
+        $contents = array_merge($contents, ['ContactInfo' => $this->contactMethod->getArray()]);
 
         return [
             'Organization' => $contents,

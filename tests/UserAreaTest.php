@@ -31,7 +31,7 @@ final class UserAreaTest extends TestCase
                 unitOfMeasure: $test['experience']['unitOfMeasure'],
             );
             $expected = $test['expected'];
-            $xml = new \Spatie\ArrayToXml\ArrayToXml($userArea->getUserAreaArray());
+            $xml = new \Spatie\ArrayToXml\ArrayToXml($userArea->getArray());
             \PHPUnit\Framework\assertSame($expected, $xml->dropXmlDeclaration()->toXml());
 
         }

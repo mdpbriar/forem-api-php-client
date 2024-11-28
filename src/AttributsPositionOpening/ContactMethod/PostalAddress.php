@@ -49,7 +49,7 @@ class PostalAddress
         $this->municipality = $municipality;
     }
 
-    public function getPostalAddressArray(): array
+    public function getArray(): array
     {
         $contents = [
             "CountryCode" => $this->countryCode,

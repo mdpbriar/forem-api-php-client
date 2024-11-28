@@ -25,7 +25,7 @@ final class FormattedDescriptionTest extends TestCase
                 formattedDescription: $test['formattedDescription'],
             );
             $expected = $test['expected'];
-            $xml = new \Spatie\ArrayToXml\ArrayToXml($formattedDescription->getFormattedDescriptionArray());
+            $xml = new \Spatie\ArrayToXml\ArrayToXml($formattedDescription->getArray());
             \PHPUnit\Framework\assertSame($expected, $xml->dropXmlDeclaration()->toXml());
 
         }

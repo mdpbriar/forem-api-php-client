@@ -19,7 +19,7 @@ class TaxonomyId
         $this->description = $model::getFieldDescription();
     }
 
-    public function getTaxonomyIdArray(): array
+    public function getArray(): array
     {
         return [
             'TaxonomyId' => [

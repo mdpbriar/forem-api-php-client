@@ -59,18 +59,18 @@ class Competency
         }
     }
 
-    public function getCompetencyArray(): array
+    public function getArray(): array
     {
         $array = [
             '_attributes' => [
                 'name' => $this->name->value,
             ],
-            ...$this->competencyId->getCompetencyIdArray(),
-            ...$this->taxonomyId->getTaxonomyIdArray(),
+            ...$this->competencyId->getArray(),
+            ...$this->taxonomyId->getArray(),
         ];
 
         if ($this->competencyEvidence){
-            $array = array_merge($array, $this->competencyEvidence->getCompetencyEvidenceArray());
+            $array = array_merge($array, $this->competencyEvidence->getArray());
         }
 
 

@@ -15,12 +15,12 @@ class FormattedPositionDescription
         $this->value = new Value($formattedDescription['value']);
     }
 
-    public function getFormattedDescriptionArray(): array
+    public function getArray(): array
     {
         return [
             "__custom:FormattedPositionDescription:{$this->name->name}" => [
-                ...$this->name->getNameArray(),
-                ...$this->value->getArrayValue(),
+                ...$this->name->getArray(),
+                ...$this->value->getValue(),
             ]
         ];
     }

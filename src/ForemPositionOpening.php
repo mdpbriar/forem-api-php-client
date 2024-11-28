@@ -18,7 +18,7 @@ class ForemPositionOpening
 
     public string $lang = 'FR';
     protected IdOffre $idOffre;
-    protected EntityName $entityName;
+    protected ?EntityName $entityName = null;
     protected StatusPosition $statusPosition;
     protected EntityId $supplierId;
     protected ContactMethod $contactMethod;
@@ -29,12 +29,22 @@ class ForemPositionOpening
 
     public function __construct(array $options){
 
+        $this->setOptions($options);
+    }
+
+
+
+    private function setOptions(array $options): void
+    {
+        $required_fields = ['idOffre', 'partnerCode', 'validFrom', 'validTo', 'positionProfile'];
+        ValidateOptions::validateArrayFields($options, $required_fields);
+
         # On initialise le partner code
         # On ajoute l'ID offre
         $this->idOffre = new IdOffre($options['idOffre'], $options['partnerCode']);
         $this->statusPosition = new StatusPosition($options['validFrom'] ?? null, $options['validTo'] ?? null);
         $this->supplierId = new EntityId($options['companyNumber'] ?? $options['partnerCode'], $options['idOwner'] ?? null);
-        $this->entityName = new EntityName($options['entityName'] ?? null);
+        $this->entityName = isset($options['entityName']) ? new EntityName($options['entityName']) : null;
         $this->contactMethod = new ContactMethod(
             telephone: $options['telephone'],
             internetEmailAddress: $options['internetEmailAddress'],
@@ -43,21 +53,10 @@ class ForemPositionOpening
             mobile: $options['mobile'] ?? null,
             fax: $options['fax'] ?? null,
         );
-
-        $this->setOptions($options);
-
-    }
-
-
-
-    private function setOptions(array $options): void
-    {
-        $required_fields = ['positionProfile'];
-        ValidateOptions::validateArrayFields($options, $required_fields);
-
         $this->positionProfile = new PositionProfile($options['positionProfile'], lang: $this->lang);
         $this->numberToFill = isset($options['numberToFill']) ? new NumberToFill($options['numberToFill']) : null;
         $this->userArea = isset($options['userArea']) ? new UserArea($options['userArea']) : null;
+
 
     }
 
@@ -84,17 +83,20 @@ class ForemPositionOpening
 
     public function buildXml(): string
     {
+        $positionSupplier = [
+            ...$this->supplierId->getArray(),
+        ];
+        if ($this->entityName){
+            $positionSupplier = array_merge($positionSupplier, $this->entityName->getArray());
+        }
+        $positionSupplier = array_merge($positionSupplier, $this->contactMethod->getArray());
 
         $array = [
             'PositionRecordInfo' => [
-                ...$this->idOffre->getIdArray(),
-                ...$this->statusPosition->getStatusArray(),
+                ...$this->idOffre->getArray(),
+                ...$this->statusPosition->getArray(),
             ],
-            'PositionSupplier' => [
-                ...$this->supplierId->getSupplierArray(),
-                ...$this->entityName?->getEntityNameArray(),
-                ...$this->contactMethod->getContactMethodArray(),
-            ],
+            'PositionSupplier' => $positionSupplier,
             ...$this->positionProfile->getArray(),
         ];
         if ($this->numberToFill){

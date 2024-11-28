@@ -29,7 +29,7 @@ class Shift
         $this->shiftPeriod = ShiftPeriod::from($shiftPeriod);
     }
 
-    public function getShiftArray(): array
+    public function getArray(): array
     {
         $array = [
             '_attributes' => [

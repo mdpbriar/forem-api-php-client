@@ -64,10 +64,10 @@ class PositionProfile
             '_attributes' => [
                 'xml:lang' => $this->lang,
             ],
-            ...$this->positionDateInfo->getDatesArray(),
+            ...$this->positionDateInfo->getArray(),
             ...$this->organization->getOrganizationArray(),
-            ...$this->positionDetail->getPositionDetailArray(),
-            ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
+            ...$this->positionDetail->getArray(),
+            ...$this->formattedPositionDescriptions->getArray(),
             ...$this->howToApply->getHowToApplyArray(),
         ];
 

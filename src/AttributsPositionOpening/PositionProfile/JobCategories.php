@@ -40,12 +40,12 @@ class JobCategories
         }
     }
 
-    public function getJobCategoriesArray(): array
+    public function getArray(): array
     {
         $categories = [];
         foreach ($this->categories as $category){
             // On utilise la technique __custom de spatie xml pour éviter un duplicate keys dans l'array
-            $categories['__custom:JobCategory:'.$category->taxonomyName->value] = $category->getJobCategoryArray();
+            $categories['__custom:JobCategory:'.$category->taxonomyName->value] = $category->getArray();
         }
         return $categories;
     }

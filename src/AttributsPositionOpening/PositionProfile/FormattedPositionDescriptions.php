@@ -22,11 +22,11 @@ class FormattedPositionDescriptions
         }, $formattedDescriptions);
     }
 
-    public function getFormattedDescriptionsArray(): array
+    public function getArray(): array
     {
 
         $array = array_merge(...array_map(function (FormattedPositionDescription $description){
-            return $description->getFormattedDescriptionArray();
+            return $description->getArray();
         }, $this->formattedPositionDescriptions));
 
         return $array;

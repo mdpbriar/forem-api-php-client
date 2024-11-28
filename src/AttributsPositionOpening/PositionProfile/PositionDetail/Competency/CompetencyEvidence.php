@@ -44,7 +44,7 @@ class CompetencyEvidence
     }
 
 
-    public function getCompetencyEvidenceArray(): array
+    public function getArray(): array
     {
 
         $attributes = [];

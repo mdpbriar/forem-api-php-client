@@ -19,7 +19,7 @@ class Value
     }
 
 
-    public function getArrayValue(): array
+    public function getValue(): array
     {
         return [
             'Value' => [

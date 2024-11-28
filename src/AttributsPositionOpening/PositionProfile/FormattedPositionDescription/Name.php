@@ -24,7 +24,7 @@ class Name
         $this->name = $name;
     }
 
-    public function getNameArray(): array
+    public function getArray(): array
     {
         return [
             'Name' => $this->name,

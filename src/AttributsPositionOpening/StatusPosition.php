@@ -38,7 +38,7 @@ class StatusPosition
         $this->validTo = $validTo->format('Y-m-d');
     }
 
-    public function getStatusArray(): ?array
+    public function getArray(): ?array
     {
         $attributes = [];
         if ($this->validTo && $this->validFrom){
