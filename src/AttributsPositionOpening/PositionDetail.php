@@ -46,11 +46,7 @@ class PositionDetail
     )
     {
         $this->setIndustryCode($industryCode);
-        $this->physicalLocation = new PostalAddress(
-            countryCode: $physicalLocation['countryCode'],
-            postalCode: $physicalLocation['postalCode'],
-            municipality: $physicalLocation['municipality'] ?? null,
-        );
+        $this->physicalLocation = new PostalAddress($physicalLocation);
         $this->jobCategories = new JobCategories($jobCategories);
         $this->positionTitle = $positionTitle;
         $this->setPositionClassification($positionClassification);

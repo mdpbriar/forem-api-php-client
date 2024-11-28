@@ -3,6 +3,7 @@
 namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 
 use Mdpbriar\ForemApiPhpClient\Models\Pays;
+use Mdpbriar\ForemApiPhpClient\ValidateOptions;
 
 class PostalAddress
 {
@@ -13,15 +14,20 @@ class PostalAddress
     protected string $deliveryAddress;
 //    @TODO: ajouter deliveryAddress et Recipient
     public function __construct(
-        string $countryCode,
-        string $postalCode,
-        ?string $municipality = null,
+        array $postalAddress,
 
     ){
-        $this->setCountryCode($countryCode);
-        $this->setPostalCode($postalCode);
-        if ($municipality){
-            $this->setMunicipality($municipality);
+        $this->setOptions($postalAddress);
+    }
+
+    public function setOptions(array $postalAddress): void
+    {
+        $required_fields = ['countryCode', 'postalCode'];
+        ValidateOptions::validateArrayFields($postalAddress, $required_fields);
+        $this->setCountryCode($postalAddress['countryCode']);
+        $this->setPostalCode($postalAddress['postalCode']);
+        if (isset($postalAddress['municipality'])){
+            $this->setMunicipality($postalAddress['municipality']);
         }
     }
 

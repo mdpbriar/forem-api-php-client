@@ -32,11 +32,7 @@ class ContactMethod
         );
         $this->internetEmailAddress = $internetEmailAddress;
         $this->internetWebAddress = $internetWebAddress;
-        $this->postalAddress = new PostalAddress(
-            countryCode: $postalAddress['countryCode'],
-            postalCode: $postalAddress['postalCode'],
-            municipality: $postalAddress['municipality'] ?? null,
-        );
+        $this->postalAddress = new PostalAddress($postalAddress);
         if ($mobile){
             $this->mobile = new Telephone(
                 subscriberNumber: $mobile['subscriberNumber'],
