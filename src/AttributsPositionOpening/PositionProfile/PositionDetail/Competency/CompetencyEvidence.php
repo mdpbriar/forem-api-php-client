@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency;
 
 use Mdpbriar\ForemApiPhpClient\Enums\EuropeCERL;
 

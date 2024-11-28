@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply;
 
 class InPerson
 {

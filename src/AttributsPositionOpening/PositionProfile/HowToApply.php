@@ -1,11 +1,10 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
-use Carbon\Carbon;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply\ApplicationMethod;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply\UserArea;
-use Mdpbriar\ForemApiPhpClient\Enums\PositionRecordStatus;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PersonName;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply\ApplicationMethod;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply\UserArea;
 use Mdpbriar\ForemApiPhpClient\ValidateOptions;
 
 class HowToApply

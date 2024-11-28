@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\RemunerationPackage;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\RemunerationPackage;
 
 use Mdpbriar\ForemApiPhpClient\Enums\BasePayInterval;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail;
 
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency\CompetencyEvidence;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency\CompetencyId;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency\TaxonomyId;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency\CompetencyEvidence;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency\CompetencyId;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency\TaxonomyId;
 use Mdpbriar\ForemApiPhpClient\Enums\CompetencyType;
 
 class Competency

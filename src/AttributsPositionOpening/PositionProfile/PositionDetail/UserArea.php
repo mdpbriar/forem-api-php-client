@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail;
 
 use Mdpbriar\ForemApiPhpClient\Enums\ExperienceUnitOfMeasure;
 

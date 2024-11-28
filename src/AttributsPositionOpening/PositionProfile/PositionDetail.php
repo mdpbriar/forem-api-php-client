@@ -1,13 +1,13 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Competency;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\PositionSchedule;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\RemunerationPackage;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\Shift;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\PositionSchedule;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\RemunerationPackage;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Shift;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
 use Mdpbriar\ForemApiPhpClient\Models\Nacebel2008;
 

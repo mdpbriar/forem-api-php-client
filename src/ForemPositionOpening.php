@@ -5,13 +5,14 @@ namespace Mdpbriar\ForemApiPhpClient;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescriptions;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\NumberToFill;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\FormattedPositionDescriptions;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\Organization;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDateInfo;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
 use Spatie\ArrayToXml\ArrayToXml;
@@ -26,12 +27,8 @@ class ForemPositionOpening
     protected StatusPosition $statusPosition;
     protected EntityId $supplierId;
     protected ContactMethod $contactMethod;
-    protected PositionDateInfo $positionDateInfo;
-    protected Organization $organization;
-    protected PositionDetail $positionDetail;
-    protected FormattedPositionDescriptions $formattedPositionDescriptions;
-    protected HowToApply $howToApply;
-    protected ?UserArea $userArea = null;
+
+    protected PositionProfile $positionProfile;
     protected ?NumberToFill $numberToFill = null;
 
     public function __construct(array $options){
@@ -50,26 +47,6 @@ class ForemPositionOpening
             mobile: $options['mobile'] ?? null,
             fax: $options['fax'] ?? null,
         );
-        $this->positionDateInfo = new PositionDateInfo(
-            startDate: $options['startDate'] ?? null,
-            expectedEndDate: $options['expectedEndDate'] ?? null,
-            asSoonAsPossible: $options['asSoonAsPossible'] ?? null,
-        );
-        $this->organization = new Organization(
-            organization: $options['organization'] ?? null,
-        );
-        $this->positionDetail = new PositionDetail(
-            industryCode: $options['positionDetail']['industryCode'],
-            physicalLocation: $options['positionDetail']['physicalLocation'],
-            jobCategories: $options['positionDetail']['jobCategories'],
-            positionTitle: $options['positionDetail']['positionTitle'],
-            positionClassification: $options['positionDetail']['positionClassification'],
-            positionSchedule: $options['positionDetail']['positionSchedule'],
-            competencies: $options['positionDetail']['competencies'],
-            userArea: $options['positionDetail']['experience'],
-            shifts: $options['positionDetail']['shifts'] ?? null,
-            remunerationPackage: $options['positionDetail']['remunerationPackage'] ?? null,
-        );
 
         $this->setOptions($options);
 
@@ -79,19 +56,13 @@ class ForemPositionOpening
 
     private function setOptions(array $options): void
     {
-        $required_fields = ['formattedDescriptions', 'howToApply'];
+        $required_fields = ['positionProfile'];
+        ValidateOptions::validateArrayFields($options, $required_fields);
 
-        foreach ($required_fields as $required_field){
-            if (!isset($options[$required_field])){
-                throw new \InvalidArgumentException("L'option '{$required_field}' n'est pas définie");
-            }
-        }
+        $this->positionProfile = new PositionProfile($options['positionProfile'], lang: $this->lang);
 
         # On récupère les descriptions dans les options
-        $this->formattedPositionDescriptions = new FormattedPositionDescriptions($options['formattedDescriptions']);
-        # On récupère les informations sur comment candidater
-        $this->howToApply = new HowToApply($options['howToApply']);
-        $this->userArea = isset($options['userArea']) ? new UserArea($options['userArea']) : null;
+
         $this->numberToFill = isset($options['numberToFill']) ? new NumberToFill($options['numberToFill']) : null;
 
     }
@@ -119,20 +90,7 @@ class ForemPositionOpening
 
     public function buildXml(): string
     {
-        $positionProfile = [
-            '_attributes' => [
-                'xml:lang' => $this->lang,
-            ],
-            ...$this->positionDateInfo->getDatesArray(),
-            ...$this->organization->getOrganizationArray(),
-            ...$this->positionDetail->getPositionDetailArray(),
-            ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
-            ...$this->howToApply->getHowToApplyArray(),
-        ];
 
-        if ($this->userArea){
-            $positionProfile = array_merge($positionProfile, $this->userArea->getArray());
-        }
         $array = [
             'PositionRecordInfo' => [
                 ...$this->idOffre->getIdArray(),
@@ -143,7 +101,7 @@ class ForemPositionOpening
                 ...$this->entityName?->getEntityNameArray(),
                 ...$this->contactMethod->getContactMethodArray(),
             ],
-            'PositionProfile' => $positionProfile,
+            ...$this->positionProfile->getArray(),
         ];
         if ($this->numberToFill){
             $array = array_merge($array, $this->numberToFill->getArray());

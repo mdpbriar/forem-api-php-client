@@ -1,8 +1,8 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\FormattedPositionDescription\FormattedPositionDescription;
 
 class FormattedPositionDescriptions
 {

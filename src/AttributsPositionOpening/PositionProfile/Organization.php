@@ -1,9 +1,9 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
-use Carbon\Carbon;
-use Mdpbriar\ForemApiPhpClient\Enums\PositionRecordStatus;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityId;
 
 class Organization
 {

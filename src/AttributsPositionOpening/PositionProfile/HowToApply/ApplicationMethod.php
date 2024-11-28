@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
+namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\Telephone;

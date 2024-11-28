@@ -21,7 +21,7 @@ final class FormattedDescriptionTest extends TestCase
         ];
 
         foreach ($tests as $test){
-            $formattedDescription = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription(
+            $formattedDescription = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\FormattedPositionDescription\FormattedPositionDescription(
                 formattedDescription: $test['formattedDescription'],
             );
             $expected = $test['expected'];
@@ -41,7 +41,7 @@ final class FormattedDescriptionTest extends TestCase
             'name' => 'unTestQuiNePassePas',
             'value' => 'Voilà quoi',
         ];
-        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescription\FormattedPositionDescription(
+        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\FormattedPositionDescription\FormattedPositionDescription(
             $test
         );
 

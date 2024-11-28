@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+
 final class UserAreaTest extends TestCase
 {
     public function testExperienceCreation(): void
@@ -25,7 +26,7 @@ final class UserAreaTest extends TestCase
         ];
 
         foreach ($tests as $test){
-            $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea(
+            $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea(
                 experience: $test['experience']['experience'],
                 unitOfMeasure: $test['experience']['unitOfMeasure'],
             );
@@ -46,7 +47,7 @@ final class UserAreaTest extends TestCase
             'experience' => 5,
             'unitOfMeasure' => 'Days',
         ];
-        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea(
+        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea(
             experience: $experience['experience'],
             unitOfMeasure: $experience['unitOfMeasure'],
         );
