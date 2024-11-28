@@ -8,13 +8,8 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\NumberToFill;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\FormattedPositionDescriptions;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\HowToApply;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\Organization;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDateInfo;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail;
-use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\UserArea;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\UserArea;
 use Spatie\ArrayToXml\ArrayToXml;
 
 
@@ -30,6 +25,7 @@ class ForemPositionOpening
 
     protected PositionProfile $positionProfile;
     protected ?NumberToFill $numberToFill = null;
+    protected ?UserArea $userArea = null;
 
     public function __construct(array $options){
 
@@ -60,10 +56,8 @@ class ForemPositionOpening
         ValidateOptions::validateArrayFields($options, $required_fields);
 
         $this->positionProfile = new PositionProfile($options['positionProfile'], lang: $this->lang);
-
-        # On récupère les descriptions dans les options
-
         $this->numberToFill = isset($options['numberToFill']) ? new NumberToFill($options['numberToFill']) : null;
+        $this->userArea = isset($options['userArea']) ? new UserArea($options['userArea']) : null;
 
     }
 
@@ -105,6 +99,9 @@ class ForemPositionOpening
         ];
         if ($this->numberToFill){
             $array = array_merge($array, $this->numberToFill->getArray());
+        }
+        if ($this->userArea){
+            $array = array_merge($array, $this->userArea->getArray());
         }
 
         return ArrayToXml::convert($array, [
