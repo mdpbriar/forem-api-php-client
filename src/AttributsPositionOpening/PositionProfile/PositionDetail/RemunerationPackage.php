@@ -3,12 +3,12 @@
 namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\RemunerationPackage\BasePay;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\RemunerationPackage\Benefits;
 
 class RemunerationPackage
 {
     public BasePay $basePay;
-
-    # TODO : add Benefits
+    public ?Benefits $benefits = null;
 
     public function __construct(
         array $remunerationPackage,
@@ -22,6 +22,9 @@ class RemunerationPackage
                 baseInterval: $remunerationPackage['baseInterval'] ?? null,
             );
         }
+        if (isset($remunerationPackage['benefits'])){
+            $this->benefits = new Benefits($remunerationPackage['benefits']);
+        }
     }
 
 
@@ -30,6 +33,9 @@ class RemunerationPackage
         $array = [];
         if ($this->basePay){
             $array = array_merge($array, $this->basePay->getArray());
+        }
+        if ($this->benefits){
+            $array = array_merge($array, $this->benefits->getArray());
         }
 
         return [
