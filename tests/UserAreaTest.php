@@ -9,14 +9,14 @@ final class UserAreaTest extends TestCase
 
         $tests = [
             [
-                'experience' => [
+                'userArea' => [
                     'experience' => 2,
                     'unitOfMeasure' => 'Years',
                 ],
                 'expected' => "<root><UserArea><Experience unitOfMeasure=\"Years\">2</Experience></UserArea></root>"
             ],
             [
-                'experience' => [
+                'userArea' => [
                     'experience' => 48,
                     'unitOfMeasure' => 'Months',
                 ],
@@ -27,8 +27,8 @@ final class UserAreaTest extends TestCase
 
         foreach ($tests as $test){
             $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea(
-                experience: $test['experience']['experience'],
-                unitOfMeasure: $test['experience']['unitOfMeasure'],
+                experience: $test['userArea']['experience'],
+                unitOfMeasure: $test['userArea']['unitOfMeasure'],
             );
             $expected = $test['expected'];
             $xml = new \Spatie\ArrayToXml\ArrayToXml($userArea->getArray());

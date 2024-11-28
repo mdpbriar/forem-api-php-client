@@ -10,6 +10,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\Position
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea;
 use Mdpbriar\ForemApiPhpClient\Models\ContratTravail;
 use Mdpbriar\ForemApiPhpClient\Models\Nacebel2008;
+use Mdpbriar\ForemApiPhpClient\ValidateOptions;
 
 class PositionDetail
 {
@@ -26,34 +27,27 @@ class PositionDetail
     protected array $competencies = [];
 
     protected ?RemunerationPackage $remunerationPackage = null;
+    protected ?Travel $travel = null;
+    protected ?Relocation $relocation = null;
 
     protected UserArea $userArea;
 
-    # TODO : add travel, relocation
     public function __construct(
-        string $industryCode,
-        array $physicalLocation,
-        array $jobCategories,
-        string $positionTitle,
-        string $positionClassification,
-        array $positionSchedule,
-        array $competencies,
-        array $userArea,
-        ?array $shifts = null,
-        ?array $remunerationPackage = null,
-        ?array $travel = null,
-        ?array $relocation = null,
+        array $positionDetail,
     )
     {
-        $this->setIndustryCode($industryCode);
-        $this->physicalLocation = new PostalAddress($physicalLocation);
-        $this->jobCategories = new JobCategories($jobCategories);
-        $this->positionTitle = $positionTitle;
-        $this->setPositionClassification($positionClassification);
-        $this->positionSchedule = new PositionSchedule($positionSchedule);
+        $required_fields = ['industryCode', 'physicalLocation', 'jobCategories', 'positionTitle', 'positionClassification', 'positionSchedule', 'competencies', 'userArea'];
+        ValidateOptions::validateArrayFields($positionDetail, $required_fields);
+
+        $this->setIndustryCode($positionDetail['industryCode']);
+        $this->physicalLocation = new PostalAddress($positionDetail['physicalLocation']);
+        $this->jobCategories = new JobCategories($positionDetail['jobCategories']);
+        $this->positionTitle = $positionDetail['positionTitle'];
+        $this->setPositionClassification($positionDetail['positionClassification']);
+        $this->positionSchedule = new PositionSchedule($positionDetail['positionSchedule']);
         # Si on a des shifts déclarés, on créé les shifts avec la classe correspondante
-        if ($shifts){
-            foreach ($shifts as $shift){
+        if (isset($positionDetail['shifts'])){
+            foreach ($positionDetail['shifts'] as $shift){
                 $this->shifts[] = new Shift(
                     shiftPeriod: $shift['shiftPeriod'],
                     hours: $shift['hours'] ?? null,
@@ -63,7 +57,7 @@ class PositionDetail
             }
         }
 
-        foreach ($competencies as $competency){
+        foreach ($positionDetail['competencies'] as $competency){
             $this->competencies[] = new Competency(
                 $competency['name'],
                 $competency['id'],
@@ -72,14 +66,23 @@ class PositionDetail
                 maxValue: $competency['maxValue'] ?? null
             );
         }
-        if ($remunerationPackage){
-            $this->remunerationPackage = new RemunerationPackage($remunerationPackage);
+        if ($positionDetail['remunerationPackage']){
+            $this->remunerationPackage = new RemunerationPackage($positionDetail['remunerationPackage']);
         }
 
         $this->userArea = new UserArea(
-            experience: $userArea['experience'],
-            unitOfMeasure: $userArea['unitOfMeasure']
+            experience: $positionDetail['userArea']['experience'],
+            unitOfMeasure: $positionDetail['userArea']['unitOfMeasure']
         );
+
+        if (isset($positionDetail['travel'])){
+            $this->travel = new Travel($positionDetail['travel']);
+        }
+
+        if (isset($positionDetail['relocation'])){
+            $this->relocation = new Relocation($positionDetail['relocation']);
+        }
+
 
 
     }
@@ -125,8 +128,8 @@ class PositionDetail
                     ],
                     '_value' => $this->industryCode,
                 ],
-            ...$this->physicalLocation->getArray(),
-            ...$this->jobCategories->getArray(),
+                ...$this->physicalLocation->getArray(),
+                ...$this->jobCategories->getArray(),
                 'PositionTitle' => $this->positionTitle,
                 'PositionClassification' => $this->positionClassification->id,
                 ...$this->positionSchedule->getArray(),
@@ -142,6 +145,13 @@ class PositionDetail
         if ($this->remunerationPackage){
             $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getArray());
         }
+        if ($this->travel){
+            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->travel->getArray());
+        }
+        if ($this->relocation){
+            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->relocation->getArray());
+        }
+
         $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getArray());
 
         return $array;
