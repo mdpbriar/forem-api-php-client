@@ -24,7 +24,7 @@ class ApplicationMethod
     {
         $this->telephone = isset($applicationMethod['telephone']) ? new Telephone($applicationMethod['telephone']) : null;
         $this->internetEmailAddress = $applicationMethod['internetEmailAddress'] ?? null;
-        $this->postalAddress = $applicationMethod['postalAddress'] ? new PostalAddress($applicationMethod['postalAddress']) : null;
+        $this->postalAddress = isset($applicationMethod['postalAddress']) ? new PostalAddress($applicationMethod['postalAddress']) : null;
         $this->internetWebAddress = $applicationMethod['internetWebAddress'] ?? null;
         if (!$this->telephone && !$this->internetEmailAddress && !$this->postalAddress){
             throw new \InvalidArgumentException("Il faut définir au moins un téléphone, ou une adresse email, ou une adresse postale pour la candidature");

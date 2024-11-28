@@ -13,6 +13,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\StatusPosition;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\UserArea;
 use Spatie\ArrayToXml\ArrayToXml;
 
 
@@ -30,6 +31,7 @@ class ForemPositionOpening
     protected PositionDetail $positionDetail;
     protected FormattedPositionDescriptions $formattedPositionDescriptions;
     protected HowToApply $howToApply;
+    protected ?UserArea $userArea = null;
 
     public function __construct(array $options){
 
@@ -88,6 +90,8 @@ class ForemPositionOpening
         $this->formattedPositionDescriptions = new FormattedPositionDescriptions($options['formattedDescriptions']);
         # On récupère les informations sur comment candidater
         $this->howToApply = new HowToApply($options['howToApply']);
+        $this->userArea = isset($options['userArea']) ? new UserArea($options['userArea']) : null;
+
     }
 
 
@@ -113,6 +117,20 @@ class ForemPositionOpening
 
     public function buildXml(): string
     {
+        $positionProfile = [
+            '_attributes' => [
+                'xml:lang' => $this->lang,
+            ],
+            ...$this->positionDateInfo->getDatesArray(),
+            ...$this->organization->getOrganizationArray(),
+            ...$this->positionDetail->getPositionDetailArray(),
+            ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
+            ...$this->howToApply->getHowToApplyArray(),
+        ];
+
+        if ($this->userArea){
+            $positionProfile = array_merge($positionProfile, $this->userArea->getArray());
+        }
         $array = [
             'PositionRecordInfo' => [
                 ...$this->idOffre->getIdArray(),
@@ -123,16 +141,7 @@ class ForemPositionOpening
                 ...$this->entityName?->getEntityNameArray(),
                 ...$this->contactMethod->getContactMethodArray(),
             ],
-            'PositionProfile' => [
-                '_attributes' => [
-                    'xml:lang' => $this->lang,
-                ],
-                ...$this->positionDateInfo->getDatesArray(),
-                ...$this->organization->getOrganizationArray(),
-                ...$this->positionDetail->getPositionDetailArray(),
-                ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
-                ...$this->howToApply->getHowToApplyArray(),
-            ],
+            'PositionProfile' => $positionProfile,
         ];
 //        $arrayToXml = new ArrayToXml($array);
 
