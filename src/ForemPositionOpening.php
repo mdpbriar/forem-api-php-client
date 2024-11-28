@@ -8,6 +8,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\EntityName;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\FormattedPositionDescriptions;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\HowToApply;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\IdOffre;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\NumberToFill;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\Organization;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDateInfo;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail;
@@ -31,6 +32,7 @@ class ForemPositionOpening
     protected FormattedPositionDescriptions $formattedPositionDescriptions;
     protected HowToApply $howToApply;
     protected ?UserArea $userArea = null;
+    protected ?NumberToFill $numberToFill = null;
 
     public function __construct(array $options){
 
@@ -90,6 +92,7 @@ class ForemPositionOpening
         # On récupère les informations sur comment candidater
         $this->howToApply = new HowToApply($options['howToApply']);
         $this->userArea = isset($options['userArea']) ? new UserArea($options['userArea']) : null;
+        $this->numberToFill = isset($options['numberToFill']) ? new NumberToFill($options['numberToFill']) : null;
 
     }
 
@@ -142,7 +145,9 @@ class ForemPositionOpening
             ],
             'PositionProfile' => $positionProfile,
         ];
-//        $arrayToXml = new ArrayToXml($array);
+        if ($this->numberToFill){
+            $array = array_merge($array, $this->numberToFill->getArray());
+        }
 
         return ArrayToXml::convert($array, [
             'rootElementName' => 'PositionOpening',
