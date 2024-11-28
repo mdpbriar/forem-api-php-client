@@ -11,8 +11,9 @@ class PostalAddress
     protected string $countryCode;
     protected string $postalCode;
     protected ?string $municipality = null;
-    protected string $deliveryAddress;
-//    @TODO: ajouter deliveryAddress et Recipient
+    protected ?DeliveryAddress $deliveryAddress = null;
+    protected ?Recipient $recipient = null;
+
     public function __construct(
         array $postalAddress,
 
@@ -28,6 +29,12 @@ class PostalAddress
         $this->setPostalCode($postalAddress['postalCode']);
         if (isset($postalAddress['municipality'])){
             $this->setMunicipality($postalAddress['municipality']);
+        }
+        if (isset($postalAddress['deliveryAddress'])){
+            $this->deliveryAddress = new DeliveryAddress($postalAddress['deliveryAddress']);
+        }
+        if (isset($postalAddress['recipient'])){
+            $this->recipient = new Recipient($postalAddress['recipient']);
         }
     }
 
@@ -58,6 +65,12 @@ class PostalAddress
 
         if ($this->municipality){
             $contents["Municipality"] = $this->municipality;
+        }
+        if ($this->deliveryAddress){
+            $contents = array_merge($contents, $this->deliveryAddress->getArray());
+        }
+        if ($this->recipient){
+            $contents = array_merge($contents, $this->recipient->getArray());
         }
 
         return [
