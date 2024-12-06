@@ -26,7 +26,7 @@ class EntityId
 
     }
 
-    public function getSupplierArray(string $baliseName = 'SupplierId'): array
+    public function getArray(string $baliseName = 'SupplierId'): array
     {
         return [
             'SupplierId' => [

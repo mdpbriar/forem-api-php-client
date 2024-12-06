@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+
 final class UserAreaTest extends TestCase
 {
     public function testExperienceCreation(): void
@@ -8,14 +9,14 @@ final class UserAreaTest extends TestCase
 
         $tests = [
             [
-                'experience' => [
+                'userArea' => [
                     'experience' => 2,
                     'unitOfMeasure' => 'Years',
                 ],
                 'expected' => "<root><UserArea><Experience unitOfMeasure=\"Years\">2</Experience></UserArea></root>"
             ],
             [
-                'experience' => [
+                'userArea' => [
                     'experience' => 48,
                     'unitOfMeasure' => 'Months',
                 ],
@@ -25,12 +26,12 @@ final class UserAreaTest extends TestCase
         ];
 
         foreach ($tests as $test){
-            $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea(
-                experience: $test['experience']['experience'],
-                unitOfMeasure: $test['experience']['unitOfMeasure'],
+            $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea(
+                experience: $test['userArea']['experience'],
+                unitOfMeasure: $test['userArea']['unitOfMeasure'],
             );
             $expected = $test['expected'];
-            $xml = new \Spatie\ArrayToXml\ArrayToXml($userArea->getUserAreaArray());
+            $xml = new \Spatie\ArrayToXml\ArrayToXml($userArea->getArray());
             \PHPUnit\Framework\assertSame($expected, $xml->dropXmlDeclaration()->toXml());
 
         }
@@ -46,7 +47,7 @@ final class UserAreaTest extends TestCase
             'experience' => 5,
             'unitOfMeasure' => 'Days',
         ];
-        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionDetail\UserArea(
+        $userArea = new \Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\UserArea(
             experience: $experience['experience'],
             unitOfMeasure: $experience['unitOfMeasure'],
         );

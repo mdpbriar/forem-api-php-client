@@ -71,7 +71,7 @@ class Telephone
     }
 
 
-    public function getTelephoneArray(): array
+    public function getArray(): array
     {
         $contents = [
             "SubscriberNumber" => $this->subscriberNumber,

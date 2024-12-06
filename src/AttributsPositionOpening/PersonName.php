@@ -24,7 +24,7 @@ class PersonName
 
     }
 
-    public function getPersonNameArray(): ?array
+    public function getArray(): ?array
     {
         $array = [];
         if ($this->formattedName){
