@@ -136,11 +136,13 @@ class PositionDetail
 
     public function getArray(): array
     {
-        $array = $this->getPhysicalLocationsArray();
-        $array = array_merge($array, ...$this->jobCategories->getArray());
+        $array = [];
+
+        $array = array_merge($array, ...$this->getPhysicalLocationsArray());
+        $array = array_merge($array, $this->jobCategories->getArray());
         $array['PositionTitle'] = $this->positionTitle;
         $array['PositionClassification'] = $this->positionClassification->id;
-        $array = array_merge($array, ...$this->positionSchedule->getArray());
+        $array = array_merge($array, $this->positionSchedule->getArray());
 
         if ($this->shifts){
             $array = array_merge($array, ...$this->getShiftsArray());

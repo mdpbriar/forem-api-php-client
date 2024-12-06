@@ -73,8 +73,10 @@ class PostalAddress
             $contents = array_merge($contents, $this->recipient->getArray());
         }
 
+        $custom_code = $this->postalCode .'-'. $this->municipality ?? '';
+
         return [
-            'PostalAddress' => $contents,
+            "__custom:PostalAddress:{$custom_code}" => $contents,
         ];
     }
 

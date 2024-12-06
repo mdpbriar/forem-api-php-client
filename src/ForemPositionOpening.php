@@ -105,7 +105,6 @@ class ForemPositionOpening
         if ($this->userArea){
             $array = array_merge($array, $this->userArea->getArray());
         }
-
         return ArrayToXml::convert($array, [
             'rootElementName' => 'PositionOpening',
             '_attributes' => [
