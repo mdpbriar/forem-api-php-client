@@ -15,7 +15,8 @@ class PositionDetail
 {
 
     protected string $industryCode;
-    protected PostalAddress $physicalLocation;
+//    protected PostalAddress $physicalLocation;
+    protected array $physicalLocations;
 
     protected JobCategories $jobCategories;
     protected string $positionTitle;
@@ -32,7 +33,7 @@ class PositionDetail
     # TODO : add travel, relocation
     public function __construct(
         string $industryCode,
-        array $physicalLocation,
+        array $physicalLocations,
         array $jobCategories,
         string $positionTitle,
         string $positionClassification,
@@ -46,7 +47,7 @@ class PositionDetail
     )
     {
         $this->setIndustryCode($industryCode);
-        $this->physicalLocation = new PostalAddress($physicalLocation);
+        $this->setPhysicalLocations($physicalLocations);
         $this->jobCategories = new JobCategories($jobCategories);
         $this->positionTitle = $positionTitle;
         $this->setPositionClassification($positionClassification);
@@ -84,6 +85,14 @@ class PositionDetail
 
     }
 
+    public function setPhysicalLocations(array $physicalLocations): void
+    {
+        foreach ($physicalLocations as $physicalLocation){
+            $this->physicalLocations[] = new PostalAddress($physicalLocation);
+        }
+
+    }
+
     public function setIndustryCode($industryCode): void
     {
         if (Nacebel2008::isValidId($industryCode)){
@@ -108,16 +117,40 @@ class PositionDetail
         }, $this->shifts);
     }
 
+    private function getPhysicalLocationsArray(): array
+    {
+        return array_map(function(PostalAddress $physicalLocation){
+            return $physicalLocation->getArray();
+        }, $this->physicalLocations);
+    }
+
     private function getCompetenciesArray(): array
     {
         return array_map(function(Competency $competency){
-            return $competency->getCompetencyArray();
+            return $competency->getArray();
         }, $this->competencies);
     }
 
-    public function getPositionDetailArray(): array
+    public function getArray(): array
     {
-        $array = [
+        $array = $this->getPhysicalLocationsArray();
+        $array = array_merge($array, ...$this->jobCategories->getArray());
+        $array['PositionTitle'] = $this->positionTitle;
+        $array['PositionClassification'] = $this->positionClassification->id;
+        $array = array_merge($array, ...$this->positionSchedule->getArray());
+
+        if ($this->shifts){
+            $array = array_merge($array, ...$this->getShiftsArray());
+        }
+        $array = array_merge($array, ...$this->getCompetenciesArray());
+
+        // Si remuneration Package est défini :
+        if ($this->remunerationPackage){
+            $array = array_merge($array, $this->remunerationPackage->getRemunerationPackageArray());
+        }
+        $array = array_merge($array, $this->userArea->getUserAreaArray());
+
+        return [
             'PositionDetail' => [
                 'IndustryCode' => [
                     '_attributes' => [
@@ -125,26 +158,9 @@ class PositionDetail
                     ],
                     '_value' => $this->industryCode,
                 ],
-            ...$this->physicalLocation->getPostalAddressArray(),
-            ...$this->jobCategories->getJobCategoriesArray(),
-                'PositionTitle' => $this->positionTitle,
-                'PositionClassification' => $this->positionClassification->id,
-                ...$this->positionSchedule->getPositionScheduleArray(),
+                ...$array
             ],
         ];
-
-        if ($this->shifts){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getShiftsArray());
-        }
-        $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getCompetenciesArray());
-
-        // Si remuneration Package est défini :
-        if ($this->remunerationPackage){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getRemunerationPackageArray());
-        }
-        $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getUserAreaArray());
-
-        return $array;
     }
 
 }

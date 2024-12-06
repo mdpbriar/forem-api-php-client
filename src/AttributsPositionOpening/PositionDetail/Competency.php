@@ -59,7 +59,7 @@ class Competency
         }
     }
 
-    public function getCompetencyArray(): array
+    public function getArray(): array
     {
         $array = [
             '_attributes' => [
@@ -70,7 +70,7 @@ class Competency
         ];
 
         if ($this->competencyEvidence){
-            $array = array_merge($array, $this->competencyEvidence->getCompetencyEvidenceArray());
+            $array = array_merge($array, $this->competencyEvidence->getArray());
         }
 
 

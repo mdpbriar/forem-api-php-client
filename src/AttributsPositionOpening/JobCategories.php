@@ -40,7 +40,7 @@ class JobCategories
         }
     }
 
-    public function getJobCategoriesArray(): array
+    public function getArray(): array
     {
         $categories = [];
         foreach ($this->categories as $category){

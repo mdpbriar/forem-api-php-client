@@ -46,7 +46,7 @@ class ApplicationMethod
             $array['InternetWebAddress'] = $this->internetWebAddress;
         }
         if ($this->postalAddress){
-            $array = array_merge($array, $this->postalAddress->getPostalAddressArray());
+            $array = array_merge($array, $this->postalAddress->getArray());
         }
 
         return [

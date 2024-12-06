@@ -58,7 +58,7 @@ class ForemPositionOpening
         );
         $this->positionDetail = new PositionDetail(
             industryCode: $options['positionDetail']['industryCode'],
-            physicalLocation: $options['positionDetail']['physicalLocation'],
+            physicalLocations: $options['positionDetail']['physicalLocations'],
             jobCategories: $options['positionDetail']['jobCategories'],
             positionTitle: $options['positionDetail']['positionTitle'],
             positionClassification: $options['positionDetail']['positionClassification'],
@@ -93,6 +93,10 @@ class ForemPositionOpening
 
     }
 
+    private function setPositionProfile(array $options): void
+    {
+
+    }
 
 
     public static function validate(array $options): array
@@ -122,7 +126,7 @@ class ForemPositionOpening
             ],
             ...$this->positionDateInfo->getDatesArray(),
             ...$this->organization->getOrganizationArray(),
-            ...$this->positionDetail->getPositionDetailArray(),
+            ...$this->positionDetail->getArray(),
             ...$this->formattedPositionDescriptions->getFormattedDescriptionsArray(),
             ...$this->howToApply->getHowToApplyArray(),
         ];

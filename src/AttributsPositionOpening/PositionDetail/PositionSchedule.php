@@ -27,7 +27,7 @@ class PositionSchedule
         $this->positionHoraire = TempsTravail::getFromId($positionHoraire);
     }
 
-    public function getPositionScheduleArray(): array
+    public function getArray(): array
     {
         return [
             '__custom:PositionSchedule:regime' => $this->positionRegime->id,
