@@ -37,11 +37,11 @@ class PositionDetail
         array $positionDetail,
     )
     {
-        $required_fields = ['industryCode', 'physicalLocation', 'jobCategories', 'positionTitle', 'positionClassification', 'positionSchedule', 'competencies', 'userArea'];
+        $required_fields = ['industryCode', 'physicalLocations', 'jobCategories', 'positionTitle', 'positionClassification', 'positionSchedule', 'competencies', 'userArea'];
         ValidateOptions::validateArrayFields($positionDetail, $required_fields);
 
         $this->setIndustryCode($positionDetail['industryCode']);
-        $this->physicalLocation = new PostalAddress($positionDetail['physicalLocation']);
+        $this->setPhysicalLocations($positionDetail['physicalLocations']);
         $this->jobCategories = new JobCategories($positionDetail['jobCategories']);
         $this->positionTitle = $positionDetail['positionTitle'];
         $this->setPositionClassification($positionDetail['positionClassification']);
@@ -149,9 +149,18 @@ class PositionDetail
 
         // Si remuneration Package est défini :
         if ($this->remunerationPackage){
-            $array = array_merge($array, $this->remunerationPackage->getRemunerationPackageArray());
+            $array = array_merge($array, $this->remunerationPackage->getArray());
         }
-        $array = array_merge($array, $this->userArea->getUserAreaArray());
+
+
+        if ($this->travel){
+            $array = array_merge($array, $this->travel->getArray());
+        }
+        if ($this->relocation){
+            $array = array_merge($array, $this->relocation->getArray());
+        }
+
+        $array = array_merge($array, $this->userArea->getArray());
 
         return [
             'PositionDetail' => [
@@ -161,34 +170,10 @@ class PositionDetail
                     ],
                     '_value' => $this->industryCode,
                 ],
-                ...$this->physicalLocation->getArray(),
-                ...$this->jobCategories->getArray(),
-                'PositionTitle' => $this->positionTitle,
-                'PositionClassification' => $this->positionClassification->id,
-                ...$this->positionSchedule->getArray(),
                 ...$array
             ],
         ];
 
-        if ($this->shifts){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getShiftsArray());
-        }
-        $array['PositionDetail'] = array_merge($array['PositionDetail'], ...$this->getCompetenciesArray());
-
-        // Si remuneration Package est défini :
-        if ($this->remunerationPackage){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->remunerationPackage->getArray());
-        }
-        if ($this->travel){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->travel->getArray());
-        }
-        if ($this->relocation){
-            $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->relocation->getArray());
-        }
-
-        $array['PositionDetail'] = array_merge($array['PositionDetail'], $this->userArea->getArray());
-
-        return $array;
     }
 
 }
