@@ -33,7 +33,7 @@ class DeliveryAddress
     {
         if ($this->addressLine){
             return [
-                'AdressLine' => $this->addressLine
+                'AddressLine' => $this->addressLine
             ];
         }
         $array = [];
