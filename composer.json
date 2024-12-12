@@ -1,6 +1,7 @@
 {
     "name": "mdpbriar/forem-api-php-client",
     "description": "Package to interacts with the Forem API",
+    "version": "5.2.0-beta",
     "type": "library",
     "autoload": {
         "psr-4": {
