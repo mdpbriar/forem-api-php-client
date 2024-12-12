@@ -27,7 +27,7 @@ class PublicationSubset
     public function getArray(): array
     {
         return [
-            "_custom:PublicationSubset:{$this->name}" => [
+            "__custom:PublicationSubset:{$this->name}" => [
                 '_attributes' => [
                     'name' => $this->name
                 ],
