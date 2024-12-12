@@ -17,14 +17,18 @@ class PositionDateInfo
 
     public function setDates(Carbon|string|null $startDate, Carbon|string|null $expectedEndDate): void
     {
-        if (is_string($startDate)){
-            $startDate = Carbon::parse($startDate);
+        if ($startDate){
+            if (is_string($startDate)){
+                $startDate = Carbon::parse($startDate);
+            }
+            $this->startDate = $startDate->format('Y-m-d');
         }
-        if (is_string($expectedEndDate)){
-            $expectedEndDate = Carbon::parse($expectedEndDate);
+        if ($expectedEndDate){
+            if (is_string($expectedEndDate)){
+                $expectedEndDate = Carbon::parse($expectedEndDate);
+            }
+            $this->expectedEndDate = $expectedEndDate->format('Y-m-d');
         }
-        $this->startDate = $startDate->format('Y-m-d');
-        $this->expectedEndDate = $expectedEndDate->format('Y-m-d');
     }
 
     public function getArray(): ?array

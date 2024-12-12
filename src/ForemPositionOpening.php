@@ -36,7 +36,7 @@ class ForemPositionOpening
 
     private function setOptions(array $options): void
     {
-        $required_fields = ['idOffre', 'partnerCode', 'validFrom', 'validTo', 'positionProfile'];
+        $required_fields = ['idOffre', 'partnerCode', 'positionProfile'];
         ValidateOptions::validateArrayFields($options, $required_fields);
 
         # On initialise le partner code
@@ -114,6 +114,20 @@ class ForemPositionOpening
             ],
         ], true, xmlEncoding: 'UTF-8', xmlVersion: '1.0');
 
+    }
+
+    public function buildAndValidateXML(): \DOMDocument
+    {
+        $path = __DIR__. DIRECTORY_SEPARATOR.'Forem-PositionOpening-5.2.xsd';
+//        dd($path);
+
+        $xml = new \DOMDocument();
+        $xml->loadXML($this->buildXml());
+        if (!$xml->schemaValidate($path)){
+            throw new \DOMException("Le fichier xml n'est pas valide");
+        }
+
+        return $xml;
     }
 
 
