@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f085c03bdcd4f47269893a3d4a7f288e",
+    "content-hash": "0d82b18d98c64e53245441de01cb8db9",
     "packages": [
         {
             "name": "spatie/array-to-xml",
@@ -1898,7 +1898,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "ext-dom": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
