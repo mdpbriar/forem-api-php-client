@@ -5,10 +5,36 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod;
 class DeliveryAddress
 {
 
+    /**
+     * permet de préciser le nom de la rue ainsi que le numéro de l’adresse.
+     *
+     * @var string|null
+     */
     protected ?string $addressLine = null;
+    /**
+     * permet de préciser le nom de la rue de l’adresse.
+     *
+     * @var string|null
+     */
     protected ?string $streetName = null;
+    /**
+     * permet de préciser le numéro de l’adresse.
+     *
+     * @var string|null
+     */
     protected ?string $buildingNumber = null;
+    /**
+     * permet de préciser le nom de l’immeuble de l’adresse
+     *
+     * @var string|null
+     */
     protected ?string $unit = null;
+
+    /**
+     * permet de préciser la boîte postale de l’adresse.
+     *
+     * @var string|null
+     */
     protected ?string $postOfficeBox = null;
 
 
