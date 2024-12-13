@@ -7,7 +7,7 @@ use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\Position
 
 class RemunerationPackage
 {
-    public BasePay $basePay;
+    public ?BasePay $basePay = null;
     public ?Benefits $benefits = null;
 
     public function __construct(
