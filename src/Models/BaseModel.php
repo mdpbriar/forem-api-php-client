@@ -2,8 +2,6 @@
 
 namespace Mdpbriar\ForemApiPhpClient\Models;
 
-use Symfony\Component\Translation\Exception\NotFoundResourceException;
-
 class BaseModel
 {
     /**
@@ -195,7 +193,7 @@ class BaseModel
     {
         $result = static::filterValuesFromId($id);
         if (empty($result)){
-            throw new NotFoundResourceException("The id {$id} does not exists in ". static::$file);
+            throw new \UnexpectedValueException("The id {$id} does not exists in ". static::$file);
         }
         $unique = array_slice($result, 0, 1)[0];
         return new static($unique['id'], $unique['description']);
