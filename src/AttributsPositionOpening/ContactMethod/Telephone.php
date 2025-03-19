@@ -73,18 +73,17 @@ class Telephone
 
     public function getArray(): array
     {
-        $contents = [
-            "SubscriberNumber" => $this->subscriberNumber,
-        ];
+        $contents = [];
+        if ($this->formattedNumber){
+            $contents['FormattedNumber'] = $this->formattedNumber;
+        }
         if ($this->internationalCountryCode){
             $contents["InternationalCountryCode"] = $this->internationalCountryCode;
         }
         if ($this->areaCityCode){
             $contents['AreaCityCode'] = $this->areaCityCode;
         }
-        if ($this->formattedNumber){
-            $contents['FormattedNumber'] = $this->formattedNumber;
-        }
+        $contents["SubscriberNumber"] = $this->subscriberNumber;
         return [
             'Telephone' => $contents,
         ];
