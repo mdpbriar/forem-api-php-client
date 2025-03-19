@@ -41,7 +41,7 @@ class PositionDateInfo
             $contents['ExpectedEndDate'] = $this->expectedEndDate;
         }
         if ($this->asSoonAsPossible !== null){
-            $contents['AsSoonAsPossible']= $this->asSoonAsPossible ? 'true' : 'false';
+            $contents['StartAsSoonAsPossible']= $this->asSoonAsPossible ? 'true' : 'false';
         }
 
         return [
