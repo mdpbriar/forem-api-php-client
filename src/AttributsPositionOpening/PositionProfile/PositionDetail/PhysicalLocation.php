@@ -25,7 +25,7 @@ class PhysicalLocation
     {
         $array = [];
         $array = array_merge($array, $this->postalAddress->getArray());
-        return ['PhysicalLocation' => $array];
+        return ["__custom:PhysicalLocation:{$this->postalAddress->getCustomIdentifier()}" => $array];
     }
 
 }

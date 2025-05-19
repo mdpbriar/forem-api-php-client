@@ -56,6 +56,11 @@ class PostalAddress
         $this->municipality = $municipality;
     }
 
+    public function getCustomIdentifier(): string
+    {
+        return $this->postalCode .'-'. $this->municipality ?? '';
+    }
+
     public function getArray(): array
     {
         $contents = [
