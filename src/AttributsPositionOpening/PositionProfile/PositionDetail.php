@@ -123,7 +123,7 @@ class PositionDetail
 
     private function getPhysicalLocationsArray(): array
     {
-        return array_map(function(PostalAddress $physicalLocation){
+        return array_map(function(PhysicalLocation $physicalLocation){
             return $physicalLocation->getArray();
         }, $this->physicalLocations);
     }
