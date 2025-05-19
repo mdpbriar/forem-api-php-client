@@ -4,6 +4,7 @@ namespace Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile;
 
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\ContactMethod\PostalAddress;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Competency;
+use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\PhysicalLocation;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\PositionSchedule;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\RemunerationPackage;
 use Mdpbriar\ForemApiPhpClient\AttributsPositionOpening\PositionProfile\PositionDetail\Shift;
@@ -91,7 +92,7 @@ class PositionDetail
     public function setPhysicalLocations(array $physicalLocations): void
     {
         foreach ($physicalLocations as $physicalLocation){
-            $this->physicalLocations[] = new PostalAddress($physicalLocation);
+            $this->physicalLocations[] = new PhysicalLocation($physicalLocation);
         }
 
     }
@@ -137,7 +138,6 @@ class PositionDetail
     public function getArray(): array
     {
         $array = [];
-
         $array = array_merge($array, ...$this->getPhysicalLocationsArray());
         $array = array_merge($array, $this->jobCategories->getArray());
         $array['PositionTitle'] = $this->positionTitle;
